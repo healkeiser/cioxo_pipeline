@@ -88,7 +88,7 @@ The two main programs are:
 
 * [Define Root](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_defineRoot.py)
 
-**Cioxo - Define Root** need to run first, it will define the rootDirectory of all your projects. 
+**Cioxo - Define Root** needs to run first, it will define the rootDirectory of all your projects. 
 
 > Note that the **rootDirectory** can be changed at any time by simply running Cioxo - Define Root again
 
