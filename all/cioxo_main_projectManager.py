@@ -2652,7 +2652,7 @@ class SplashScreen(QMainWindow):
         self.timer = QtCore.QTimer()
         self.timer.timeout.connect(self.progress)
         # ------ Timer in milliseconds (Increase to make Screen Splash last longer)
-        self.timer.start(10)
+        self.timer.start(100)
 
         # ------ Change Loading Texts
         QtCore.QTimer.singleShot(0, lambda: self.ui.labelLoading.setText("Loading Preferences"))
