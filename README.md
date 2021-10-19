@@ -107,12 +107,18 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [x] Project Manager
+    - [ ] 
+
 - [ ] DCCs integrations
-    - [ ] \(High)  Houdini 
-    - [ ] \(High)  Nuke
-    - [ ] \(Low)  Substance Painter
-    - [ ] \(Low)  After Effects
-    - [ ] \(Low)  Photoshop
+    - [ ] Houdini
+        - [ ] Open Workspace
+        - [x] Publish Workspace
+        - [x] Help
+        - [x] About
+    - [ ] Nuke
+    - [ ] Substance Painter
+    - [ ] After Effects
+    - [ ] Photoshop
 
 
 
