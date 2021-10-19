@@ -43,7 +43,6 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -55,6 +54,10 @@
 ## About The Project
 
 Cioxo Pipeline is an under development VFX pipeline for freelancers/small scaled productions. 
+
+<a href="https://github.com/healkeiser/Cioxo">
+    <img src="all/ui/graphics/screenshots/cioxo_splashScreen_screenshot_02.png">
+  </a>
 
 ### Built With
 
@@ -85,6 +88,18 @@ Under construction
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+The two main programs are:
+
+* [Define Root](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_defineRoot.py)
+
+**Cioxo - Define Root** needs to run first, it will define the rootDirectory of all your projects. 
+
+> Note that the **rootDirectory** can be changed at any time by simply running Cioxo - Define Root again
+
+* [Project Manager](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_projectManager.py)
+
+Once **Cioxo - Define Root** has created the needed directories and files, you can run **Cioxo - Project Manager**. This program is the heart of the pipeline, centralizing all the projects, sequences, shots, assets, and other useful informtations such as the Frame Range, or the Project Resolution. It can also create the files for the included DDCs while the integrations are under development.
+
 Under construction
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -95,16 +110,29 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [x] Project Manager
+
+    - [x] Projects
+    - [x] Assets
+    - [x] Sequences
+    - [x] Shots
+    - [x] Frame Range
+    - [x] Resolution
+    - [x] Thumbnail
+    - [x] Comment
+
 - [ ] DCCs integrations
+
     - [ ] Houdini
+    
+        - [ ] Open Workspace
+        - [x] Publish Workspace
+        - [x] Help
+        - [x] About
+
     - [ ] Nuke
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+    - [ ] Substance Painter
+    - [ ] After Effects
+    - [ ] Photoshop
 
 
 
@@ -123,3 +151,8 @@ Project Link: [Cioxo](https://github.com/healkeiser/Cioxo)
 List of resources that helped me through it:
 
 * [Awesome CG / VFX Pipeline](https://github.com/cgwire/awesome-cg-vfx-pipeline)
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: all/ui/graphics/screenshots/cioxo_splashScreen_screenshot_02.png
