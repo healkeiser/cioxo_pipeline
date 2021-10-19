@@ -116,6 +116,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [x] Resolution
     - [x] Thumbnail
     - [x] Comment
+
 - [ ] DCCs integrations
     - [ ] Houdini
         - [ ] Open Workspace
