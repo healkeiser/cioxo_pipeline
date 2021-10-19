@@ -91,7 +91,7 @@ The two pre-compiled main programs are:
 
 **Cioxo - Define Root** need to run first, it will define the rootDirectory of all your projects. 
 
-_Note that the rootDirectory can be changed at any time by simply running Cioxo - Define Root again
+_Note that the rootDirectory can be changed at any time by simply running Cioxo - Define Root again_
 
 * [Project Manager](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_projectManager.py)
 
