@@ -85,13 +85,13 @@ Under construction
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The two pre-compiled main programs are:
+The two main programs are:
 
 * [Define Root](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_defineRoot.py)
 
 **Cioxo - Define Root** need to run first, it will define the rootDirectory of all your projects. 
 
-_Note that the rootDirectory can be changed at any time by simply running Cioxo - Define Root again_
+> Note that the rootDirectory can be changed at any time by simply running Cioxo - Define Root again
 
 * [Project Manager](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_projectManager.py)
 
@@ -108,8 +108,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Project Manager
 - [ ] DCCs integrations
-    - [ ] Houdini
-    - [ ] Nuke
+    - [ ] \(High)  Houdini 
+    - [ ] \(High)  Nuke
+    - [ ] \(Low)  Substance Painter
+    - [ ] \(Low)  After Effects
+    - [ ] \(Low)  Photoshop
 
 
 
