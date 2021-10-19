@@ -107,10 +107,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [x] Project Manager
+
     - [x] Projects
     - [x] Assets
     - [x] Sequences
-    - [x] Shots
     - [x] Shots
     - [x] Frame Range
     - [x] Resolution
@@ -118,11 +118,14 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [x] Comment
 
 - [ ] DCCs integrations
+
     - [ ] Houdini
+    
         - [ ] Open Workspace
         - [x] Publish Workspace
         - [x] Help
         - [x] About
+
     - [ ] Nuke
     - [ ] Substance Painter
     - [ ] After Effects
