@@ -62,6 +62,7 @@ Cioxo Pipeline is an under development VFX pipeline for freelancers/small scaled
 ### Built With
 
 * [PySide](https://github.com/PySide)
+* [Qt Designer](https://build-system.fman.io/qt-designer-download)
 
 
 
