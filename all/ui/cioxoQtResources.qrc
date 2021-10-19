@@ -1,0 +1,62 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>graphics/icons/arrowLeft.svg</file>
+    <file>graphics/icons/adobeSubstancePainter.svg</file>
+    <file>graphics/icons/afterEffects.svg</file>
+    <file>graphics/icons/arrowRight.svg</file>
+    <file>graphics/icons/arrowUpRight.svg</file>
+    <file>graphics/icons/calendar.svg</file>
+    <file>graphics/icons/checkSquare.svg</file>
+    <file>graphics/icons/chevronDown.svg</file>
+    <file>graphics/icons/chevronRight.svg</file>
+    <file>graphics/icons/file.svg</file>
+    <file>graphics/icons/folder.svg</file>
+    <file>graphics/icons/grid.svg</file>
+    <file>graphics/icons/helpCircle.svg</file>
+    <file>graphics/icons/houdini.svg</file>
+    <file>graphics/icons/image.svg</file>
+    <file>graphics/icons/maximize.svg</file>
+    <file>graphics/icons/maximize02.svg</file>
+    <file>graphics/icons/maya.svg</file>
+    <file>graphics/icons/minimize.svg</file>
+    <file>graphics/icons/minimize02.svg</file>
+    <file>graphics/icons/minus.svg</file>
+    <file>graphics/icons/nuke.svg</file>
+    <file>graphics/icons/package.svg</file>
+    <file>graphics/icons/package_grey.svg</file>
+    <file>graphics/icons/photoshop.svg</file>
+    <file>graphics/icons/plus.svg</file>
+    <file>graphics/icons/powershell.svg</file>
+    <file>graphics/icons/project.svg</file>
+    <file>graphics/icons/refreshCw.svg</file>
+    <file>graphics/icons/substancePainter.svg</file>
+    <file>graphics/icons/terminal.svg</file>
+    <file>graphics/icons/trash02.svg</file>
+    <file>graphics/icons/x.svg</file>
+  </qresource>
+  <qresource prefix="logos">
+    <file>graphics/logos/cioxoLogo_16.png</file>
+    <file>graphics/logos/cioxoLogo_24.png</file>
+    <file>graphics/logos/cioxoLogo_24_35.png</file>
+    <file>graphics/logos/cioxoLogo_24_48.png</file>
+    <file>graphics/logos/cioxoLogo_32.png</file>
+    <file>graphics/logos/cioxoLogo_black_600.png</file>
+    <file>graphics/logos/cioxoLogo_border.ico</file>
+    <file>graphics/logos/cioxoLogo_border.png</file>
+    <file>graphics/logos/cioxoLogo_icon_256.ico</file>
+    <file>graphics/logos/cioxoLogo_root.ico</file>
+    <file>graphics/logos/cioxoLogo_root.png</file>
+    <file>graphics/logos/cioxoLogo_v001.svg</file>
+    <file>graphics/logos/cioxoLogo_white_600.png</file>
+    <file>graphics/logos/cioxoLogoBorder_24_32.png</file>
+  </qresource>
+  <qresource prefix="images">
+    <file>graphics/images/banner01_v003.png</file>
+    <file>graphics/images/banner02_v004.png</file>
+    <file>graphics/images/splashScreen01_v001.png</file>
+    <file>graphics/images/splashScreen01_v002.png</file>
+    <file>graphics/images/splashScreen01_v003.png</file>
+    <file>graphics/images/splashScreen01_v004.png</file>
+    <file>graphics/images/splashScreen01_v005.png</file>
+  </qresource>
+</RCC>
