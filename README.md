@@ -107,8 +107,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [x] Project Manager
-    - [ ] 
-
+    - [x] Projects
+    - [x] Assets
+    - [x] Sequences
+    - [x] Shots
+    - [x] Shots
+    - [x] Frame Range
+    - [x] Resolution
+    - [x] Thumbnail
+    - [x] Comment
 - [ ] DCCs integrations
     - [ ] Houdini
         - [ ] Open Workspace
