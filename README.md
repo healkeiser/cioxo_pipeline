@@ -55,6 +55,10 @@
 
 Cioxo Pipeline is an under development VFX pipeline for freelancers/small scaled productions. 
 
+<a href="https://github.com/healkeiser/Cioxo">
+    <img src="all/ui/graphics/screenshots/cioxo_splashScreen_screenshot_02.png">
+  </a>
+
 ### Built With
 
 * [PySide](https://github.com/PySide)
@@ -147,3 +151,8 @@ Project Link: [Cioxo](https://github.com/healkeiser/Cioxo)
 List of resources that helped me through it:
 
 * [Awesome CG / VFX Pipeline](https://github.com/cgwire/awesome-cg-vfx-pipeline)
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: all/ui/graphics/screenshots/cioxo_splashScreen_screenshot_02.png
