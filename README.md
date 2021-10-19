@@ -85,6 +85,18 @@ Under construction
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+The two pre-compiled main programs are:
+
+* [Define Root](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_defineRoot.py)
+
+**Cioxo - Define Root** need to run first, it will define the rootDirectory of all your projects. 
+
+_Note that the rootDirectory can be changed at any time by simply running Cioxo - Define Root again
+
+* [Project Manager](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_projectManager.py)
+
+Once **Cioxo - Define Root** has created the needed directories and files, you can run **Cioxo - Project Manager**. This program is the heart of the pipeline, centralizing all the projects, sequences, shots, assets, and other useful informtations such as the Frame Range, or the Project Resolution. It can also create the files for the included DDCs while the integrations are under development.
+
 Under construction
 
 _For more examples, please refer to the [Documentation](https://example.com)_
