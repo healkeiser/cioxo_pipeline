@@ -111,7 +111,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Valentin Beaumont - [LinkedIn](https://uk.linkedin.com/in/valentin-beaumont) - valentin.onze@gmail.com
+Valentin Beaumont - [LinkedIn](https://uk.linkedin.com/in/valentin-beaumont) - [Behance](https://www.behance.net/el1ven) - valentin.onze@gmail.com
 
 Project Link: [Cioxo](https://github.com/healkeiser/Cioxo)
 
