@@ -113,7 +113,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Valentin Beaumont - [LinkedIn](https://uk.linkedin.com/in/valentin-beaumont) - valentin.onze@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/healkeiser/Cioxo)
+Project Link: [Cioxo](https://github.com/healkeiser/Cioxo)
 
 
 
