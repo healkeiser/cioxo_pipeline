@@ -1,0 +1,1 @@
+pyside2-rcc C:\Users\Valen\Documents\PROJECTS\.pipeline\all\ui\cioxo_QtResources.qrc -o C:\Users\Valen\Documents\PROJECTS\.pipeline\all\ui_cioxo_QtResources_rc.py

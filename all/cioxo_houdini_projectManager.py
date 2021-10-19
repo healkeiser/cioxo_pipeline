@@ -1,5 +1,5 @@
 from ui_cioxo_houdini_projectManager import Ui_Houdini_projectManager
-import ui_cioxoQtResources_rc
+import ui_cioxo_QtResources_rc
 
 # ------ Import necessary libraries
 from PySide2 import QtCore, QtGui, QtWidgets, QtUiTools
@@ -11,6 +11,7 @@ from PySide2.QtWidgets import *
 import hou
 import os
 import sys
+
 
 # ------ DEFINE GLOBALS
 labelInformationsGreen = ("QLabel\n"

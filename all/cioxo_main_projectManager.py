@@ -1,13 +1,13 @@
-from ui_splashScreen_functions import *
+from ui_cioxo_splashScreen_functions import *
 from ui_cioxo_main_projectManager import Ui_ProjectManager
-from ui_createProject import Ui_CreateProject
-from ui_createSequence import Ui_CreateSequence
-from ui_createShot import Ui_CreateShot
-from ui_createAsset import Ui_CreateAsset
-from ui_createFile import Ui_CreateFile
-from ui_createThumbnail import Ui_CreateThumbnail
-from ui_splashScreen import Ui_SplashScreen
-import ui_cioxoQtResources_rc
+from ui_cioxo_createProject import Ui_CreateProject
+from ui_cioxo_createSequence import Ui_CreateSequence
+from ui_cioxo_createShot import Ui_CreateShot
+from ui_cioxo_createAsset import Ui_CreateAsset
+from ui_cioxo_createFile import Ui_CreateFile
+from ui_cioxo_createThumbnail import Ui_CreateThumbnail
+from ui_cioxo_splashScreen import Ui_SplashScreen
+import ui_cioxo_QtResources_rc
 
 # ------ Import necessary libraries
 import os

@@ -1,5 +1,5 @@
 from ui_defineRoot import Ui_DefineRoot
-import ui_cioxoQtResources_rc
+import ui_cioxo_QtResources_rc
 
 # ------ Import necessary libraries
 from PySide2 import QtCore, QtGui, QtWidgets

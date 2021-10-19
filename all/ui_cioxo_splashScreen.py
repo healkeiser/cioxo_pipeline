@@ -15,7 +15,7 @@ from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFo
                            QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
 from PySide2.QtWidgets import *
 
-import ui_cioxoQtResources_rc
+import ui_cioxo_QtResources_rc
 
 
 
