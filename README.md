@@ -131,9 +131,18 @@ _For more examples, please refer to the [Documentation](https://example.com)_
         - [x] About
 
     - [ ] Nuke
+    
+        - [ ] Cioxo Gather
+        - [ ] Cioxo Write
+    
     - [ ] Substance Painter
     - [ ] After Effects
     - [ ] Photoshop
+
+- [ ] Renderers integrations
+
+        - [ ] V-Ray
+        - [ ] Redshift
 
 
 
@@ -149,11 +158,7 @@ Project Link: [Cioxo](https://github.com/healkeiser/Cioxo)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-List of resources that helped me through it:
+List of resources that helped me through it or I found useful:
 
 * [Awesome CG / VFX Pipeline](https://github.com/cgwire/awesome-cg-vfx-pipeline)
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: all/ui/graphics/screenshots/cioxo_splashScreen_screenshot_02.png
+* [Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact)
