@@ -1,9 +1,9 @@
 import os
-# import hou
+import hou
 
 
 # Define JOB variable using HIP
 
 HIP = hou.getenv("HIP")
-print(HIP)
 hou.putenv("JOB", HIP)
+hou.ui.displayMessage("JOB defined on: " + HIP)
