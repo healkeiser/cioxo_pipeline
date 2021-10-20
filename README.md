@@ -111,7 +111,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [x] Project Manager
-
     - [x] Projects
     - [x] Assets
     - [x] Sequences
@@ -124,25 +123,27 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] DCCs integrations
 
     - [ ] Houdini
-    
+
         - [ ] Open Workspace
         - [x] Publish Workspace
         - [x] Help
         - [x] About
 
     - [ ] Nuke
-    
+
         - [ ] Cioxo Gather
         - [ ] Cioxo Write
     
     - [ ] Substance Painter
+    
     - [ ] After Effects
+    
     - [ ] Photoshop
 
 - [ ] Renderers integrations
-
-        - [ ] V-Ray
-        - [ ] Redshift
+  
+    - [ ] V-Ray
+    - [ ] Redshift
 
 
 
