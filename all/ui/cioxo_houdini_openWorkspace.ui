@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>700</width>
-    <height>700</height>
+    <height>684</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -68,172 +68,6 @@
         <number>0</number>
        </property>
        <item>
-        <widget class="QFrame" name="frameTitleBar">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>30</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>30</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">border-radius: 0px;</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_13">
-          <property name="spacing">
-           <number>0</number>
-          </property>
-          <property name="leftMargin">
-           <number>0</number>
-          </property>
-          <property name="topMargin">
-           <number>0</number>
-          </property>
-          <property name="rightMargin">
-           <number>0</number>
-          </property>
-          <property name="bottomMargin">
-           <number>0</number>
-          </property>
-          <item>
-           <spacer name="horizontalSpacerTitleBarLeft">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>14</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
-           <widget class="QPushButton" name="pushButtonTitleBar">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="icon">
-             <iconset resource="cioxoQtResources.qrc">
-              <normaloff>:/icons/graphics/icons/terminal.svg</normaloff>:/icons/graphics/icons/terminal.svg</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>16</width>
-              <height>16</height>
-             </size>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="labelTitleBar">
-            <property name="minimumSize">
-             <size>
-              <width>40</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>40</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="font">
-             <font>
-              <family>Roboto</family>
-             </font>
-            </property>
-            <property name="text">
-             <string>Cioxo</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="labelSpacer">
-            <property name="maximumSize">
-             <size>
-              <width>5</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="font">
-             <font>
-              <family>Source Sans Pro</family>
-             </font>
-            </property>
-            <property name="text">
-             <string>-</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="labelVersionTitleBar">
-            <property name="minimumSize">
-             <size>
-              <width>40</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>40</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="font">
-             <font>
-              <family>Roboto</family>
-             </font>
-            </property>
-            <property name="text">
-             <string>v1.0.0</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <spacer name="horizontalSpacerTitleBarRight">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Expanding</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>500</width>
-              <height>4</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
         <widget class="QFrame" name="frameBanner">
          <property name="styleSheet">
           <string notr="true"/>
@@ -260,136 +94,6 @@
           <property name="bottomMargin">
            <number>0</number>
           </property>
-          <item>
-           <widget class="QFrame" name="frameTitle">
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>50</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>50</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">border-top-left-radius: 0px;
-border-top-right-radius: 0px;
-border-bottom-right-radius: 0px;
-border-bottom-left-radius: 0px;</string>
-            </property>
-            <property name="frameShape">
-             <enum>QFrame::NoFrame</enum>
-            </property>
-            <property name="frameShadow">
-             <enum>QFrame::Raised</enum>
-            </property>
-            <layout class="QHBoxLayout" name="horizontalLayout">
-             <property name="spacing">
-              <number>0</number>
-             </property>
-             <property name="leftMargin">
-              <number>0</number>
-             </property>
-             <property name="topMargin">
-              <number>0</number>
-             </property>
-             <property name="rightMargin">
-              <number>0</number>
-             </property>
-             <property name="bottomMargin">
-              <number>0</number>
-             </property>
-             <item>
-              <widget class="QFrame" name="frameLabelTitle">
-               <property name="styleSheet">
-                <string notr="true">QFrame
-{
-	background-color:rgb(50, 50, 50);
-}
-</string>
-               </property>
-               <property name="frameShape">
-                <enum>QFrame::NoFrame</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
-               </property>
-               <layout class="QHBoxLayout" name="horizontalLayout_3">
-                <property name="rightMargin">
-                 <number>18</number>
-                </property>
-                <item>
-                 <widget class="QLabel" name="labelTitleLogo">
-                  <property name="minimumSize">
-                   <size>
-                    <width>32</width>
-                    <height>32</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>32</width>
-                    <height>32</height>
-                   </size>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="pixmap">
-                   <pixmap resource="cioxoQtResources.qrc">:/logos/graphics/logos/cioxoLogo_24.png</pixmap>
-                  </property>
-                  <property name="alignment">
-                   <set>Qt::AlignCenter</set>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <spacer name="spacerLogo">
-                  <property name="orientation">
-                   <enum>Qt::Horizontal</enum>
-                  </property>
-                  <property name="sizeType">
-                   <enum>QSizePolicy::Fixed</enum>
-                  </property>
-                  <property name="sizeHint" stdset="0">
-                   <size>
-                    <width>10</width>
-                    <height>10</height>
-                   </size>
-                  </property>
-                 </spacer>
-                </item>
-                <item>
-                 <widget class="QLabel" name="labelTitle">
-                  <property name="font">
-                   <font>
-                    <family>Source Sans Pro</family>
-                    <pointsize>18</pointsize>
-                    <weight>50</weight>
-                    <italic>false</italic>
-                    <bold>false</bold>
-                   </font>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">color: rgb(255, 255, 255);</string>
-                  </property>
-                  <property name="text">
-                   <string>Cioxo</string>
-                  </property>
-                  <property name="alignment">
-                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
          </layout>
         </widget>
        </item>
@@ -463,16 +167,16 @@ border-bottom-left-radius: 0px;</string>
                  <number>0</number>
                 </property>
                 <property name="leftMargin">
-                 <number>1</number>
+                 <number>0</number>
                 </property>
                 <property name="topMargin">
                  <number>0</number>
                 </property>
                 <property name="rightMargin">
-                 <number>9</number>
+                 <number>0</number>
                 </property>
                 <property name="bottomMargin">
-                 <number>9</number>
+                 <number>0</number>
                 </property>
                 <item>
                  <widget class="QFrame" name="frameTabsSub">
@@ -489,29 +193,59 @@ border-bottom-left-radius: 0px;</string>
                    <enum>QFrame::Raised</enum>
                   </property>
                   <layout class="QVBoxLayout" name="verticalLayout_5">
+                   <property name="spacing">
+                    <number>6</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
                    <item>
-                    <widget class="QFrame" name="frameLineFiles">
+                    <widget class="QFrame" name="frameTitle">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>50</height>
+                      </size>
+                     </property>
                      <property name="styleSheet">
                       <string notr="true"/>
                      </property>
                      <property name="frameShape">
-                      <enum>QFrame::StyledPanel</enum>
+                      <enum>QFrame::NoFrame</enum>
                      </property>
                      <property name="frameShadow">
-                      <enum>QFrame::Raised</enum>
+                      <enum>QFrame::Plain</enum>
+                     </property>
+                     <property name="lineWidth">
+                      <number>0</number>
                      </property>
                      <layout class="QHBoxLayout" name="horizontalLayout_23">
+                      <property name="leftMargin">
+                       <number>9</number>
+                      </property>
                       <property name="topMargin">
-                       <number>18</number>
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>0</number>
                       </property>
                       <property name="bottomMargin">
-                       <number>9</number>
+                       <number>0</number>
                       </property>
                       <item>
                        <widget class="QLabel" name="labelWelcomeFiles">
                         <property name="maximumSize">
                          <size>
-                          <width>75</width>
+                          <width>500</width>
                           <height>16777215</height>
                          </size>
                         </property>
@@ -535,29 +269,17 @@ border-bottom-left-radius: 0px;</string>
                        </widget>
                       </item>
                       <item>
-                       <widget class="QLabel" name="labelLineTitleFiles">
-                        <property name="maximumSize">
+                       <spacer name="horizontalSpacer">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
                          <size>
-                          <width>16777215</width>
-                          <height>0</height>
+                          <width>40</width>
+                          <height>20</height>
                          </size>
                         </property>
-                        <property name="styleSheet">
-                         <string notr="true">border-color: rgb(180, 180, 180);
-border-style:solid;
-border-radius: 5px;
-border-width: 1px;</string>
-                        </property>
-                        <property name="frameShape">
-                         <enum>QFrame::NoFrame</enum>
-                        </property>
-                        <property name="text">
-                         <string/>
-                        </property>
-                        <property name="alignment">
-                         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                        </property>
-                       </widget>
+                       </spacer>
                       </item>
                      </layout>
                     </widget>
@@ -575,16 +297,16 @@ border-width: 1px;</string>
                        <number>6</number>
                       </property>
                       <property name="leftMargin">
-                       <number>0</number>
+                       <number>18</number>
                       </property>
                       <property name="topMargin">
                        <number>0</number>
                       </property>
                       <property name="rightMargin">
-                       <number>0</number>
+                       <number>18</number>
                       </property>
                       <property name="bottomMargin">
-                       <number>0</number>
+                       <number>9</number>
                       </property>
                       <item>
                        <widget class="QFrame" name="frameListFiles">
@@ -599,7 +321,7 @@ border-width: 1px;</string>
                           <number>9</number>
                          </property>
                          <property name="leftMargin">
-                          <number>9</number>
+                          <number>0</number>
                          </property>
                          <property name="topMargin">
                           <number>0</number>
@@ -694,49 +416,6 @@ border-width: 1px;</string>
                              </spacer>
                             </item>
                             <item>
-                             <widget class="QPushButton" name="buttonCreateFiles">
-                              <property name="minimumSize">
-                               <size>
-                                <width>0</width>
-                                <height>20</height>
-                               </size>
-                              </property>
-                              <property name="maximumSize">
-                               <size>
-                                <width>95</width>
-                                <height>20</height>
-                               </size>
-                              </property>
-                              <property name="font">
-                               <font>
-                                <family>Segoe UI</family>
-                                <pointsize>9</pointsize>
-                                <weight>50</weight>
-                                <bold>false</bold>
-                               </font>
-                              </property>
-                              <property name="styleSheet">
-                               <string notr="true">QPushButton
-{
-	background-color: rgb(83, 83, 83);
-	color: rgb(255, 255, 255);
-	border-radius: 3px;
-}
-QPushButton:hover:!pressed
-{
-	background-color: rgb(100, 100, 100);
-}</string>
-                              </property>
-                              <property name="text">
-                               <string>Create New </string>
-                              </property>
-                              <property name="icon">
-                               <iconset resource="cioxoQtResources.qrc">
-                                <normaloff>:/icons/graphics/icons/plus.svg</normaloff>:/icons/graphics/icons/plus.svg</iconset>
-                              </property>
-                             </widget>
-                            </item>
-                            <item>
                              <spacer name="horizontalSpacerTitleFiles">
                               <property name="orientation">
                                <enum>Qt::Horizontal</enum>
@@ -751,47 +430,6 @@ QPushButton:hover:!pressed
                                </size>
                               </property>
                              </spacer>
-                            </item>
-                            <item>
-                             <widget class="QPushButton" name="buttonReloadFiles">
-                              <property name="minimumSize">
-                               <size>
-                                <width>50</width>
-                                <height>20</height>
-                               </size>
-                              </property>
-                              <property name="maximumSize">
-                               <size>
-                                <width>50</width>
-                                <height>20</height>
-                               </size>
-                              </property>
-                              <property name="font">
-                               <font>
-                                <family>Roboto</family>
-                                <pointsize>9</pointsize>
-                               </font>
-                              </property>
-                              <property name="styleSheet">
-                               <string notr="true">QPushButton
-{
-	background-color: rgb(83, 83, 83);
-	color: rgb(255, 255, 255);
-	border-radius: 3px;
-}
-QPushButton:hover:!pressed
-{
-	background-color: rgb(100, 100, 100);
-}</string>
-                              </property>
-                              <property name="text">
-                               <string/>
-                              </property>
-                              <property name="icon">
-                               <iconset resource="cioxoQtResources.qrc">
-                                <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
-                              </property>
-                             </widget>
                             </item>
                            </layout>
                           </widget>
@@ -986,154 +624,6 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                           </widget>
                          </item>
                          <item>
-                          <widget class="QFrame" name="frameFunctionsThumbnailFiles">
-                           <property name="frameShape">
-                            <enum>QFrame::StyledPanel</enum>
-                           </property>
-                           <property name="frameShadow">
-                            <enum>QFrame::Raised</enum>
-                           </property>
-                           <layout class="QHBoxLayout" name="horizontalLayout_16">
-                            <property name="leftMargin">
-                             <number>0</number>
-                            </property>
-                            <property name="topMargin">
-                             <number>0</number>
-                            </property>
-                            <property name="rightMargin">
-                             <number>0</number>
-                            </property>
-                            <property name="bottomMargin">
-                             <number>0</number>
-                            </property>
-                            <item>
-                             <spacer name="horizontalSpacerThumbnailFiles">
-                              <property name="orientation">
-                               <enum>Qt::Horizontal</enum>
-                              </property>
-                              <property name="sizeHint" stdset="0">
-                               <size>
-                                <width>40</width>
-                                <height>20</height>
-                               </size>
-                              </property>
-                             </spacer>
-                            </item>
-                            <item>
-                             <widget class="QPushButton" name="buttonDeleteThumbnailFiles">
-                              <property name="minimumSize">
-                               <size>
-                                <width>25</width>
-                                <height>25</height>
-                               </size>
-                              </property>
-                              <property name="maximumSize">
-                               <size>
-                                <width>25</width>
-                                <height>25</height>
-                               </size>
-                              </property>
-                              <property name="styleSheet">
-                               <string notr="true">QPushButton
-{
-	background-color: rgb(83, 83, 83);
-	color: rgb(255, 255, 255);
-	border-radius: 3px;
-}
-QPushButton:hover:!pressed
-{
-	background-color: rgb(100, 100, 100);
-}</string>
-                              </property>
-                              <property name="text">
-                               <string/>
-                              </property>
-                              <property name="icon">
-                               <iconset resource="cioxoQtResources.qrc">
-                                <normaloff>:/icons/graphics/icons/trash02.svg</normaloff>:/icons/graphics/icons/trash02.svg</iconset>
-                              </property>
-                             </widget>
-                            </item>
-                            <item>
-                             <widget class="QPushButton" name="buttonRefreshThumbnailFiles">
-                              <property name="minimumSize">
-                               <size>
-                                <width>25</width>
-                                <height>25</height>
-                               </size>
-                              </property>
-                              <property name="maximumSize">
-                               <size>
-                                <width>25</width>
-                                <height>25</height>
-                               </size>
-                              </property>
-                              <property name="styleSheet">
-                               <string notr="true">QPushButton
-{
-	background-color: rgb(83, 83, 83);
-	color: rgb(255, 255, 255);
-	border-radius: 3px;
-}
-QPushButton:hover:!pressed
-{
-	background-color: rgb(100, 100, 100);
-}</string>
-                              </property>
-                              <property name="text">
-                               <string/>
-                              </property>
-                              <property name="icon">
-                               <iconset resource="cioxoQtResources.qrc">
-                                <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
-                              </property>
-                             </widget>
-                            </item>
-                            <item>
-                             <widget class="QPushButton" name="buttonChargeThumbnailFiles">
-                              <property name="minimumSize">
-                               <size>
-                                <width>25</width>
-                                <height>25</height>
-                               </size>
-                              </property>
-                              <property name="maximumSize">
-                               <size>
-                                <width>25</width>
-                                <height>25</height>
-                               </size>
-                              </property>
-                              <property name="font">
-                               <font>
-                                <family>Segoe UI</family>
-                                <pointsize>9</pointsize>
-                               </font>
-                              </property>
-                              <property name="styleSheet">
-                               <string notr="true">QPushButton
-{
-	background-color: rgb(83, 83, 83);
-	color: rgb(255, 255, 255);
-	border-radius: 3px;
-}
-QPushButton:hover:!pressed
-{
-	background-color: rgb(100, 100, 100);
-}</string>
-                              </property>
-                              <property name="text">
-                               <string/>
-                              </property>
-                              <property name="icon">
-                               <iconset resource="cioxoQtResources.qrc">
-                                <normaloff>:/icons/graphics/icons/image.svg</normaloff>:/icons/graphics/icons/image.svg</iconset>
-                              </property>
-                             </widget>
-                            </item>
-                           </layout>
-                          </widget>
-                         </item>
-                         <item>
                           <widget class="QLabel" name="labelLineFiles">
                            <property name="maximumSize">
                             <size>
@@ -1225,7 +715,7 @@ QPushButton:hover:!pressed
                             <string>Open</string>
                            </property>
                            <property name="icon">
-                            <iconset resource="cioxoQtResources.qrc">
+                            <iconset resource="cioxo_QtResources.qrc">
                              <normaloff>:/icons/graphics/icons/arrowUpRight.svg</normaloff>:/icons/graphics/icons/arrowUpRight.svg</iconset>
                            </property>
                           </widget>
@@ -1294,7 +784,7 @@ QPushButton:hover:!pressed
                               <string>Directory</string>
                              </property>
                              <property name="icon">
-                              <iconset resource="cioxoQtResources.qrc">
+                              <iconset resource="cioxo_QtResources.qrc">
                                <normaloff>:/icons/graphics/icons/folder.svg</normaloff>:/icons/graphics/icons/folder.svg</iconset>
                              </property>
                             </widget>
@@ -1332,10 +822,10 @@ QPushButton:hover:!pressed
                        <number>10</number>
                       </property>
                       <property name="rightMargin">
-                       <number>0</number>
+                       <number>9</number>
                       </property>
                       <property name="bottomMargin">
-                       <number>0</number>
+                       <number>18</number>
                       </property>
                       <item>
                        <widget class="QLabel" name="labelInformations">
@@ -1546,6 +1036,7 @@ QComboBox QAbstractItemView {
   </action>
  </widget>
  <resources>
+  <include location="cioxo_QtResources.qrc"/>
   <include location="cioxoQtResources.qrc"/>
  </resources>
  <connections/>

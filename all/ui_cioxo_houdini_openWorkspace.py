@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\Valen\Documents\PROJECTS\.pipeline\all\ui/cioxo_houdini_projectManager.ui'
+# Form implementation generated from reading ui file 'C:\Users\Valen\Documents\PROJECTS\.pipeline\all\ui\cioxo_houdini_openWorkspace.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
 #
@@ -21,7 +21,7 @@ import ui_cioxo_QtResources_rc
 class Ui_Houdini_projectManager(object):
     def setupUi(self, Houdini_projectManager):
         Houdini_projectManager.setObjectName("Houdini_projectManager")
-        Houdini_projectManager.resize(700, 700)
+        Houdini_projectManager.resize(700, 684)
         Houdini_projectManager.setStyleSheet("")
         self.centralWidget = QtWidgets.QWidget(Houdini_projectManager)
         self.centralWidget.setStyleSheet("")
@@ -43,56 +43,6 @@ class Ui_Houdini_projectManager(object):
         self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_2.setSpacing(0)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
-        self.frameTitleBar = QtWidgets.QFrame(self.frameDropShadow)
-        self.frameTitleBar.setMinimumSize(QtCore.QSize(0, 30))
-        self.frameTitleBar.setMaximumSize(QtCore.QSize(16777215, 30))
-        self.frameTitleBar.setStyleSheet("border-radius: 0px;")
-        self.frameTitleBar.setFrameShape(QtWidgets.QFrame.StyledPanel)
-        self.frameTitleBar.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frameTitleBar.setObjectName("frameTitleBar")
-        self.horizontalLayout_13 = QtWidgets.QHBoxLayout(self.frameTitleBar)
-        self.horizontalLayout_13.setContentsMargins(0, 0, 0, 0)
-        self.horizontalLayout_13.setSpacing(0)
-        self.horizontalLayout_13.setObjectName("horizontalLayout_13")
-        spacerItem = QtWidgets.QSpacerItem(14, 20, QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Minimum)
-        self.horizontalLayout_13.addItem(spacerItem)
-        self.pushButtonTitleBar = QtWidgets.QPushButton(self.frameTitleBar)
-        self.pushButtonTitleBar.setText("")
-        icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/icons/graphics/icons/terminal.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.pushButtonTitleBar.setIcon(icon)
-        self.pushButtonTitleBar.setIconSize(QtCore.QSize(16, 16))
-        self.pushButtonTitleBar.setObjectName("pushButtonTitleBar")
-        self.horizontalLayout_13.addWidget(self.pushButtonTitleBar)
-        self.labelTitleBar = QtWidgets.QLabel(self.frameTitleBar)
-        self.labelTitleBar.setMinimumSize(QtCore.QSize(40, 0))
-        self.labelTitleBar.setMaximumSize(QtCore.QSize(40, 16777215))
-        font = QtGui.QFont()
-        font.setFamily("Roboto")
-        self.labelTitleBar.setFont(font)
-        self.labelTitleBar.setAlignment(QtCore.Qt.AlignCenter)
-        self.labelTitleBar.setObjectName("labelTitleBar")
-        self.horizontalLayout_13.addWidget(self.labelTitleBar)
-        self.labelSpacer = QtWidgets.QLabel(self.frameTitleBar)
-        self.labelSpacer.setMaximumSize(QtCore.QSize(5, 16777215))
-        font = QtGui.QFont()
-        font.setFamily("Source Sans Pro")
-        self.labelSpacer.setFont(font)
-        self.labelSpacer.setAlignment(QtCore.Qt.AlignCenter)
-        self.labelSpacer.setObjectName("labelSpacer")
-        self.horizontalLayout_13.addWidget(self.labelSpacer)
-        self.labelVersionTitleBar = QtWidgets.QLabel(self.frameTitleBar)
-        self.labelVersionTitleBar.setMinimumSize(QtCore.QSize(40, 0))
-        self.labelVersionTitleBar.setMaximumSize(QtCore.QSize(40, 16777215))
-        font = QtGui.QFont()
-        font.setFamily("Roboto")
-        self.labelVersionTitleBar.setFont(font)
-        self.labelVersionTitleBar.setAlignment(QtCore.Qt.AlignCenter)
-        self.labelVersionTitleBar.setObjectName("labelVersionTitleBar")
-        self.horizontalLayout_13.addWidget(self.labelVersionTitleBar)
-        spacerItem1 = QtWidgets.QSpacerItem(500, 4, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
-        self.horizontalLayout_13.addItem(spacerItem1)
-        self.verticalLayout_2.addWidget(self.frameTitleBar)
         self.frameBanner = QtWidgets.QFrame(self.frameDropShadow)
         self.frameBanner.setStyleSheet("")
         self.frameBanner.setFrameShape(QtWidgets.QFrame.StyledPanel)
@@ -102,56 +52,6 @@ class Ui_Houdini_projectManager(object):
         self.verticalLayout_8.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_8.setSpacing(0)
         self.verticalLayout_8.setObjectName("verticalLayout_8")
-        self.frameTitle = QtWidgets.QFrame(self.frameBanner)
-        self.frameTitle.setMinimumSize(QtCore.QSize(0, 50))
-        self.frameTitle.setMaximumSize(QtCore.QSize(16777215, 50))
-        self.frameTitle.setStyleSheet("border-top-left-radius: 0px;\n"
-"border-top-right-radius: 0px;\n"
-"border-bottom-right-radius: 0px;\n"
-"border-bottom-left-radius: 0px;")
-        self.frameTitle.setFrameShape(QtWidgets.QFrame.NoFrame)
-        self.frameTitle.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frameTitle.setObjectName("frameTitle")
-        self.horizontalLayout = QtWidgets.QHBoxLayout(self.frameTitle)
-        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
-        self.horizontalLayout.setSpacing(0)
-        self.horizontalLayout.setObjectName("horizontalLayout")
-        self.frameLabelTitle = QtWidgets.QFrame(self.frameTitle)
-        self.frameLabelTitle.setStyleSheet("QFrame\n"
-"{\n"
-"    background-color:rgb(50, 50, 50);\n"
-"}\n"
-"")
-        self.frameLabelTitle.setFrameShape(QtWidgets.QFrame.NoFrame)
-        self.frameLabelTitle.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frameLabelTitle.setObjectName("frameLabelTitle")
-        self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.frameLabelTitle)
-        self.horizontalLayout_3.setContentsMargins(-1, -1, 18, -1)
-        self.horizontalLayout_3.setObjectName("horizontalLayout_3")
-        self.labelTitleLogo = QtWidgets.QLabel(self.frameLabelTitle)
-        self.labelTitleLogo.setMinimumSize(QtCore.QSize(32, 32))
-        self.labelTitleLogo.setMaximumSize(QtCore.QSize(32, 32))
-        self.labelTitleLogo.setText("")
-        self.labelTitleLogo.setPixmap(QtGui.QPixmap(":/logos/graphics/logos/cioxoLogo_24.png"))
-        self.labelTitleLogo.setAlignment(QtCore.Qt.AlignCenter)
-        self.labelTitleLogo.setObjectName("labelTitleLogo")
-        self.horizontalLayout_3.addWidget(self.labelTitleLogo)
-        spacerItem2 = QtWidgets.QSpacerItem(10, 10, QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Minimum)
-        self.horizontalLayout_3.addItem(spacerItem2)
-        self.labelTitle = QtWidgets.QLabel(self.frameLabelTitle)
-        font = QtGui.QFont()
-        font.setFamily("Source Sans Pro")
-        font.setPointSize(18)
-        font.setBold(False)
-        font.setItalic(False)
-        font.setWeight(50)
-        self.labelTitle.setFont(font)
-        self.labelTitle.setStyleSheet("color: rgb(255, 255, 255);")
-        self.labelTitle.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
-        self.labelTitle.setObjectName("labelTitle")
-        self.horizontalLayout_3.addWidget(self.labelTitle)
-        self.horizontalLayout.addWidget(self.frameLabelTitle)
-        self.verticalLayout_8.addWidget(self.frameTitle)
         self.verticalLayout_2.addWidget(self.frameBanner)
         self.frameContent = QtWidgets.QFrame(self.frameDropShadow)
         self.frameContent.setStyleSheet("background-color:rgb(27, 27, 27);")
@@ -176,7 +76,7 @@ class Ui_Houdini_projectManager(object):
         self.frameTabs.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frameTabs.setObjectName("frameTabs")
         self.horizontalLayout_8 = QtWidgets.QHBoxLayout(self.frameTabs)
-        self.horizontalLayout_8.setContentsMargins(1, 0, 9, 9)
+        self.horizontalLayout_8.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_8.setSpacing(0)
         self.horizontalLayout_8.setObjectName("horizontalLayout_8")
         self.frameTabsSub = QtWidgets.QFrame(self.frameTabs)
@@ -185,17 +85,21 @@ class Ui_Houdini_projectManager(object):
         self.frameTabsSub.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frameTabsSub.setObjectName("frameTabsSub")
         self.verticalLayout_5 = QtWidgets.QVBoxLayout(self.frameTabsSub)
+        self.verticalLayout_5.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_5.setSpacing(6)
         self.verticalLayout_5.setObjectName("verticalLayout_5")
-        self.frameLineFiles = QtWidgets.QFrame(self.frameTabsSub)
-        self.frameLineFiles.setStyleSheet("")
-        self.frameLineFiles.setFrameShape(QtWidgets.QFrame.StyledPanel)
-        self.frameLineFiles.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frameLineFiles.setObjectName("frameLineFiles")
-        self.horizontalLayout_23 = QtWidgets.QHBoxLayout(self.frameLineFiles)
-        self.horizontalLayout_23.setContentsMargins(-1, 18, -1, 9)
+        self.frameTitle = QtWidgets.QFrame(self.frameTabsSub)
+        self.frameTitle.setMinimumSize(QtCore.QSize(0, 50))
+        self.frameTitle.setStyleSheet("")
+        self.frameTitle.setFrameShape(QtWidgets.QFrame.NoFrame)
+        self.frameTitle.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.frameTitle.setLineWidth(0)
+        self.frameTitle.setObjectName("frameTitle")
+        self.horizontalLayout_23 = QtWidgets.QHBoxLayout(self.frameTitle)
+        self.horizontalLayout_23.setContentsMargins(9, 0, 0, 0)
         self.horizontalLayout_23.setObjectName("horizontalLayout_23")
-        self.labelWelcomeFiles = QtWidgets.QLabel(self.frameLineFiles)
-        self.labelWelcomeFiles.setMaximumSize(QtCore.QSize(75, 16777215))
+        self.labelWelcomeFiles = QtWidgets.QLabel(self.frameTitle)
+        self.labelWelcomeFiles.setMaximumSize(QtCore.QSize(500, 16777215))
         font = QtGui.QFont()
         font.setFamily("Source Sans Pro")
         font.setPointSize(12)
@@ -206,24 +110,15 @@ class Ui_Houdini_projectManager(object):
         self.labelWelcomeFiles.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.labelWelcomeFiles.setObjectName("labelWelcomeFiles")
         self.horizontalLayout_23.addWidget(self.labelWelcomeFiles)
-        self.labelLineTitleFiles = QtWidgets.QLabel(self.frameLineFiles)
-        self.labelLineTitleFiles.setMaximumSize(QtCore.QSize(16777215, 0))
-        self.labelLineTitleFiles.setStyleSheet("border-color: rgb(180, 180, 180);\n"
-"border-style:solid;\n"
-"border-radius: 5px;\n"
-"border-width: 1px;")
-        self.labelLineTitleFiles.setFrameShape(QtWidgets.QFrame.NoFrame)
-        self.labelLineTitleFiles.setText("")
-        self.labelLineTitleFiles.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
-        self.labelLineTitleFiles.setObjectName("labelLineTitleFiles")
-        self.horizontalLayout_23.addWidget(self.labelLineTitleFiles)
-        self.verticalLayout_5.addWidget(self.frameLineFiles)
+        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_23.addItem(spacerItem)
+        self.verticalLayout_5.addWidget(self.frameTitle)
         self.frameContentFiles = QtWidgets.QFrame(self.frameTabsSub)
         self.frameContentFiles.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frameContentFiles.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frameContentFiles.setObjectName("frameContentFiles")
         self.horizontalLayout_18 = QtWidgets.QHBoxLayout(self.frameContentFiles)
-        self.horizontalLayout_18.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_18.setContentsMargins(18, 0, 18, 9)
         self.horizontalLayout_18.setSpacing(6)
         self.horizontalLayout_18.setObjectName("horizontalLayout_18")
         self.frameListFiles = QtWidgets.QFrame(self.frameContentFiles)
@@ -231,7 +126,7 @@ class Ui_Houdini_projectManager(object):
         self.frameListFiles.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frameListFiles.setObjectName("frameListFiles")
         self.verticalLayout_12 = QtWidgets.QVBoxLayout(self.frameListFiles)
-        self.verticalLayout_12.setContentsMargins(9, 0, 0, 0)
+        self.verticalLayout_12.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_12.setSpacing(9)
         self.verticalLayout_12.setObjectName("verticalLayout_12")
         self.frameTitleFiles = QtWidgets.QFrame(self.frameListFiles)
@@ -243,8 +138,8 @@ class Ui_Houdini_projectManager(object):
         self.horizontalLayout_17 = QtWidgets.QHBoxLayout(self.frameTitleFiles)
         self.horizontalLayout_17.setContentsMargins(0, -1, 0, 3)
         self.horizontalLayout_17.setObjectName("horizontalLayout_17")
-        spacerItem3 = QtWidgets.QSpacerItem(10, 0, QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Minimum)
-        self.horizontalLayout_17.addItem(spacerItem3)
+        spacerItem1 = QtWidgets.QSpacerItem(10, 0, QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_17.addItem(spacerItem1)
         self.labelFiles = QtWidgets.QLabel(self.frameTitleFiles)
         font = QtGui.QFont()
         font.setFamily("Source Sans Pro")
@@ -256,57 +151,10 @@ class Ui_Houdini_projectManager(object):
         self.labelFiles.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.labelFiles.setObjectName("labelFiles")
         self.horizontalLayout_17.addWidget(self.labelFiles)
-        spacerItem4 = QtWidgets.QSpacerItem(1, 20, QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Minimum)
-        self.horizontalLayout_17.addItem(spacerItem4)
-        self.buttonCreateFiles = QtWidgets.QPushButton(self.frameTitleFiles)
-        self.buttonCreateFiles.setMinimumSize(QtCore.QSize(0, 20))
-        self.buttonCreateFiles.setMaximumSize(QtCore.QSize(95, 20))
-        font = QtGui.QFont()
-        font.setFamily("Segoe UI")
-        font.setPointSize(9)
-        font.setBold(False)
-        font.setWeight(50)
-        self.buttonCreateFiles.setFont(font)
-        self.buttonCreateFiles.setStyleSheet("QPushButton\n"
-"{\n"
-"    background-color: rgb(83, 83, 83);\n"
-"    color: rgb(255, 255, 255);\n"
-"    border-radius: 3px;\n"
-"}\n"
-"QPushButton:hover:!pressed\n"
-"{\n"
-"    background-color: rgb(100, 100, 100);\n"
-"}")
-        icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(":/icons/graphics/icons/plus.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.buttonCreateFiles.setIcon(icon1)
-        self.buttonCreateFiles.setObjectName("buttonCreateFiles")
-        self.horizontalLayout_17.addWidget(self.buttonCreateFiles)
-        spacerItem5 = QtWidgets.QSpacerItem(1, 20, QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Minimum)
-        self.horizontalLayout_17.addItem(spacerItem5)
-        self.buttonReloadFiles = QtWidgets.QPushButton(self.frameTitleFiles)
-        self.buttonReloadFiles.setMinimumSize(QtCore.QSize(50, 20))
-        self.buttonReloadFiles.setMaximumSize(QtCore.QSize(50, 20))
-        font = QtGui.QFont()
-        font.setFamily("Roboto")
-        font.setPointSize(9)
-        self.buttonReloadFiles.setFont(font)
-        self.buttonReloadFiles.setStyleSheet("QPushButton\n"
-"{\n"
-"    background-color: rgb(83, 83, 83);\n"
-"    color: rgb(255, 255, 255);\n"
-"    border-radius: 3px;\n"
-"}\n"
-"QPushButton:hover:!pressed\n"
-"{\n"
-"    background-color: rgb(100, 100, 100);\n"
-"}")
-        self.buttonReloadFiles.setText("")
-        icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap(":/icons/graphics/icons/refreshCw.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.buttonReloadFiles.setIcon(icon2)
-        self.buttonReloadFiles.setObjectName("buttonReloadFiles")
-        self.horizontalLayout_17.addWidget(self.buttonReloadFiles)
+        spacerItem2 = QtWidgets.QSpacerItem(1, 20, QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_17.addItem(spacerItem2)
+        spacerItem3 = QtWidgets.QSpacerItem(1, 20, QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_17.addItem(spacerItem3)
         self.verticalLayout_12.addWidget(self.frameTitleFiles)
         self.listFiles = QtWidgets.QListWidget(self.frameListFiles)
         font = QtGui.QFont()
@@ -402,8 +250,8 @@ class Ui_Houdini_projectManager(object):
         self.verticalLayout_11 = QtWidgets.QVBoxLayout(self.frameRightSideFiles)
         self.verticalLayout_11.setContentsMargins(3, 2, 0, 0)
         self.verticalLayout_11.setObjectName("verticalLayout_11")
-        spacerItem6 = QtWidgets.QSpacerItem(20, 39, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.verticalLayout_11.addItem(spacerItem6)
+        spacerItem4 = QtWidgets.QSpacerItem(20, 39, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
+        self.verticalLayout_11.addItem(spacerItem4)
         self.labelThumbnailFiles = QtWidgets.QLabel(self.frameRightSideFiles)
         self.labelThumbnailFiles.setMinimumSize(QtCore.QSize(256, 144))
         self.labelThumbnailFiles.setMaximumSize(QtCore.QSize(256, 144))
@@ -423,75 +271,6 @@ class Ui_Houdini_projectManager(object):
         self.labelThumbnailFiles.setAlignment(QtCore.Qt.AlignCenter)
         self.labelThumbnailFiles.setObjectName("labelThumbnailFiles")
         self.verticalLayout_11.addWidget(self.labelThumbnailFiles)
-        self.frameFunctionsThumbnailFiles = QtWidgets.QFrame(self.frameRightSideFiles)
-        self.frameFunctionsThumbnailFiles.setFrameShape(QtWidgets.QFrame.StyledPanel)
-        self.frameFunctionsThumbnailFiles.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frameFunctionsThumbnailFiles.setObjectName("frameFunctionsThumbnailFiles")
-        self.horizontalLayout_16 = QtWidgets.QHBoxLayout(self.frameFunctionsThumbnailFiles)
-        self.horizontalLayout_16.setContentsMargins(0, 0, 0, 0)
-        self.horizontalLayout_16.setObjectName("horizontalLayout_16")
-        spacerItem7 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
-        self.horizontalLayout_16.addItem(spacerItem7)
-        self.buttonDeleteThumbnailFiles = QtWidgets.QPushButton(self.frameFunctionsThumbnailFiles)
-        self.buttonDeleteThumbnailFiles.setMinimumSize(QtCore.QSize(25, 25))
-        self.buttonDeleteThumbnailFiles.setMaximumSize(QtCore.QSize(25, 25))
-        self.buttonDeleteThumbnailFiles.setStyleSheet("QPushButton\n"
-"{\n"
-"    background-color: rgb(83, 83, 83);\n"
-"    color: rgb(255, 255, 255);\n"
-"    border-radius: 3px;\n"
-"}\n"
-"QPushButton:hover:!pressed\n"
-"{\n"
-"    background-color: rgb(100, 100, 100);\n"
-"}")
-        self.buttonDeleteThumbnailFiles.setText("")
-        icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap(":/icons/graphics/icons/trash02.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.buttonDeleteThumbnailFiles.setIcon(icon3)
-        self.buttonDeleteThumbnailFiles.setObjectName("buttonDeleteThumbnailFiles")
-        self.horizontalLayout_16.addWidget(self.buttonDeleteThumbnailFiles)
-        self.buttonRefreshThumbnailFiles = QtWidgets.QPushButton(self.frameFunctionsThumbnailFiles)
-        self.buttonRefreshThumbnailFiles.setMinimumSize(QtCore.QSize(25, 25))
-        self.buttonRefreshThumbnailFiles.setMaximumSize(QtCore.QSize(25, 25))
-        self.buttonRefreshThumbnailFiles.setStyleSheet("QPushButton\n"
-"{\n"
-"    background-color: rgb(83, 83, 83);\n"
-"    color: rgb(255, 255, 255);\n"
-"    border-radius: 3px;\n"
-"}\n"
-"QPushButton:hover:!pressed\n"
-"{\n"
-"    background-color: rgb(100, 100, 100);\n"
-"}")
-        self.buttonRefreshThumbnailFiles.setText("")
-        self.buttonRefreshThumbnailFiles.setIcon(icon2)
-        self.buttonRefreshThumbnailFiles.setObjectName("buttonRefreshThumbnailFiles")
-        self.horizontalLayout_16.addWidget(self.buttonRefreshThumbnailFiles)
-        self.buttonChargeThumbnailFiles = QtWidgets.QPushButton(self.frameFunctionsThumbnailFiles)
-        self.buttonChargeThumbnailFiles.setMinimumSize(QtCore.QSize(25, 25))
-        self.buttonChargeThumbnailFiles.setMaximumSize(QtCore.QSize(25, 25))
-        font = QtGui.QFont()
-        font.setFamily("Segoe UI")
-        font.setPointSize(9)
-        self.buttonChargeThumbnailFiles.setFont(font)
-        self.buttonChargeThumbnailFiles.setStyleSheet("QPushButton\n"
-"{\n"
-"    background-color: rgb(83, 83, 83);\n"
-"    color: rgb(255, 255, 255);\n"
-"    border-radius: 3px;\n"
-"}\n"
-"QPushButton:hover:!pressed\n"
-"{\n"
-"    background-color: rgb(100, 100, 100);\n"
-"}")
-        self.buttonChargeThumbnailFiles.setText("")
-        icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap(":/icons/graphics/icons/image.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.buttonChargeThumbnailFiles.setIcon(icon4)
-        self.buttonChargeThumbnailFiles.setObjectName("buttonChargeThumbnailFiles")
-        self.horizontalLayout_16.addWidget(self.buttonChargeThumbnailFiles)
-        self.verticalLayout_11.addWidget(self.frameFunctionsThumbnailFiles)
         self.labelLineFiles = QtWidgets.QLabel(self.frameRightSideFiles)
         self.labelLineFiles.setMaximumSize(QtCore.QSize(16777215, 1))
         self.labelLineFiles.setStyleSheet("border-color: rgb(180, 180, 180);\n"
@@ -533,17 +312,17 @@ class Ui_Houdini_projectManager(object):
 "{\n"
 "    background-color: rgb(100, 100, 100);\n"
 "}")
-        icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap(":/icons/graphics/icons/arrowUpRight.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.buttonOpenFiles.setIcon(icon5)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/icons/graphics/icons/arrowUpRight.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.buttonOpenFiles.setIcon(icon)
         self.buttonOpenFiles.setObjectName("buttonOpenFiles")
         self.verticalLayout_11.addWidget(self.buttonOpenFiles)
-        spacerItem8 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
-        self.verticalLayout_11.addItem(spacerItem8)
+        spacerItem5 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        self.verticalLayout_11.addItem(spacerItem5)
         self.layoutDirectoryFiles = QtWidgets.QHBoxLayout()
         self.layoutDirectoryFiles.setObjectName("layoutDirectoryFiles")
-        spacerItem9 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
-        self.layoutDirectoryFiles.addItem(spacerItem9)
+        spacerItem6 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.layoutDirectoryFiles.addItem(spacerItem6)
         self.buttonDirectoryFiles = QtWidgets.QPushButton(self.frameRightSideFiles)
         self.buttonDirectoryFiles.setMinimumSize(QtCore.QSize(131, 25))
         self.buttonDirectoryFiles.setMaximumSize(QtCore.QSize(16777215, 25))
@@ -561,9 +340,9 @@ class Ui_Houdini_projectManager(object):
 "{\n"
 "    background-color: rgb(100, 100, 100);\n"
 "}")
-        icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap(":/icons/graphics/icons/folder.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.buttonDirectoryFiles.setIcon(icon6)
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(":/icons/graphics/icons/folder.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.buttonDirectoryFiles.setIcon(icon1)
         self.buttonDirectoryFiles.setObjectName("buttonDirectoryFiles")
         self.layoutDirectoryFiles.addWidget(self.buttonDirectoryFiles)
         self.verticalLayout_11.addLayout(self.layoutDirectoryFiles)
@@ -576,7 +355,7 @@ class Ui_Houdini_projectManager(object):
         self.frameInformations.setLineWidth(0)
         self.frameInformations.setObjectName("frameInformations")
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.frameInformations)
-        self.verticalLayout_4.setContentsMargins(8, 10, 0, 0)
+        self.verticalLayout_4.setContentsMargins(8, 10, 9, 18)
         self.verticalLayout_4.setSpacing(0)
         self.verticalLayout_4.setObjectName("verticalLayout_4")
         self.labelInformations = QtWidgets.QLabel(self.frameInformations)
@@ -670,13 +449,8 @@ class Ui_Houdini_projectManager(object):
     def retranslateUi(self, Houdini_projectManager):
         _translate = QtCore.QCoreApplication.translate
         Houdini_projectManager.setWindowTitle(_translate("Houdini_projectManager", "Cioxo - Project Manager"))
-        self.labelTitleBar.setText(_translate("Houdini_projectManager", "Cioxo"))
-        self.labelSpacer.setText(_translate("Houdini_projectManager", "-"))
-        self.labelVersionTitleBar.setText(_translate("Houdini_projectManager", "v1.0.0"))
-        self.labelTitle.setText(_translate("Houdini_projectManager", "Cioxo"))
         self.labelWelcomeFiles.setText(_translate("Houdini_projectManager", "Project"))
         self.labelFiles.setText(_translate("Houdini_projectManager", "Files"))
-        self.buttonCreateFiles.setText(_translate("Houdini_projectManager", "Create New "))
         self.listFiles.setSortingEnabled(False)
         self.labelThumbnailFiles.setText(_translate("Houdini_projectManager", "Thumbnail"))
         self.labelCommentFiles.setText(_translate("Houdini_projectManager", "Comment"))
