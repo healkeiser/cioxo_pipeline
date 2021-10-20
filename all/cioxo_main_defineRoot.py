@@ -1,4 +1,4 @@
-from ui_defineRoot import Ui_DefineRoot
+from ui_cioxo_defineRoot import Ui_DefineRoot
 import ui_cioxo_QtResources_rc
 
 # ------ Import necessary libraries

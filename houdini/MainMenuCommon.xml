@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainMenu>
+  <menuBar>
+    <subMenu id="my_submenu">
+      <label>Cioxo</label>
+
+      <scriptItem>
+        <label>Open Workspace</label>
+        <scriptPath>$HOME/PROJECTS/.pipeline/all/cioxo_houdini_openWorkspace.py</scriptPath>
+      </scriptItem>
+
+      <separatorItem/>
+
+      <scriptItem>
+        <label>Publish Workspace</label>
+        <scriptPath>$HOME/PROJECTS/.pipeline/all/cioxo_houdini_publishWorkspace.py</scriptPath>
+      </scriptItem>
+
+      <separatorItem/>
+
+      <scriptItem>
+        <label>Help</label>
+        <scriptPath>$HOME/PROJECTS/.pipeline/all/cioxo_houdini_openHelp.py</scriptPath>
+      </scriptItem>
+
+      <scriptItem>
+        <label>About Cioxo</label>
+        <scriptPath>$HOME/PROJECTS/.pipeline/all/cioxo_houdini_openAbout.py</scriptPath>
+      </scriptItem>
+
+    </subMenu>
+  </menuBar>
+</mainMenu>

@@ -1,4 +1,4 @@
 import os
 
-helpPath = "http://www.google.fr"
+helpPath = "https://example.com/"
 os.startfile(helpPath)
