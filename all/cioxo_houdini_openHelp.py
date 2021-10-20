@@ -4,5 +4,5 @@ import os
 # ------ Houdini Open Help
 
 
-helpPath = "https://example.com/"
+helpPath = "https://github.com/healkeiser/Cioxo"
 os.startfile(helpPath)

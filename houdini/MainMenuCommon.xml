@@ -38,6 +38,13 @@
         <scriptPath>$HOME/PROJECTS/.pipeline/all/cioxo_houdini_openAbout.py</scriptPath>
       </scriptItem>
 
+      <separatorItem/>
+
+      <scriptItem>
+        <label>Show variables</label>
+        <scriptPath>$HOME/PROJECTS/.pipeline/all/cioxo_houdini_showVariables.py</scriptPath>
+      </scriptItem>
+
     </subMenu>
   </menuBar>
 </mainMenu>
