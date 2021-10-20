@@ -84,7 +84,7 @@ Here are all the Python libraries you'll need:
 
 ### Installation
 
-A compiled version of Cioxo has been released but is incomplete and not tested yet: [Cioxo 0.0.1-alpha release](https://github.com/healkeiser/Cioxo/releases). If you want to use it without the compiled version you'll need to move around a few files.
+A compiled version of Cioxo has been released but it is incomplete and has not been tested yet: [Cioxo 0.0.1-alpha release](https://github.com/healkeiser/Cioxo/releases). If you want to use it without the compiled version you'll need to move around a few files.
 
 * Main
 
