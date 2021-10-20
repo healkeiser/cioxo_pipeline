@@ -55,9 +55,11 @@
 
 Cioxo Pipeline is an under development VFX pipeline for freelancers/small scaled productions. It is only available on Windows at the moment.
 
+<div align="center">
 <a href="https://github.com/healkeiser/Cioxo">
-    <img src="all/ui/graphics/screenshots/cioxo_splashScreen_screenshot_02.png" height="300">
+    <img src="all/ui/graphics/screenshots/cioxo_splashScreen_screenshot_01.png" height="350">
   </a>
+</div>
 
 ### Built With
 
