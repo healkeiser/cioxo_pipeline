@@ -5,6 +5,20 @@
       <label>Cioxo</label>
 
       <scriptItem>
+        <label>Set Job</label>
+        <scriptPath>$HOME/PROJECTS/.pipeline/all/cioxo_houdini_setJob.py</scriptPath>
+      </scriptItem>
+
+      <separatorItem/>
+
+      <scriptItem>
+        <label>Set Job</label>
+        <scriptPath>$HOME/PROJECTS/.pipeline/all/cioxo_houdini_setFrameRange.py</scriptPath>
+      </scriptItem>
+
+      <separatorItem/>
+
+      <scriptItem>
         <label>Open Workspace</label>
         <scriptPath>$HOME/PROJECTS/.pipeline/all/cioxo_houdini_openWorkspace.py</scriptPath>
       </scriptItem>

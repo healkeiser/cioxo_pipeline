@@ -1,5 +1,5 @@
 from ui_cioxo_houdini_publishWorkspace import Ui_CreateFile
-import ui_cioxoQtResources_rc
+import ui_cioxo_QtResources_rc
 
 # ------ Import necessary libraries
 from PySide2 import QtCore, QtGui, QtWidgets, QtUiTools

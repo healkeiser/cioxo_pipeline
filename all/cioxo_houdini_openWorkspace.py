@@ -1,4 +1,4 @@
-from ui_cioxo_houdini_projectManager import Ui_Houdini_projectManager
+from ui_cioxo_houdini_openWorkspace import Ui_Houdini_projectManager
 import ui_cioxo_QtResources_rc
 
 # ------ Import necessary libraries
