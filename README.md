@@ -142,6 +142,8 @@ _For more examples, please refer to the [Documentation](https://example.com) - U
 
     - [ ] Houdini
 
+        - [x] Set Job
+        - [x] Set Frame Range
         - [ ] Open Workspace
         - [x] Publish Workspace
         - [x] Help
