@@ -2,18 +2,14 @@ from ui_cioxo_houdini_openWorkspace import Ui_Houdini_projectManager
 import ui_cioxo_QtResources_rc
 
 # ------ Import necessary libraries
-from PySide2 import QtCore, QtGui, QtWidgets, QtUiTools
-from PySide2.QtCore import (QCoreApplication, QPropertyAnimation, QDate, QDateTime, QMetaObject, QObject, QPoint, QRect,
-                            QSize, QTime, QUrl, Qt, QEvent)
-from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFontDatabase, QIcon, QKeySequence,
-                           QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
 from PySide2.QtWidgets import *
-# import hou
+import hou
 import os
 import sys
 
 
 # ------ Houdini Cioxo - Open Workspace window features
+
 
 # ------ DEFINE GLOBALS
 labelInformationsGreen = ("QLabel\n"
@@ -35,14 +31,19 @@ labelInformationsRed = ("QLabel\n"
                         "    border-color: rgb(50, 50, 50);\n"
                         "}")
 
-project = hou.getenv("HIP")
-job = hou.getenv("JOB")
+# ----- Cioxo variables
+CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
+CIOXO_SEQUENCE = os.getenv("CIOXO_SEQUENCE")
+CIOXO_SHOT = os.getenv("CIOXO_SHOT")
+CIOXO_SOFTWARE = os.getenv("CIOXO_SOFTWARE")
+CIOXO_FILE = os.getenv("CIOXO_FILE")
 USERNAME = os.getenv("USERNAME")
 rootDir = os.getenv("CIOXO_ROOT")
+version = str("v0.0.1-alpha")
 
-print("project: " + project)
-print("job: " + job)
-print("rootDir: " + rootDir)
+# ------ Houdini variables
+HOU_PROJECT = hou.getenv("HIP")
+HOU_JOB = hou.getenv("JOB")
 
 
 class Houdini_projectManager(QMainWindow):
@@ -52,15 +53,11 @@ class Houdini_projectManager(QMainWindow):
         self.ui.setupUi(self)
 
         def openDirectories_files():
-            CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
-            CIOXO_SEQUENCE = os.getenv("CIOXO_SEQUENCE")
-            CIOXO_SHOT = os.getenv("CIOXO_SHOT")
-            CIOXO_SOFTWARE = os.getenv("CIOXO_SOFTWARE")
-            CIOXO_FILE = os.getenv("CIOXO_FILE")
-            pathFile = os.path.join(rootDir, CIOXO_PROJECT, CIOXO_SEQUENCE, CIOXO_SHOT, CIOXO_SOFTWARE)
-            os.startfile(pathFile)
-            print(">>> Opening Directory")
+            os.startfile(HOU_PROJECT)
         self.ui.buttonDirectoryFiles.clicked.connect(openDirectories_files)
+
+        # ------ Set version
+        self.ui.labelVersion.setText(version)
 
         # ------ Define window title
         self.setWindowTitle("Cioxo - Houdini Files Manager")
