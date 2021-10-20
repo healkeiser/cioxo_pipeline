@@ -19,7 +19,7 @@ from PySide2.QtWidgets import *
 
 # ------ DEFINE GLOBALS
 counter = 0
-version = str("v1.0.0")
+version = str("v0.0.1-alpha")
 labelInformationsRed = ("QLabel\n"
                         "{\n"
                         "    color: rgb(255, 0, 0);\n"
