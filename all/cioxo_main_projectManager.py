@@ -17,6 +17,10 @@ from distutils.dir_util import copy_tree
 from PySide2 import QtCore, QtGui
 from PySide2.QtWidgets import *
 
+
+# ------ Cioxo - Project Manager window features
+
+
 # ------ DEFINE GLOBALS
 counter = 0
 version = str("v0.0.1-alpha")

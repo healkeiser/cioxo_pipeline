@@ -12,6 +12,10 @@ import hou
 import os
 import sys
 
+
+# ------ Houdini Cioxo - Publish Workspace window features
+
+
 # ------ DEFINE GLOBALS
 labelInformationsGreen = ("QLabel\n"
                           "{\n"

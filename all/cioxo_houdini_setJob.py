@@ -1,4 +1,5 @@
 import os
+import hou
 
-helpPath = "http://www.google.fr"
-os.startfile(helpPath)
+
+# Define JOB variable using HIP

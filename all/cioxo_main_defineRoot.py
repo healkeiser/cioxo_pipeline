@@ -11,6 +11,10 @@ from PySide2.QtWidgets import *
 import os
 import sys
 
+
+# ------ Cioxo - Define Root window features
+
+
 # ------ DEFINE GLOBALS
 labelInformationsGreen = ("QLabel\n"
                           "{\n"
