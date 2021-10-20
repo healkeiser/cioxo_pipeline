@@ -34,6 +34,15 @@ labelInformationsRed = ("QLabel\n"
                         "    border-radius: 5px;\n"
                         "    border-color: rgb(50, 50, 50);\n"
                         "}")
+labelInformationsWhite = ("QLabel\n"
+                        "{\n"
+                        "    color: rgb(255, 255, 255);\n"
+                        "    background-color: rgb(0, 0, 0);\n"
+                        "    border-style: solid;\n"
+                        "    border-width: 1px;\n"
+                        "    border-radius: 5px;\n"
+                        "    border-color: rgb(50, 50, 50);\n"
+                        "}")
 
 # ----- Cioxo variables
 CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
@@ -86,6 +95,26 @@ class Houdini_projectManager(QMainWindow):
                     self.ui.listFiles.addItem(files)
                 else:
                     pass
+
+        def openFile_files():
+            CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
+            CIOXO_SEQUENCE = os.getenv("CIOXO_SEQUENCE")
+            CIOXO_SHOT = os.getenv("CIOXO_SHOT")
+            CIOXO_SOFTWARE = os.getenv("CIOXO_SOFTWARE")
+            CIOXO_FILE = os.getenv("CIOXO_FILE")
+            CIOXO_DISCIPLINE = CIOXO_FILE.split(".")[0].split("_")[3]
+
+            filesPath = os.path.join(rootDir, CIOXO_PROJECT, CIOXO_SEQUENCE, CIOXO_SHOT, CIOXO_SOFTWARE, "workspaces", CIOXO_DISCIPLINE, CIOXO_FILE)
+
+            if CIOXO_FILE == "file" or os.path.isfile(filesPath) is False:
+                self.ui.labelInformations.setStyleSheet(labelInformationsRed)
+                self.ui.labelInformations.setText(">>> No file selected!")
+            else:
+                self.ui.labelInformations.setStyleSheet(labelInformationsWhite)
+                hou.hipFile.load(filesPath)
+                self.ui.labelInformations.setText(">>> Opening " + filesPath)
+        self.ui.buttonOpenFiles.clicked.connect(openFile_files)
+        self.ui.listFiles.doubleClicked.connect(openFile_files)
 
         def showComment_files():
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")

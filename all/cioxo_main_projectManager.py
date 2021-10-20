@@ -879,6 +879,7 @@ class ProjectManager(QMainWindow):
                 os.startfile(filesPath)
                 self.ui.labelInformations.setText(">>> Opening " + filesPath)
         self.ui.buttonOpenFilesAssets.clicked.connect(openFile_fileAssets)
+        self.ui.listFilesAssets.doubleClicked.connect(openFile_fileAssets)
 
         def clearList_filesAssets():
             # ------ Reset button colors
@@ -1621,6 +1622,7 @@ class ProjectManager(QMainWindow):
                 os.startfile(filesPath)
                 self.ui.labelInformations.setText(">>> Opening " + filesPath)
         self.ui.buttonOpenFilesSequences.clicked.connect(openFile_filesSequences)
+        self.ui.listFilesSequences.doubleClicked.connect(openFile_filesSequences)
 
         def clearList_filesSequences():
 

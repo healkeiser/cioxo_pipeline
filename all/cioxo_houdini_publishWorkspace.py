@@ -198,6 +198,51 @@ class Houdini_publishWorkspace(QDialog):
             os.environ["CIOXO_DISCIPLINE"] = self.ui.comboBoxDiscipline.currentText()
         self.ui.comboBoxDiscipline.currentIndexChanged.connect(refresh_CIOXO_DISCIPLINE)
 
+        def refresh_versions():
+            # ------ Cioxo variables
+            CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
+            CIOXO_SEQUENCE = os.getenv("CIOXO_SEQUENCE")
+            CIOXO_SHOT = os.getenv("CIOXO_SHOT")
+            CIOXO_DISCIPLINE = os.getenv("CIOXO_DISCIPLINE")
+            # ------ Paths
+            filesPath = os.path.join(rootDir, CIOXO_PROJECT, CIOXO_SEQUENCE, CIOXO_SHOT, "houdini", "workspaces", CIOXO_DISCIPLINE)
+            # ------ Clear list on refresh
+            self.ui.comboBoxVersion.clear()
+            # ------ Find versions
+            versionsList = []
+            if os.path.isdir(filesPath):
+                for files in os.listdir(filesPath):
+                    extension = os.path.splitext(files)[-1]
+                    if extension == ".hip" or extension == ".hiplc":
+                        versions = files.split(".")[0].split("_")[-1]
+                        versionsList.append(versions)
+                        self.ui.comboBoxVersion.addItem(versions)
+                    else:
+                        pass
+                if versionsList is not []:
+                    # ------ Create last version
+                    maxVersion = max(versionsList)
+                    maxVersion = ''.join(char for char in maxVersion if char.isdigit())
+                    maxVersion = int(maxVersion)
+                    if len(str(maxVersion)) == 1:
+                        newVersion = "v00" + str(maxVersion + 1)
+                    elif len(str(maxVersion)) == 2:
+                        newVersion = "v0" + str(maxVersion + 1)
+                    elif len(str(maxVersion)) == 3:
+                        newVersion = "v" + str(maxVersion + 1)
+                    # ------ Add new version to list of choices and select it automatically
+                    self.ui.comboBoxVersion.addItem(newVersion)
+                    versionList = [self.ui.comboBoxVersion.itemText(i) for i in range(self.ui.comboBoxVersion.count())]
+                    versionUp = versionList.index(newVersion)
+                    self.ui.comboBoxVersion.setCurrentIndex(versionUp)
+                else:
+                    pass
+            else:
+                self.ui.comboBoxVersion.addItem("v001")
+        self.ui.comboBoxSequence.currentIndexChanged.connect(refresh_versions)
+        self.ui.comboBoxShot.currentIndexChanged.connect(refresh_versions)
+        self.ui.comboBoxDiscipline.currentIndexChanged.connect(refresh_versions)
+
         def publishWorkspace_houdini():
             # ------ Cioxo variables
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
