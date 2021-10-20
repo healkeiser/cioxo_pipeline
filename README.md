@@ -82,8 +82,24 @@ Here are all the Python libraries you'll need:
 
 ### Installation
 
-Under construction
+A compiled version of Cioxo will be released at some point, but if you want to use it right now you'll need to move around a few files.
 
+* Main
+
+  - Extract all the files in a new folder 
+
+> I called mine **.pipeline** and put it at the root of a **PROJECTS** folder
+
+* Houdini
+
+  - Copy the content of the **otls** folder to your _C:\Users\$USERNAME\Documents\houdini{$HOUDINI_VERSION}\otls_ folder
+  - Copy **MainMenuCommon.xml** to your _C:\Users\$USERNAME\Documents\houdini{$HOUDINI_VERSION}_ folder
+
+> You can also leave them in your .pipeline folder and create a **SymbolicLink** of the files in your _C:\Users\$USERNAME\Documents\houdini{$HOUDINI_VERSION}_ folder (See [Link  Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact) in Acknowledgments)
+
+* Nuke
+
+  - The Nuke integration is still under active development but should be released soon
 
 
 <!-- USAGE EXAMPLES -->
@@ -93,9 +109,9 @@ The two main programs are:
 
 * [Define Root](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_defineRoot.py)
 
-**Cioxo - Define Root** needs to run first, it will define the rootDirectory of all your projects. 
+**Cioxo - Define Root** needs to run first, it will define the **rootDirectory** of all your projects. 
 
-> Note that the **rootDirectory** can be changed at any time by simply running Cioxo - Define Root again
+> Note that the **rootDirectory** can be changed at any time by simply running **Cioxo - Define Root** again
 
 * [Project Manager](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_projectManager.py)
 
@@ -110,7 +126,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Project Manager
+- [x] **Project Manager**
     - [x] Projects
     - [x] Assets
     - [x] Sequences
@@ -120,7 +136,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [x] Thumbnail
     - [x] Comment
 
-- [ ] DCCs integrations
+- [ ] **DCCs integrations**
 
     - [ ] Houdini
 
@@ -140,7 +156,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     
     - [ ] Photoshop
 
-- [ ] Renderers integrations
+- [ ] **Renderers integrations**
   
     - [ ] V-Ray
     - [ ] Redshift
