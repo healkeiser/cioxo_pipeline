@@ -84,7 +84,7 @@ Here are all the Python libraries you'll need:
 
 ### Installation
 
-A compiled version of Cioxo has been released but it is incomplete and has not been tested yet: [Cioxo 0.0.1-alpha release](https://github.com/healkeiser/Cioxo/releases). If you want to use it without the compiled version you'll need to move a few files around.
+A compiled version of Cioxo has been released but it is incomplete (It onlt contains the **Define Root** and **Project Manager**) and has not been fully tested yet: [Cioxo 0.0.1-alpha release](https://github.com/healkeiser/Cioxo/releases). If you want to use it without the compiled version you'll need to move a few files around.
 
 * Main
 
@@ -117,7 +117,7 @@ The two main programs are:
 
 * [Project Manager](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_projectManager.py)
 
-Once **Cioxo - Define Root** has created the needed directories and files, you can run **Cioxo - Project Manager**. This program is the heart of the pipeline, centralizing all the projects, sequences, shots, assets, and other useful informtations such as the Frame Range, or the Project Resolution. It can also create the files for the included DDCs while the integrations are under development.
+Once **Cioxo - Define Root** has created the needed directories and files, you can run **Cioxo - Project Manager**. This program is the heart of the pipeline, centralizing all the projects, sequences, shots, assets, and other useful informations such as the Frame Range, or the Project Resolution. It can also create the files for the included DDCs while the integrations are under development.
 
 Under construction
 
