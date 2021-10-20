@@ -53,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Cioxo Pipeline is an under development VFX pipeline for freelancers/small scaled productions. 
+Cioxo Pipeline is an under development VFX pipeline for freelancers/small scaled productions. It is only available on Windows at the moment.
 
 <a href="https://github.com/healkeiser/Cioxo">
     <img src="all/ui/graphics/screenshots/cioxo_splashScreen_screenshot_02.png" height="300">
@@ -86,9 +86,7 @@ A compiled version of Cioxo will be released at some point, but if you want to u
 
 * Main
 
-  - Extract all the files in a new folder 
-
-> I called mine **.pipeline** and put it at the root of a **PROJECTS** folder
+  - Extract all the files in a new folder called _PROJECTS\.pipeline_ located in your _C:\Users\$USERNAME\Documents_ folder
 
 * Houdini
 
