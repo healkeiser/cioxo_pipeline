@@ -86,14 +86,14 @@ A compiled version of Cioxo will be released at some point, but if you want to u
 
 * Main
 
-  - Extract all the files in a new folder called _PROJECTS\.pipeline_ located in your _C:\Users\$USERNAME\Documents_ folder
+  - Extract all the files in a new folder called **_PROJECTS/.pipeline_** located in your **_C:/Users/$USERNAME/Documents_** folder
 
 * Houdini
 
-  - Copy the content of the **otls** folder to your _C:\Users\$USERNAME\Documents\houdini{$HOUDINI_VERSION}\otls_ folder
-  - Copy **MainMenuCommon.xml** to your _C:\Users\$USERNAME\Documents\houdini{$HOUDINI_VERSION}_ folder
+  - Copy the content of the **otls** folder to your **_C:/Users/$USERNAME/Documents/houdini{$HOUDINI_VERSION}/otls_** folder
+  - Copy **MainMenuCommon.xml** to your **_C:/Users/$USERNAME/Documents/houdini{$HOUDINI_VERSION}_** folder
 
-> You can also leave them in your .pipeline folder and create a **SymbolicLink** of the files in your _C:\Users\$USERNAME\Documents\houdini{$HOUDINI_VERSION}_ folder (See [Link  Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact) in Acknowledgments)
+> You can also leave them in your .pipeline folder and create a **SymbolicLink** of the files in your **_C:/Users/$USERNAME/Documents/houdini{$HOUDINI_VERSION}_** folder (See [Link  Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact) in Acknowledgments)
 
 * Nuke
 
@@ -117,7 +117,7 @@ Once **Cioxo - Define Root** has created the needed directories and files, you c
 
 Under construction
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://example.com) - Under Construction_
 
 
 
