@@ -129,35 +129,13 @@ _For more examples, please refer to the [Documentation](https://example.com) - U
 ## Roadmap
 
 - [x] **Project Manager**
-    - [x] Projects
-    - [x] Assets
-    - [x] Sequences
-    - [x] Shots
-    - [x] Frame Range
-    - [x] Resolution
-    - [x] Thumbnail
-    - [x] Comment
 
 - [ ] **DCCs integrations**
 
     - [ ] Houdini
-
-        - [x] Set Job
-        - [x] Set Frame Range
-        - [ ] Open Workspace
-        - [x] Publish Workspace
-        - [x] Help
-        - [x] About
-
     - [ ] Nuke
-
-        - [ ] Cioxo Gather
-        - [ ] Cioxo Write
-    
     - [ ] Substance Painter
-    
     - [ ] After Effects
-    
     - [ ] Photoshop
 
 - [ ] **Renderers integrations**
@@ -165,7 +143,7 @@ _For more examples, please refer to the [Documentation](https://example.com) - U
     - [ ] V-Ray
     - [ ] Redshift
 
-
+_To see the full roadmap, please visit [Trello](https://trello.com/b/ljWoCtfM/cioxo)_
 
 <!-- CONTACT -->
 ## Contact
