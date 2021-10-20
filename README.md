@@ -88,6 +88,8 @@ A compiled version of Cioxo will be released at some point, but if you want to u
 
   - Extract all the files in a new folder called **_PROJECTS/.pipeline_** located in your **_C:/Users/$USERNAME/Documents_** folder
 
+> I use this **_PROJECTS_** folder as my **rootDirectory** (See Usage section)
+
 * Houdini
 
   - Copy the content of the **otls** folder to your **_C:/Users/$USERNAME/Documents/houdini{$HOUDINI_VERSION}/otls_** folder
