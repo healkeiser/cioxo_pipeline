@@ -3,7 +3,6 @@ menu = nuke.menu('Nuke')
 gizmoVersion = 'v1'
 
 # Align script
-import align
 menu.addCommand('Scripts/align', 'align.aligner()')
 
 # Cioxo save
