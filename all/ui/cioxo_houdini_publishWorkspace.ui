@@ -924,7 +924,7 @@ QPushButton:hover:!pressed
   </layout>
  </widget>
  <resources>
-  <include location="cioxoQtResources.qrc"/>
+  <include location="cioxo_QtResources.qrc"/>
  </resources>
  <connections/>
 </ui>
