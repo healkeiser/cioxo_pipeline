@@ -143,7 +143,7 @@ _For more examples, please refer to the [Documentation](https://example.com) - U
     - [ ] V-Ray
     - [ ] Redshift
 
-_To see the full roadmap, please visit [Trello](https://trello.com/b/ljWoCtfM/cioxo)_
+_To see the full roadmap, please visit [Trello](https://trello.com/b/ljWoCtfM)_
 
 <!-- CONTACT -->
 ## Contact
