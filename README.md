@@ -84,21 +84,22 @@ Here are all the Python libraries you'll need:
 
 ### Installation
 
-A compiled version of Cioxo has been released but it is incomplete (It onlt contains the **Define Root** and **Project Manager**) and has not been fully tested yet: [Cioxo 0.0.1-alpha release](https://github.com/healkeiser/Cioxo/releases). If you want to use it without the compiled version you'll need to move a few files around.
+A compiled version of Cioxo has been released but it is incomplete (It only contains the **Define Root** and **Project Manager**) and has not been fully tested yet: [Cioxo 0.0.1-alpha release](https://github.com/healkeiser/Cioxo/releases). If you want to use it without the compiled version you'll need to move a few files around.
 
 * Main
 
   - Extract all the files in a new folder called **_PROJECTS/.pipeline_** located in your **_C:/Users/$USERNAME/Documents_** folder
 
-> I use this **_PROJECTS_** folder as my **rootDirectory** (See Usage section)
+> :information_source: I use this **_PROJECTS_** folder as my **rootDirectory** (See Usage section)
 
 * Houdini
 
   - Copy the content of the **otls** folder to your **_C:/Users/$USERNAME/Documents/houdini{$HOUDINI_VERSION}/otls_** folder
   - Copy **MainMenuCommon.xml** to your **_C:/Users/$USERNAME/Documents/houdini{$HOUDINI_VERSION}_** folder
 
-> You can also leave them in your .pipeline folder and create a **SymbolicLink** of the files in your **_C:/Users/$USERNAME/Documents/houdini{$HOUDINI_VERSION}_** folder (See [Link  Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact) in Acknowledgments)
+> :information_source: You can also leave them in your .pipeline folder and create a **SymbolicLink** of the files in your **_C:/Users/$USERNAME/Documents/houdini{$HOUDINI_VERSION}_** folder (See [Link  Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact) in Acknowledgments)
 
+> :warning: Cioxo is currently incompatible with **Houdini - Python 3** versions
 * Nuke
 
   - The Nuke integration is still under active development but should be released soon
@@ -113,7 +114,7 @@ The two main programs are:
 
 **Cioxo - Define Root** needs to run first, it will define the **rootDirectory** of all your projects. 
 
-> Note that the **rootDirectory** can be changed at any time by simply running **Cioxo - Define Root** again
+> :information_source: Note that the **rootDirectory** can be changed at any time by simply running **Cioxo - Define Root** again
 
 * [Project Manager](https://github.com/healkeiser/Cioxo/blob/main/all/cioxo_main_projectManager.py)
 
@@ -143,7 +144,7 @@ _For more examples, please refer to the [Documentation](https://example.com) - U
     - [ ] V-Ray
     - [ ] Redshift
 
-_To see the full roadmap, please visit [Trello](https://trello.com/b/ljWoCtfM/cioxo)_
+_To see the full roadmap, please visit [Trello](https://trello.com/b/ljWoCtfM)_
 
 <!-- CONTACT -->
 ## Contact
