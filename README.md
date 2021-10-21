@@ -99,7 +99,7 @@ A compiled version of Cioxo has been released but it is incomplete (It only cont
 
 > :information_source: You can also leave them in your .pipeline folder and create a **SymbolicLink** of the files in your **_C:/Users/$USERNAME/Documents/houdini{$HOUDINI_VERSION}_** folder (See [Link  Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact) in Acknowledgments)
 
-> :warning: Cioxo is currently incompatible with **Houdini Python 3** versions
+> :warning: Cioxo is currently incompatible with **Houdini - Python 3** versions
 * Nuke
 
   - The Nuke integration is still under active development but should be released soon
