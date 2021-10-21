@@ -1,4 +1,4 @@
-from ui_cioxo_defineRoot import Ui_DefineRoot
+from ui_cioxo_defineRoot import Ui_cioxo_defineRoot
 import ui_cioxo_QtResources_rc
 
 # ------ Import necessary libraries
@@ -40,7 +40,7 @@ labelInformationsRed = ("QLabel\n"
 class DefineRoot(QDialog):
     def __init__(self):
         QDialog.__init__(self)
-        self.ui = Ui_DefineRoot()
+        self.ui = Ui_cioxo_defineRoot()
         self.ui.setupUi(self)
         self.show()
 
@@ -49,11 +49,11 @@ class DefineRoot(QDialog):
             rootDir = QFileDialog.getExistingDirectory(self, "Open directory", "C:/Users/" + USERNAME + "/Documents/")
             # rootDir = rootDir[0]
             rootDir = "".join(rootDir)
-            self.ui.labelFile.setText(rootDir)
-        self.ui.buttonBrowse.clicked.connect(browseRoot)
+            self.ui.label_file.setText(rootDir)
+        self.ui.button_browse.clicked.connect(browseRoot)
 
         def defineRoot():
-            root = self.ui.labelFile.text()
+            root = self.ui.label_file.text()
 
             # ------ Create base .cioxo folder
             USERNAME = os.getenv("USERNAME")
@@ -131,14 +131,14 @@ class DefineRoot(QDialog):
                     os.makedirs(os.path.join(templateBase, shotFolder, "photoshop", photoshopFolders), exist_ok=True)
 
             # ------ GUI feedback
-            self.ui.buttonCancel.setText("Close")
-            self.ui.labelInformations.setStyleSheet(labelInformationsGreen)
-            self.ui.labelInformations.setText(">>> Root defined - You can now close the window")
-        self.ui.buttonOk.clicked.connect(defineRoot)
+            self.ui.button_cancel.setText("Close")
+            self.ui.label_informations.setStyleSheet(labelInformationsGreen)
+            self.ui.label_informations.setText(">>> Root defined - You can now close the window")
+        self.ui.button_ok.clicked.connect(defineRoot)
 
         def closeWindow_defineRoot():
             self.close()
-        self.ui.buttonCancel.clicked.connect(closeWindow_defineRoot)
+        self.ui.button_cancel.clicked.connect(closeWindow_defineRoot)
 
         # ------ Define window title
         self.setWindowTitle("Cioxo - Define Root")

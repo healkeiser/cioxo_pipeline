@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CreateFile</class>
- <widget class="QDialog" name="CreateFile">
+ <class>cioxo_houdini_publishWorkspace</class>
+ <widget class="QDialog" name="cioxo_houdini_publishWorkspace">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -33,7 +33,7 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="QFrame" name="frameAll">
+    <widget class="QFrame" name="frame_all">
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
      </property>
@@ -60,7 +60,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QFrame" name="frameTitle">
+       <widget class="QFrame" name="frame_title">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -102,7 +102,7 @@
           <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="labelCreateFile">
+          <widget class="QLabel" name="label_publishWorkspace">
            <property name="font">
             <font>
              <family>Source Sans Pro</family>
@@ -123,7 +123,7 @@
           </widget>
          </item>
          <item>
-          <spacer name="horizontalSpacer">
+          <spacer name="spacer">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -139,7 +139,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frameInput">
+       <widget class="QFrame" name="frame_input">
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
         </property>
@@ -163,7 +163,7 @@
           <number>6</number>
          </property>
          <item>
-          <widget class="QFrame" name="frameActualFile">
+          <widget class="QFrame" name="frame_actualFile">
            <property name="styleSheet">
             <string notr="true"/>
            </property>
@@ -190,7 +190,7 @@
              <number>0</number>
             </property>
             <item>
-             <widget class="QLabel" name="labelActualProject">
+             <widget class="QLabel" name="label_actualProject">
               <property name="minimumSize">
                <size>
                 <width>30</width>
@@ -223,7 +223,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="labelActualSequence">
+             <widget class="QLabel" name="label_actualSequence">
               <property name="minimumSize">
                <size>
                 <width>65</width>
@@ -248,7 +248,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="labelActualShot">
+             <widget class="QLabel" name="label_actualShot">
               <property name="minimumSize">
                <size>
                 <width>173</width>
@@ -273,7 +273,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="labelActualDiscipline">
+             <widget class="QLabel" name="label_actualDiscipline">
               <property name="minimumSize">
                <size>
                 <width>100</width>
@@ -304,7 +304,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="labelActualVersion">
+             <widget class="QLabel" name="label_actualVersion">
               <property name="minimumSize">
                <size>
                 <width>63</width>
@@ -338,7 +338,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="labelLine">
+          <widget class="QLabel" name="label_line">
            <property name="maximumSize">
             <size>
              <width>16777215</width>
@@ -358,7 +358,7 @@ border-width: 1px;</string>
           </widget>
          </item>
          <item>
-          <widget class="QFrame" name="frameFileInput">
+          <widget class="QFrame" name="frame_fileInput">
            <property name="maximumSize">
             <size>
              <width>16777215</width>
@@ -391,7 +391,7 @@ border-width: 1px;</string>
              <number>0</number>
             </property>
             <item>
-             <widget class="QLabel" name="labelActualProject_2">
+             <widget class="QLabel" name="label_actualProjectBottom">
               <property name="minimumSize">
                <size>
                 <width>30</width>
@@ -422,7 +422,7 @@ border-width: 1px;</string>
              </widget>
             </item>
             <item>
-             <widget class="QComboBox" name="comboBoxSequence">
+             <widget class="QComboBox" name="comboBox_sequence">
               <property name="minimumSize">
                <size>
                 <width>65</width>
@@ -488,7 +488,7 @@ QComboBox:item {
              </widget>
             </item>
             <item>
-             <widget class="QComboBox" name="comboBoxDiscipline">
+             <widget class="QComboBox" name="comboBox_discipline">
               <property name="minimumSize">
                <size>
                 <width>100</width>
@@ -604,7 +604,7 @@ QComboBox:item {
           </widget>
          </item>
          <item>
-          <widget class="QFrame" name="frameComment">
+          <widget class="QFrame" name="frame_comment">
            <property name="frameShape">
             <enum>QFrame::NoFrame</enum>
            </property>
@@ -631,7 +631,7 @@ QComboBox:item {
              <number>0</number>
             </property>
             <item>
-             <widget class="QPlainTextEdit" name="plainTextEditComment">
+             <widget class="QPlainTextEdit" name="plainTextEdit_comment">
               <property name="font">
                <font>
                 <family>Segoe UI</family>
@@ -659,7 +659,7 @@ QComboBox:item {
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frameInformations">
+       <widget class="QFrame" name="frame_informations">
         <property name="styleSheet">
          <string notr="true"/>
         </property>
@@ -689,7 +689,7 @@ QComboBox:item {
           <number>18</number>
          </property>
          <item>
-          <widget class="QLabel" name="labelInformations">
+          <widget class="QLabel" name="label_informations">
            <property name="minimumSize">
             <size>
              <width>0</width>
@@ -749,7 +749,7 @@ QComboBox QAbstractItemView {
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frameChoice">
+       <widget class="QFrame" name="frame_choice">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -791,7 +791,7 @@ QComboBox QAbstractItemView {
           <number>0</number>
          </property>
          <item>
-          <spacer name="spacerProject">
+          <spacer name="spacer_project">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -807,7 +807,7 @@ QComboBox QAbstractItemView {
           </spacer>
          </item>
          <item>
-          <widget class="QLabel" name="labelSeparator">
+          <widget class="QLabel" name="label_separator">
            <property name="font">
             <font>
              <family>Source Sans Pro</family>
@@ -828,7 +828,7 @@ QComboBox QAbstractItemView {
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="buttonOk">
+          <widget class="QPushButton" name="button_ok">
            <property name="maximumSize">
             <size>
              <width>70</width>
@@ -861,7 +861,7 @@ QPushButton:hover:!pressed
           </widget>
          </item>
          <item>
-          <spacer name="spacerButtons">
+          <spacer name="spacer_buttons">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -877,7 +877,7 @@ QPushButton:hover:!pressed
           </spacer>
          </item>
          <item>
-          <widget class="QPushButton" name="buttonCancel">
+          <widget class="QPushButton" name="button_cancel">
            <property name="minimumSize">
             <size>
              <width>0</width>

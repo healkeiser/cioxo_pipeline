@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>SplashScreen</class>
- <widget class="QMainWindow" name="SplashScreen">
+ <class>cioxo_splashScreen</class>
+ <widget class="QMainWindow" name="cioxo_splashScreen">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -25,7 +25,7 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
+  <widget class="QWidget" name="central_widget">
    <layout class="QHBoxLayout" name="horizontalLayout_2">
     <property name="spacing">
      <number>0</number>
@@ -43,7 +43,7 @@
      <number>10</number>
     </property>
     <item>
-     <widget class="QFrame" name="frameDropShadow">
+     <widget class="QFrame" name="frame_dropShadow">
       <property name="styleSheet">
        <string notr="true">QFrame{
 	color: rgb(180, 180, 180);
@@ -74,7 +74,7 @@
         <number>0</number>
        </property>
        <item>
-        <widget class="QFrame" name="frameLeft">
+        <widget class="QFrame" name="frame_left">
          <property name="maximumSize">
           <size>
            <width>300</width>
@@ -104,7 +104,7 @@
            <number>18</number>
           </property>
           <item>
-           <widget class="QLabel" name="labelLogo">
+           <widget class="QLabel" name="label_logo">
             <property name="minimumSize">
              <size>
               <width>33</width>
@@ -121,12 +121,12 @@
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap resource="cioxoQtResources.qrc">:/logos/graphics/logos/cioxoLogo_32.png</pixmap>
+             <pixmap resource="cioxo_QtResources.qrc">:/logos/graphics/logos/cioxoLogo_32.png</pixmap>
             </property>
            </widget>
           </item>
           <item>
-           <spacer name="verticalSpacer_3">
+           <spacer name="spacer_4">
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
@@ -142,7 +142,7 @@
            </spacer>
           </item>
           <item>
-           <widget class="QLabel" name="labelPipeline">
+           <widget class="QLabel" name="label_pipeline">
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -161,7 +161,7 @@
            </widget>
           </item>
           <item>
-           <spacer name="verticalSpacer">
+           <spacer name="spacer">
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
@@ -177,7 +177,7 @@
            </spacer>
           </item>
           <item>
-           <widget class="QLabel" name="labelCioxo">
+           <widget class="QLabel" name="label_cioxo">
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -199,7 +199,7 @@
            </widget>
           </item>
           <item>
-           <spacer name="verticalSpacer_1">
+           <spacer name="spacer_2">
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
@@ -215,7 +215,7 @@
            </spacer>
           </item>
           <item>
-           <widget class="QLabel" name="labelCopyright">
+           <widget class="QLabel" name="label_copyright">
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -233,7 +233,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="labelAllRights">
+           <widget class="QLabel" name="label_allRights">
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -251,7 +251,7 @@
            </widget>
           </item>
           <item>
-           <spacer name="verticalSpacer_2">
+           <spacer name="spacer_3">
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
@@ -267,7 +267,7 @@
            </spacer>
           </item>
           <item>
-           <widget class="QLabel" name="labelLoading">
+           <widget class="QLabel" name="label_loading">
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -285,7 +285,7 @@
            </widget>
           </item>
           <item>
-           <spacer name="verticalSpacer_4">
+           <spacer name="spacer_5">
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
@@ -301,7 +301,7 @@
            </spacer>
           </item>
           <item>
-           <widget class="QProgressBar" name="progressBarLoading">
+           <widget class="QProgressBar" name="progressBar_loading">
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -333,7 +333,7 @@ QProgressBar:chunk{
            </widget>
           </item>
           <item>
-           <spacer name="verticalSpacer_5">
+           <spacer name="spacer_6">
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
@@ -349,7 +349,7 @@ QProgressBar:chunk{
            </spacer>
           </item>
           <item>
-           <widget class="QLabel" name="labelText">
+           <widget class="QLabel" name="label_text">
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -370,7 +370,7 @@ QProgressBar:chunk{
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="labelVersion">
+           <widget class="QLabel" name="label_version">
             <property name="font">
              <font>
               <family>Source Sans Pro</family>
@@ -388,7 +388,7 @@ QProgressBar:chunk{
         </widget>
        </item>
        <item>
-        <widget class="QFrame" name="frameRight">
+        <widget class="QFrame" name="frame_right">
          <property name="maximumSize">
           <size>
            <width>470</width>
@@ -418,7 +418,7 @@ QProgressBar:chunk{
            <number>0</number>
           </property>
           <item>
-           <widget class="QLabel" name="labelArtwork">
+           <widget class="QLabel" name="label_artwork">
             <property name="font">
              <font>
               <family>Roboto</family>
@@ -428,7 +428,7 @@ QProgressBar:chunk{
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap resource="cioxoQtResources.qrc">:/images/graphics/images/splashScreen01_v005.png</pixmap>
+             <pixmap resource="cioxo_QtResources.qrc">:/images/graphics/images/splashScreen01_v005.png</pixmap>
             </property>
             <property name="alignment">
              <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
@@ -448,7 +448,8 @@ QProgressBar:chunk{
   </widget>
  </widget>
  <resources>
-  <include location="cioxoQtResources.qrc"/>
+  <include location="cioxo_QtResources.qrc"/>
+  <include location="cioxo_QtResources.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ProjectManager</class>
- <widget class="QMainWindow" name="ProjectManager">
+ <class>cioxo_projectManager</class>
+ <widget class="QMainWindow" name="cioxo_projectManager">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -37,7 +37,7 @@
      <number>0</number>
     </property>
     <item>
-     <widget class="QFrame" name="frameDropShadow">
+     <widget class="QFrame" name="frame_dropShadow">
       <property name="styleSheet">
        <string notr="true">QFrame{
 	color: rgb(180, 180, 180);
@@ -68,7 +68,7 @@
         <number>0</number>
        </property>
        <item>
-        <widget class="QFrame" name="frameTitleBar">
+        <widget class="QFrame" name="frame_titleBar">
          <property name="minimumSize">
           <size>
            <width>0</width>
@@ -107,7 +107,7 @@
            <number>0</number>
           </property>
           <item>
-           <spacer name="horizontalSpacerTitleBarLeft">
+           <spacer name="spacer_titleBarLeft">
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
@@ -123,12 +123,12 @@
            </spacer>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButtonTitleBar">
+           <widget class="QPushButton" name="button_titleBar">
             <property name="text">
              <string/>
             </property>
             <property name="icon">
-             <iconset resource="cioxoQtResources.qrc">
+             <iconset resource="cioxo_QtResources.qrc">
               <normaloff>:/icons/graphics/icons/terminal.svg</normaloff>:/icons/graphics/icons/terminal.svg</iconset>
             </property>
             <property name="iconSize">
@@ -140,7 +140,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="labelTitleBar">
+           <widget class="QLabel" name="label_titleBar">
             <property name="minimumSize">
              <size>
               <width>40</width>
@@ -167,7 +167,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="labelSpacer">
+           <widget class="QLabel" name="label_spacer">
             <property name="maximumSize">
              <size>
               <width>5</width>
@@ -188,7 +188,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="labelVersionTitleBar">
+           <widget class="QLabel" name="label_versionTitleBar">
             <property name="minimumSize">
              <size>
               <width>40</width>
@@ -215,7 +215,7 @@
            </widget>
           </item>
           <item>
-           <spacer name="horizontalSpacerTitleBarRight">
+           <spacer name="spacer_titleBarRight">
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
@@ -234,7 +234,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QFrame" name="frameBanner">
+        <widget class="QFrame" name="frame_banner">
          <property name="styleSheet">
           <string notr="true"/>
          </property>
@@ -261,7 +261,7 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QFrame" name="frameTitle">
+           <widget class="QFrame" name="frame_title">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -322,7 +322,7 @@ border-bottom-left-radius: 0px;</string>
                  <number>18</number>
                 </property>
                 <item>
-                 <widget class="QLabel" name="labelTitleLogo">
+                 <widget class="QLabel" name="label_titleLogo">
                   <property name="minimumSize">
                    <size>
                     <width>32</width>
@@ -339,7 +339,7 @@ border-bottom-left-radius: 0px;</string>
                    <string/>
                   </property>
                   <property name="pixmap">
-                   <pixmap resource="cioxoQtResources.qrc">:/logos/graphics/logos/cioxoLogo_24.png</pixmap>
+                   <pixmap resource="cioxo_QtResources.qrc">:/logos/graphics/logos/cioxoLogo_24.png</pixmap>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
@@ -347,7 +347,7 @@ border-bottom-left-radius: 0px;</string>
                  </widget>
                 </item>
                 <item>
-                 <spacer name="spacerLogo">
+                 <spacer name="spacer_logo">
                   <property name="orientation">
                    <enum>Qt::Horizontal</enum>
                   </property>
@@ -363,7 +363,7 @@ border-bottom-left-radius: 0px;</string>
                  </spacer>
                 </item>
                 <item>
-                 <widget class="QLabel" name="labelTitle">
+                 <widget class="QLabel" name="label_title">
                   <property name="font">
                    <font>
                     <family>Source Sans Pro</family>
@@ -391,7 +391,7 @@ border-bottom-left-radius: 0px;</string>
            </widget>
           </item>
           <item>
-           <widget class="QFrame" name="frameLine">
+           <widget class="QFrame" name="frame_line">
             <property name="styleSheet">
              <string notr="true"/>
             </property>
@@ -409,7 +409,7 @@ border-bottom-left-radius: 0px;</string>
               <number>9</number>
              </property>
              <item>
-              <widget class="QLabel" name="labelWelcome">
+              <widget class="QLabel" name="label_welcome">
                <property name="maximumSize">
                 <size>
                  <width>105</width>
@@ -436,7 +436,7 @@ border-bottom-left-radius: 0px;</string>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="labelUsername">
+              <widget class="QLabel" name="label_username">
                <property name="maximumSize">
                 <size>
                  <width>80</width>
@@ -463,7 +463,7 @@ border-bottom-left-radius: 0px;</string>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="labelLine">
+              <widget class="QLabel" name="label_line">
                <property name="maximumSize">
                 <size>
                  <width>16777215</width>
@@ -491,7 +491,7 @@ border-width: 1px;</string>
            </widget>
           </item>
           <item>
-           <widget class="QFrame" name="frameImage">
+           <widget class="QFrame" name="frame_image">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -527,7 +527,7 @@ border-width: 1px;</string>
               <number>18</number>
              </property>
              <item>
-              <widget class="QLabel" name="labeImage">
+              <widget class="QLabel" name="label_image">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -550,12 +550,12 @@ border-width: 1px;</string>
                 <enum>Qt::AutoText</enum>
                </property>
                <property name="pixmap">
-                <pixmap resource="cioxoQtResources.qrc">:/images/graphics/images/banner02_v004.png</pixmap>
+                <pixmap resource="cioxo_QtResources.qrc">:/images/graphics/images/banner02_v004.png</pixmap>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="QFrame" name="frameImageText">
+              <widget class="QFrame" name="frame_imageText">
                <property name="maximumSize">
                 <size>
                  <width>16777215</width>
@@ -590,7 +590,7 @@ border-bottom-right-radius: 5px; </string>
                  <number>9</number>
                 </property>
                 <item>
-                 <widget class="QFrame" name="frameDescription">
+                 <widget class="QFrame" name="frame_description">
                   <property name="maximumSize">
                    <size>
                     <width>16777215</width>
@@ -605,7 +605,7 @@ border-bottom-right-radius: 5px; </string>
                   </property>
                   <layout class="QVBoxLayout" name="verticalLayout_10">
                    <item>
-                    <widget class="QLabel" name="labelDescriptionTitle">
+                    <widget class="QLabel" name="label_descriptionTitle">
                      <property name="font">
                       <font>
                        <family>Source Sans Pro</family>
@@ -623,7 +623,7 @@ border-bottom-right-radius: 5px; </string>
                     </widget>
                    </item>
                    <item>
-                    <widget class="QLabel" name="labelDescription">
+                    <widget class="QLabel" name="label_description">
                      <property name="font">
                       <font>
                        <family>Segoe UI</family>
@@ -651,7 +651,7 @@ border-bottom-right-radius: 5px; </string>
                  </widget>
                 </item>
                 <item>
-                 <widget class="QFrame" name="frameHelp">
+                 <widget class="QFrame" name="frame_help">
                   <property name="maximumSize">
                    <size>
                     <width>80</width>
@@ -681,7 +681,7 @@ border-bottom-right-radius: 5px; </string>
                     <number>0</number>
                    </property>
                    <item>
-                    <spacer name="spacerHelp">
+                    <spacer name="spacer_help">
                      <property name="orientation">
                       <enum>Qt::Vertical</enum>
                      </property>
@@ -697,7 +697,7 @@ border-bottom-right-radius: 5px; </string>
                     </spacer>
                    </item>
                    <item>
-                    <widget class="QPushButton" name="buttonHelp">
+                    <widget class="QPushButton" name="button_help">
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -737,7 +737,7 @@ QPushButton:hover:!pressed
                       <string>Help</string>
                      </property>
                      <property name="icon">
-                      <iconset resource="cioxoQtResources.qrc">
+                      <iconset resource="cioxo_QtResources.qrc">
                        <normaloff>:/icons/graphics/icons/helpCircle.svg</normaloff>:/icons/graphics/icons/helpCircle.svg</iconset>
                      </property>
                     </widget>
@@ -746,7 +746,7 @@ QPushButton:hover:!pressed
                  </widget>
                 </item>
                 <item>
-                 <spacer name="horizontalSpacerHelp">
+                 <spacer name="spacer_help_2">
                   <property name="orientation">
                    <enum>Qt::Horizontal</enum>
                   </property>
@@ -771,7 +771,7 @@ QPushButton:hover:!pressed
         </widget>
        </item>
        <item>
-        <widget class="QFrame" name="frameContent">
+        <widget class="QFrame" name="frame_content">
          <property name="styleSheet">
           <string notr="true">background-color:rgb(27, 27, 27);</string>
          </property>
@@ -798,7 +798,7 @@ QPushButton:hover:!pressed
            <number>0</number>
           </property>
           <item>
-           <widget class="QFrame" name="frameContentSub">
+           <widget class="QFrame" name="frame_contentSub">
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
@@ -822,7 +822,7 @@ QPushButton:hover:!pressed
               <number>0</number>
              </property>
              <item>
-              <widget class="QFrame" name="frameTabs">
+              <widget class="QFrame" name="frame_tabs">
                <property name="maximumSize">
                 <size>
                  <width>16777215</width>
@@ -852,7 +852,7 @@ QPushButton:hover:!pressed
                  <number>9</number>
                 </property>
                 <item>
-                 <widget class="QFrame" name="frameTabsSub">
+                 <widget class="QFrame" name="frame_tabsSub">
                   <property name="maximumSize">
                    <size>
                     <width>16777215</width>
@@ -882,7 +882,7 @@ QPushButton:hover:!pressed
                     <number>0</number>
                    </property>
                    <item>
-                    <widget class="QTabWidget" name="tabWidget">
+                    <widget class="QTabWidget" name="tab_widget">
                      <property name="font">
                       <font>
                        <family>Segoe UI</family>
@@ -919,7 +919,7 @@ QTabBar::tab::disabled {
                       <enum>QTabWidget::Rounded</enum>
                      </property>
                      <property name="currentIndex">
-                      <number>0</number>
+                      <number>4</number>
                      </property>
                      <property name="elideMode">
                       <enum>Qt::ElideLeft</enum>
@@ -936,9 +936,9 @@ QTabBar::tab::disabled {
                      <property name="tabBarAutoHide">
                       <bool>true</bool>
                      </property>
-                     <widget class="QWidget" name="tabProject">
+                     <widget class="QWidget" name="tab_project">
                       <attribute name="icon">
-                       <iconset resource="cioxoQtResources.qrc">
+                       <iconset resource="cioxo_QtResources.qrc">
                         <normaloff>:/icons/graphics/icons/project.svg</normaloff>:/icons/graphics/icons/project.svg</iconset>
                       </attribute>
                       <attribute name="title">
@@ -958,7 +958,7 @@ QTabBar::tab::disabled {
                         <number>9</number>
                        </property>
                        <item>
-                        <widget class="QFrame" name="frameListProjects">
+                        <widget class="QFrame" name="frame_listProject">
                          <property name="frameShape">
                           <enum>QFrame::StyledPanel</enum>
                          </property>
@@ -979,7 +979,7 @@ QTabBar::tab::disabled {
                            <number>0</number>
                           </property>
                           <item>
-                           <widget class="QFrame" name="frameTitleProjects">
+                           <widget class="QFrame" name="frame_titleProject">
                             <property name="minimumSize">
                              <size>
                               <width>0</width>
@@ -1012,7 +1012,7 @@ QTabBar::tab::disabled {
                               <number>3</number>
                              </property>
                              <item>
-                              <widget class="QPushButton" name="pushButtonNextProjects">
+                              <widget class="QPushButton" name="button_nextProject">
                                <property name="minimumSize">
                                 <size>
                                  <width>50</width>
@@ -1041,13 +1041,13 @@ QPushButton:hover:!pressed
                                 <string/>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/arrowRight.svg</normaloff>:/icons/graphics/icons/arrowRight.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <spacer name="spacerTitlePreviousNextProjects">
+                              <spacer name="spacer_titlePreviousNextProject">
                                <property name="orientation">
                                 <enum>Qt::Horizontal</enum>
                                </property>
@@ -1063,7 +1063,7 @@ QPushButton:hover:!pressed
                               </spacer>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelProjects">
+                              <widget class="QLabel" name="label_project">
                                <property name="font">
                                 <font>
                                  <family>Source Sans Pro</family>
@@ -1084,7 +1084,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <spacer name="spacerAddDeleteProjects">
+                              <spacer name="spacer_addDeleteProject">
                                <property name="orientation">
                                 <enum>Qt::Horizontal</enum>
                                </property>
@@ -1100,7 +1100,7 @@ QPushButton:hover:!pressed
                               </spacer>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonCreateProjects">
+                              <widget class="QPushButton" name="button_createProject">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -1137,13 +1137,13 @@ QPushButton:hover:!pressed
                                 <string>Create New </string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/plus.svg</normaloff>:/icons/graphics/icons/plus.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <spacer name="horizontalSpacerReloadProjects">
+                              <spacer name="spacer_reloadProject">
                                <property name="orientation">
                                 <enum>Qt::Horizontal</enum>
                                </property>
@@ -1159,7 +1159,7 @@ QPushButton:hover:!pressed
                               </spacer>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonReloadProjects">
+                              <widget class="QPushButton" name="button_reloadProject">
                                <property name="minimumSize">
                                 <size>
                                  <width>50</width>
@@ -1194,7 +1194,7 @@ QPushButton:hover:!pressed
                                 <string/>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                </property>
                               </widget>
@@ -1203,7 +1203,7 @@ QPushButton:hover:!pressed
                            </widget>
                           </item>
                           <item>
-                           <widget class="QListWidget" name="listProjects">
+                           <widget class="QListWidget" name="list_project">
                             <property name="font">
                              <font>
                               <family>Roboto</family>
@@ -1310,7 +1310,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                         </widget>
                        </item>
                        <item>
-                        <widget class="QFrame" name="frameRightSideProjects">
+                        <widget class="QFrame" name="frame_rightSideProject">
                          <property name="maximumSize">
                           <size>
                            <width>256</width>
@@ -1337,7 +1337,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                            <number>0</number>
                           </property>
                           <item>
-                           <spacer name="verticalSpacerThumbnailProjects">
+                           <spacer name="spacer_thumbnailProject">
                             <property name="orientation">
                              <enum>Qt::Vertical</enum>
                             </property>
@@ -1353,7 +1353,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                            </spacer>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelThumbnailProjects">
+                           <widget class="QLabel" name="label_thumbnailProject">
                             <property name="minimumSize">
                              <size>
                               <width>256</width>
@@ -1395,7 +1395,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                            </widget>
                           </item>
                           <item>
-                           <widget class="QFrame" name="frameFunctionsThumbnail">
+                           <widget class="QFrame" name="frame_functionsThumbnail">
                             <property name="frameShape">
                              <enum>QFrame::StyledPanel</enum>
                             </property>
@@ -1416,7 +1416,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               <number>0</number>
                              </property>
                              <item>
-                              <spacer name="horizontalSpacerThumbnailProjects">
+                              <spacer name="spacer_thumbnailProjects">
                                <property name="orientation">
                                 <enum>Qt::Horizontal</enum>
                                </property>
@@ -1429,7 +1429,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               </spacer>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonDeleteThumbnailProjects">
+                              <widget class="QPushButton" name="button_deleteThumbnailProjects">
                                <property name="minimumSize">
                                 <size>
                                  <width>25</width>
@@ -1458,13 +1458,13 @@ QPushButton:hover:!pressed
                                 <string/>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/trash02.svg</normaloff>:/icons/graphics/icons/trash02.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonRefreshThumbnailProjects">
+                              <widget class="QPushButton" name="button_refreshThumbnailProjects">
                                <property name="minimumSize">
                                 <size>
                                  <width>25</width>
@@ -1493,13 +1493,13 @@ QPushButton:hover:!pressed
                                 <string/>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonChargeThumbnailProjects">
+                              <widget class="QPushButton" name="button_chargeThumbnailProjects">
                                <property name="minimumSize">
                                 <size>
                                  <width>25</width>
@@ -1534,7 +1534,7 @@ QPushButton:hover:!pressed
                                 <string/>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/image.svg</normaloff>:/icons/graphics/icons/image.svg</iconset>
                                </property>
                               </widget>
@@ -1543,7 +1543,7 @@ QPushButton:hover:!pressed
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelLineRightProjects">
+                           <widget class="QLabel" name="labelLine_rightProject">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1562,7 +1562,7 @@ border-width: 1px;</string>
                            </widget>
                           </item>
                           <item>
-                           <widget class="QPushButton" name="buttonSequences">
+                           <widget class="QPushButton" name="button_sequence">
                             <property name="minimumSize">
                              <size>
                               <width>0</width>
@@ -1597,13 +1597,13 @@ QPushButton:hover:!pressed
                              <string>Sequences</string>
                             </property>
                             <property name="icon">
-                             <iconset resource="cioxoQtResources.qrc">
+                             <iconset resource="cioxo_QtResources.qrc">
                               <normaloff>:/icons/graphics/icons/grid.svg</normaloff>:/icons/graphics/icons/grid.svg</iconset>
                             </property>
                            </widget>
                           </item>
                           <item>
-                           <widget class="QPushButton" name="buttonAssets">
+                           <widget class="QPushButton" name="button_asset">
                             <property name="minimumSize">
                              <size>
                               <width>0</width>
@@ -1638,13 +1638,13 @@ QPushButton:hover:!pressed
                              <string>Assets</string>
                             </property>
                             <property name="icon">
-                             <iconset resource="cioxoQtResources.qrc">
+                             <iconset resource="cioxo_QtResources.qrc">
                               <normaloff>:/icons/graphics/icons/package.svg</normaloff>:/icons/graphics/icons/package.svg</iconset>
                             </property>
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelLineResolution">
+                           <widget class="QLabel" name="labelLine_resolutionProject">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -1663,7 +1663,7 @@ border-width: 1px;</string>
                            </widget>
                           </item>
                           <item>
-                           <widget class="QFrame" name="frameResolution">
+                           <widget class="QFrame" name="frame_resolution">
                             <property name="frameShape">
                              <enum>QFrame::StyledPanel</enum>
                             </property>
@@ -1684,7 +1684,7 @@ border-width: 1px;</string>
                               <number>0</number>
                              </property>
                              <item>
-                              <widget class="QLabel" name="labelResolutionX">
+                              <widget class="QLabel" name="label_resolutionX">
                                <property name="font">
                                 <font>
                                  <family>Segoe UI</family>
@@ -1697,7 +1697,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QLineEdit" name="lineEditResolutionProjectX">
+                              <widget class="QLineEdit" name="lineEdit_resolutionX">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -1730,7 +1730,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelResolutionY">
+                              <widget class="QLabel" name="label_resolutionY">
                                <property name="font">
                                 <font>
                                  <family>Segoe UI</family>
@@ -1743,7 +1743,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QLineEdit" name="lineEditResolutionProjectY">
+                              <widget class="QLineEdit" name="lineEdit_resolutionY">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -1776,7 +1776,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonValidateResolution">
+                              <widget class="QPushButton" name="button_validateResolution">
                                <property name="minimumSize">
                                 <size>
                                  <width>25</width>
@@ -1805,7 +1805,7 @@ QPushButton:hover:!pressed
                                 <string/>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/checkSquare.svg</normaloff>:/icons/graphics/icons/checkSquare.svg</iconset>
                                </property>
                               </widget>
@@ -1814,7 +1814,7 @@ QPushButton:hover:!pressed
                            </widget>
                           </item>
                           <item>
-                           <widget class="QFrame" name="frameFPS">
+                           <widget class="QFrame" name="frame_FPS">
                             <property name="frameShape">
                              <enum>QFrame::StyledPanel</enum>
                             </property>
@@ -1835,7 +1835,7 @@ QPushButton:hover:!pressed
                               <number>0</number>
                              </property>
                              <item>
-                              <widget class="QLabel" name="labelFPS">
+                              <widget class="QLabel" name="label_FPS">
                                <property name="font">
                                 <font>
                                  <family>Segoe UI</family>
@@ -1848,7 +1848,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QLineEdit" name="lineEditFPS">
+                              <widget class="QLineEdit" name="lineEdit_FPS">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -1881,7 +1881,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonValidateFPS">
+                              <widget class="QPushButton" name="button_validateFPS">
                                <property name="minimumSize">
                                 <size>
                                  <width>25</width>
@@ -1910,7 +1910,7 @@ QPushButton:hover:!pressed
                                 <string/>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/checkSquare.svg</normaloff>:/icons/graphics/icons/checkSquare.svg</iconset>
                                </property>
                               </widget>
@@ -1919,7 +1919,7 @@ QPushButton:hover:!pressed
                            </widget>
                           </item>
                           <item>
-                           <spacer name="verticalSpacerDirectoryProjects">
+                           <spacer name="spacer_directoryProject">
                             <property name="orientation">
                              <enum>Qt::Vertical</enum>
                             </property>
@@ -1932,9 +1932,9 @@ QPushButton:hover:!pressed
                            </spacer>
                           </item>
                           <item>
-                           <layout class="QHBoxLayout" name="layoutDirectoryProjects">
+                           <layout class="QHBoxLayout" name="layout_directoryProject">
                             <item>
-                             <widget class="QPushButton" name="buttonPlanningProjects">
+                             <widget class="QPushButton" name="button_planningProject">
                               <property name="minimumSize">
                                <size>
                                 <width>95</width>
@@ -1969,13 +1969,13 @@ QPushButton:hover:!pressed
                                <string>Planning</string>
                               </property>
                               <property name="icon">
-                               <iconset resource="cioxoQtResources.qrc">
+                               <iconset resource="cioxo_QtResources.qrc">
                                 <normaloff>:/icons/graphics/icons/calendar.svg</normaloff>:/icons/graphics/icons/calendar.svg</iconset>
                               </property>
                              </widget>
                             </item>
                             <item>
-                             <widget class="QPushButton" name="buttonDirectoryProjects">
+                             <widget class="QPushButton" name="button_directoryProject">
                               <property name="minimumSize">
                                <size>
                                 <width>95</width>
@@ -2010,7 +2010,7 @@ QPushButton:hover:!pressed
                                <string>Directory</string>
                               </property>
                               <property name="icon">
-                               <iconset resource="cioxoQtResources.qrc">
+                               <iconset resource="cioxo_QtResources.qrc">
                                 <normaloff>:/icons/graphics/icons/folder.svg</normaloff>:/icons/graphics/icons/folder.svg</iconset>
                               </property>
                              </widget>
@@ -2022,9 +2022,9 @@ QPushButton:hover:!pressed
                        </item>
                       </layout>
                      </widget>
-                     <widget class="QWidget" name="tabAssets">
+                     <widget class="QWidget" name="tab_asset">
                       <attribute name="icon">
-                       <iconset resource="cioxoQtResources.qrc">
+                       <iconset resource="cioxo_QtResources.qrc">
                         <normaloff>:/icons/graphics/icons/package.svg</normaloff>:/icons/graphics/icons/package.svg</iconset>
                       </attribute>
                       <attribute name="title">
@@ -2047,7 +2047,7 @@ QPushButton:hover:!pressed
                         <number>9</number>
                        </property>
                        <item>
-                        <widget class="QFrame" name="frameLineAssets">
+                        <widget class="QFrame" name="frame_lineAsset">
                          <property name="styleSheet">
                           <string notr="true"/>
                          </property>
@@ -2065,7 +2065,7 @@ QPushButton:hover:!pressed
                            <number>9</number>
                           </property>
                           <item>
-                           <widget class="QPushButton" name="pushButtonPreviousAssets">
+                           <widget class="QPushButton" name="button_previousAsset">
                             <property name="minimumSize">
                              <size>
                               <width>50</width>
@@ -2094,13 +2094,13 @@ QPushButton:hover:!pressed
                              <string/>
                             </property>
                             <property name="icon">
-                             <iconset resource="cioxoQtResources.qrc">
+                             <iconset resource="cioxo_QtResources.qrc">
                               <normaloff>:/icons/graphics/icons/arrowLeft.svg</normaloff>:/icons/graphics/icons/arrowLeft.svg</iconset>
                             </property>
                            </widget>
                           </item>
                           <item>
-                           <spacer name="horizontalSpacerPreviousNextAssets">
+                           <spacer name="spacer_previousNextAsset">
                             <property name="orientation">
                              <enum>Qt::Horizontal</enum>
                             </property>
@@ -2116,7 +2116,7 @@ QPushButton:hover:!pressed
                            </spacer>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelWelcomeAssets">
+                           <widget class="QLabel" name="label_welcomeAsset">
                             <property name="maximumSize">
                              <size>
                               <width>75</width>
@@ -2143,7 +2143,7 @@ QPushButton:hover:!pressed
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelLineTitleAssets">
+                           <widget class="QLabel" name="label_lineTitleAsset">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -2171,7 +2171,7 @@ border-width: 1px;</string>
                         </widget>
                        </item>
                        <item>
-                        <widget class="QFrame" name="frameContentAssets">
+                        <widget class="QFrame" name="frame_contentAsset">
                          <property name="frameShape">
                           <enum>QFrame::StyledPanel</enum>
                          </property>
@@ -2195,7 +2195,7 @@ border-width: 1px;</string>
                            <number>0</number>
                           </property>
                           <item>
-                           <widget class="QFrame" name="frameListAssets">
+                           <widget class="QFrame" name="frame_listAsset">
                             <property name="frameShape">
                              <enum>QFrame::StyledPanel</enum>
                             </property>
@@ -2219,7 +2219,7 @@ border-width: 1px;</string>
                               <number>0</number>
                              </property>
                              <item>
-                              <widget class="QFrame" name="frameTitleAssets">
+                              <widget class="QFrame" name="frame_titleAsset">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -2265,7 +2265,7 @@ border-width: 1px;</string>
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QLabel" name="labelAssets">
+                                 <widget class="QLabel" name="label_asset">
                                   <property name="font">
                                    <font>
                                     <family>Source Sans Pro</family>
@@ -2286,7 +2286,7 @@ border-width: 1px;</string>
                                  </widget>
                                 </item>
                                 <item>
-                                 <spacer name="spacerAddDeleteAssets">
+                                 <spacer name="spacer_addDeleteAsset">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -2302,7 +2302,7 @@ border-width: 1px;</string>
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonCreateAssets">
+                                 <widget class="QPushButton" name="button_createAsset">
                                   <property name="minimumSize">
                                    <size>
                                     <width>0</width>
@@ -2339,13 +2339,13 @@ QPushButton:hover:!pressed
                                    <string>Create New </string>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/plus.svg</normaloff>:/icons/graphics/icons/plus.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <spacer name="horizontalSpacerTitleAssets">
+                                 <spacer name="spacer_titleAsset">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -2361,7 +2361,7 @@ QPushButton:hover:!pressed
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonReloadAssets">
+                                 <widget class="QPushButton" name="button_reloadAsset">
                                   <property name="minimumSize">
                                    <size>
                                     <width>50</width>
@@ -2396,7 +2396,7 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                   </property>
                                  </widget>
@@ -2405,7 +2405,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QListWidget" name="listAssets">
+                              <widget class="QListWidget" name="list_asset">
                                <property name="font">
                                 <font>
                                  <family>Segoe UI</family>
@@ -2512,7 +2512,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                            </widget>
                           </item>
                           <item>
-                           <widget class="QFrame" name="frameRightSideAssets">
+                           <widget class="QFrame" name="frame_rightSideAsset">
                             <property name="maximumSize">
                              <size>
                               <width>259</width>
@@ -2539,7 +2539,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               <number>0</number>
                              </property>
                              <item>
-                              <spacer name="verticalSpacerThumbnailAssets">
+                              <spacer name="spacer_thumbnailAsset_2">
                                <property name="orientation">
                                 <enum>Qt::Vertical</enum>
                                </property>
@@ -2594,7 +2594,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               </widget>
                              </item>
                              <item>
-                              <widget class="QFrame" name="frameFunctionsThumbnailAssets">
+                              <widget class="QFrame" name="frame_functionsThumbnailAsset">
                                <property name="frameShape">
                                 <enum>QFrame::StyledPanel</enum>
                                </property>
@@ -2615,7 +2615,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  <number>0</number>
                                 </property>
                                 <item>
-                                 <spacer name="horizontalSpacerThumbnailAssets">
+                                 <spacer name="spacer_thumbnailAsset">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -2628,7 +2628,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonDeleteThumbnailAssets">
+                                 <widget class="QPushButton" name="button_deleteThumbnailAsset">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -2657,13 +2657,13 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/trash02.svg</normaloff>:/icons/graphics/icons/trash02.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonRefreshThumbnailAssets">
+                                 <widget class="QPushButton" name="button_refreshThumbnailAsset">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -2692,13 +2692,13 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonChargeThumbnailAssets">
+                                 <widget class="QPushButton" name="button_chargeThumbnailAsset">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -2733,7 +2733,7 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/image.svg</normaloff>:/icons/graphics/icons/image.svg</iconset>
                                   </property>
                                  </widget>
@@ -2742,7 +2742,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelLineAssets">
+                              <widget class="QLabel" name="label_lineAsset">
                                <property name="maximumSize">
                                 <size>
                                  <width>16777215</width>
@@ -2761,7 +2761,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonHoudiniAssets">
+                              <widget class="QPushButton" name="button_houdiniAsset">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -2796,13 +2796,13 @@ QPushButton:hover:!pressed
                                 <string> Files</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/houdini.svg</normaloff>:/icons/graphics/icons/houdini.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonMayaAssets">
+                              <widget class="QPushButton" name="button_mayaAsset">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -2837,13 +2837,13 @@ QPushButton:hover:!pressed
                                 <string> Files</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/maya.svg</normaloff>:/icons/graphics/icons/maya.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonSubstanceAssets">
+                              <widget class="QPushButton" name="button_substanceAsset">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -2878,13 +2878,13 @@ QPushButton:hover:!pressed
                                 <string> Files</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/adobeSubstancePainter.svg</normaloff>:/icons/graphics/icons/adobeSubstancePainter.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonNukeAssets">
+                              <widget class="QPushButton" name="button_nukeAsset">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -2919,13 +2919,13 @@ QPushButton:hover:!pressed
                                 <string> Files</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/nuke.svg</normaloff>:/icons/graphics/icons/nuke.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <spacer name="verticalSpacerDirectoryAssets">
+                              <spacer name="spacer_directoryAsset_2">
                                <property name="orientation">
                                 <enum>Qt::Vertical</enum>
                                </property>
@@ -2938,9 +2938,9 @@ QPushButton:hover:!pressed
                               </spacer>
                              </item>
                              <item>
-                              <layout class="QHBoxLayout" name="layoutDirectoryAssets">
+                              <layout class="QHBoxLayout" name="layout_directoryAsset">
                                <item>
-                                <spacer name="horizontalSpacerDirectoryAssets">
+                                <spacer name="spacer_directoryAsset">
                                  <property name="orientation">
                                   <enum>Qt::Horizontal</enum>
                                  </property>
@@ -2953,7 +2953,7 @@ QPushButton:hover:!pressed
                                 </spacer>
                                </item>
                                <item>
-                                <widget class="QPushButton" name="buttonDirectoryAssets">
+                                <widget class="QPushButton" name="button_directoryAsset">
                                  <property name="minimumSize">
                                   <size>
                                    <width>131</width>
@@ -2988,7 +2988,7 @@ QPushButton:hover:!pressed
                                   <string>Directory</string>
                                  </property>
                                  <property name="icon">
-                                  <iconset resource="cioxoQtResources.qrc">
+                                  <iconset resource="cioxo_QtResources.qrc">
                                    <normaloff>:/icons/graphics/icons/folder.svg</normaloff>:/icons/graphics/icons/folder.svg</iconset>
                                  </property>
                                 </widget>
@@ -3003,9 +3003,9 @@ QPushButton:hover:!pressed
                        </item>
                       </layout>
                      </widget>
-                     <widget class="QWidget" name="tabFilesAssets">
+                     <widget class="QWidget" name="tab_fileAsset">
                       <attribute name="icon">
-                       <iconset resource="cioxoQtResources.qrc">
+                       <iconset resource="cioxo_QtResources.qrc">
                         <normaloff>:/icons/graphics/icons/file.svg</normaloff>:/icons/graphics/icons/file.svg</iconset>
                       </attribute>
                       <attribute name="title">
@@ -3028,7 +3028,7 @@ QPushButton:hover:!pressed
                         <number>9</number>
                        </property>
                        <item>
-                        <widget class="QFrame" name="frameLineFilesAssets">
+                        <widget class="QFrame" name="frame_lineFileAsset">
                          <property name="styleSheet">
                           <string notr="true"/>
                          </property>
@@ -3046,7 +3046,7 @@ QPushButton:hover:!pressed
                            <number>9</number>
                           </property>
                           <item>
-                           <widget class="QPushButton" name="pushButtonPreviousFilesAssets">
+                           <widget class="QPushButton" name="button_previousFileAsset">
                             <property name="minimumSize">
                              <size>
                               <width>50</width>
@@ -3075,13 +3075,13 @@ QPushButton:hover:!pressed
                              <string/>
                             </property>
                             <property name="icon">
-                             <iconset resource="cioxoQtResources.qrc">
+                             <iconset resource="cioxo_QtResources.qrc">
                               <normaloff>:/icons/graphics/icons/arrowLeft.svg</normaloff>:/icons/graphics/icons/arrowLeft.svg</iconset>
                             </property>
                            </widget>
                           </item>
                           <item>
-                           <spacer name="horizontalSpacer">
+                           <spacer name="spacer">
                             <property name="orientation">
                              <enum>Qt::Horizontal</enum>
                             </property>
@@ -3097,7 +3097,7 @@ QPushButton:hover:!pressed
                            </spacer>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelWelcomeFilesAssets">
+                           <widget class="QLabel" name="label_welcomeFilesAsset">
                             <property name="maximumSize">
                              <size>
                               <width>500</width>
@@ -3124,7 +3124,7 @@ QPushButton:hover:!pressed
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelLineFilesAssets">
+                           <widget class="QLabel" name="label_lineFileAsset">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -3152,7 +3152,7 @@ border-width: 1px;</string>
                         </widget>
                        </item>
                        <item>
-                        <widget class="QFrame" name="frameListsFilesAssets">
+                        <widget class="QFrame" name="frame_listsFileAsset">
                          <property name="maximumSize">
                           <size>
                            <width>16777215</width>
@@ -3179,7 +3179,7 @@ border-width: 1px;</string>
                            <number>0</number>
                           </property>
                           <item>
-                           <widget class="QFrame" name="frameFilesAssets">
+                           <widget class="QFrame" name="frame_filesAsset">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -3209,7 +3209,7 @@ border-width: 1px;</string>
                               <number>0</number>
                              </property>
                              <item>
-                              <widget class="QFrame" name="frameTitleFilesAssets">
+                              <widget class="QFrame" name="frame_titleFileAssets">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -3239,7 +3239,7 @@ border-width: 1px;</string>
                                  <number>3</number>
                                 </property>
                                 <item>
-                                 <spacer name="spacerFilesAssets">
+                                 <spacer name="spacer_filesAsset">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -3255,7 +3255,7 @@ border-width: 1px;</string>
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QLabel" name="labelFilesAssets">
+                                 <widget class="QLabel" name="label_fileAsset">
                                   <property name="font">
                                    <font>
                                     <family>Source Sans Pro</family>
@@ -3276,7 +3276,7 @@ border-width: 1px;</string>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonCreateFilesAssets">
+                                 <widget class="QPushButton" name="button_createFileAsset">
                                   <property name="minimumSize">
                                    <size>
                                     <width>0</width>
@@ -3313,13 +3313,13 @@ QPushButton:hover:!pressed
                                    <string>Create New </string>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/plus.svg</normaloff>:/icons/graphics/icons/plus.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <spacer name="spacerReloadFilesAssets">
+                                 <spacer name="spacer_reloadFileAsset">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -3335,7 +3335,7 @@ QPushButton:hover:!pressed
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonReloadFilesAssets">
+                                 <widget class="QPushButton" name="button_reloadFileAsset">
                                   <property name="minimumSize">
                                    <size>
                                     <width>50</width>
@@ -3370,7 +3370,7 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                   </property>
                                  </widget>
@@ -3379,7 +3379,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QListWidget" name="listFilesAssets">
+                              <widget class="QListWidget" name="list_fileAsset">
                                <property name="font">
                                 <font>
                                  <family>Segoe UI</family>
@@ -3486,7 +3486,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                            </widget>
                           </item>
                           <item>
-                           <widget class="QFrame" name="frameRightSideFilesAssets">
+                           <widget class="QFrame" name="frame_rightSideFileAsset">
                             <property name="maximumSize">
                              <size>
                               <width>259</width>
@@ -3513,7 +3513,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               <number>0</number>
                              </property>
                              <item>
-                              <spacer name="verticalSpacerFilesAssets">
+                              <spacer name="spacer_FileAsset_2">
                                <property name="orientation">
                                 <enum>Qt::Vertical</enum>
                                </property>
@@ -3529,7 +3529,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               </spacer>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelThumbnailFilesAssets">
+                              <widget class="QLabel" name="label_thumbnailFilesAsset">
                                <property name="minimumSize">
                                 <size>
                                  <width>256</width>
@@ -3568,7 +3568,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               </widget>
                              </item>
                              <item>
-                              <widget class="QFrame" name="frameFunctionsThumbnailFilesAssets">
+                              <widget class="QFrame" name="frame_functionsThumbnailFileAsset">
                                <property name="frameShape">
                                 <enum>QFrame::StyledPanel</enum>
                                </property>
@@ -3589,7 +3589,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  <number>0</number>
                                 </property>
                                 <item>
-                                 <spacer name="horizontalSpacerFilesAssets">
+                                 <spacer name="spacer_FileAsset">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -3602,7 +3602,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonDeleteThumbnailFilesAssets">
+                                 <widget class="QPushButton" name="button_deleteThumbnailFileAsset">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -3631,13 +3631,13 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/trash02.svg</normaloff>:/icons/graphics/icons/trash02.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonRefreshThumbnailFilesAssets">
+                                 <widget class="QPushButton" name="button_refreshThumbnailFileAsset">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -3666,13 +3666,13 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonChargeThumbnailFilesAssets">
+                                 <widget class="QPushButton" name="button_chargeThumbnailFileAsset">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -3701,7 +3701,7 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/image.svg</normaloff>:/icons/graphics/icons/image.svg</iconset>
                                   </property>
                                  </widget>
@@ -3710,7 +3710,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelLineThumbnailFilesAssets">
+                              <widget class="QLabel" name="label_lineThumbnailFileAsset">
                                <property name="maximumSize">
                                 <size>
                                  <width>16777215</width>
@@ -3729,7 +3729,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelCommentFilesAssets">
+                              <widget class="QLabel" name="label_commentFileAsset">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -3766,7 +3766,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonOpenFilesAssets">
+                              <widget class="QPushButton" name="button_openFileAsset">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -3801,13 +3801,13 @@ QPushButton:hover:!pressed
                                 <string>Open</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/arrowUpRight.svg</normaloff>:/icons/graphics/icons/arrowUpRight.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <spacer name="verticalSpacerDirectoryFilesAssets">
+                              <spacer name="spacer_directoryFileAsset_2">
                                <property name="orientation">
                                 <enum>Qt::Vertical</enum>
                                </property>
@@ -3820,9 +3820,9 @@ QPushButton:hover:!pressed
                               </spacer>
                              </item>
                              <item>
-                              <layout class="QHBoxLayout" name="layoutDirectoryFilesAssets">
+                              <layout class="QHBoxLayout" name="layout_directoryFileAssets">
                                <item>
-                                <spacer name="horizontalSpacerDirectoryFilesAssets">
+                                <spacer name="spacer_directoryFileAsset">
                                  <property name="orientation">
                                   <enum>Qt::Horizontal</enum>
                                  </property>
@@ -3835,7 +3835,7 @@ QPushButton:hover:!pressed
                                 </spacer>
                                </item>
                                <item>
-                                <widget class="QPushButton" name="buttonDirectoryFilesAssets">
+                                <widget class="QPushButton" name="button_directoryFileAsset">
                                  <property name="minimumSize">
                                   <size>
                                    <width>131</width>
@@ -3870,7 +3870,7 @@ QPushButton:hover:!pressed
                                   <string>Directory</string>
                                  </property>
                                  <property name="icon">
-                                  <iconset resource="cioxoQtResources.qrc">
+                                  <iconset resource="cioxo_QtResources.qrc">
                                    <normaloff>:/icons/graphics/icons/folder.svg</normaloff>:/icons/graphics/icons/folder.svg</iconset>
                                  </property>
                                 </widget>
@@ -3885,9 +3885,9 @@ QPushButton:hover:!pressed
                        </item>
                       </layout>
                      </widget>
-                     <widget class="QWidget" name="tabSequences">
+                     <widget class="QWidget" name="tab_sequence">
                       <attribute name="icon">
-                       <iconset resource="cioxoQtResources.qrc">
+                       <iconset resource="cioxo_QtResources.qrc">
                         <normaloff>:/icons/graphics/icons/grid.svg</normaloff>:/icons/graphics/icons/grid.svg</iconset>
                       </attribute>
                       <attribute name="title">
@@ -3910,7 +3910,7 @@ QPushButton:hover:!pressed
                         <number>9</number>
                        </property>
                        <item>
-                        <widget class="QFrame" name="frameLineSequences">
+                        <widget class="QFrame" name="frameLineSequence">
                          <property name="styleSheet">
                           <string notr="true"/>
                          </property>
@@ -3928,7 +3928,7 @@ QPushButton:hover:!pressed
                            <number>9</number>
                           </property>
                           <item>
-                           <widget class="QPushButton" name="pushButtonPreviousSequences">
+                           <widget class="QPushButton" name="button_previousSequence">
                             <property name="minimumSize">
                              <size>
                               <width>50</width>
@@ -3957,13 +3957,13 @@ QPushButton:hover:!pressed
                              <string/>
                             </property>
                             <property name="icon">
-                             <iconset resource="cioxoQtResources.qrc">
+                             <iconset resource="cioxo_QtResources.qrc">
                               <normaloff>:/icons/graphics/icons/arrowLeft.svg</normaloff>:/icons/graphics/icons/arrowLeft.svg</iconset>
                             </property>
                            </widget>
                           </item>
                           <item>
-                           <spacer name="horizontalSpacerPreviousNextSequences">
+                           <spacer name="spacer_previousNextSequence">
                             <property name="orientation">
                              <enum>Qt::Horizontal</enum>
                             </property>
@@ -3979,7 +3979,7 @@ QPushButton:hover:!pressed
                            </spacer>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelWelcomeSequences">
+                           <widget class="QLabel" name="label_welcomeSequence">
                             <property name="maximumSize">
                              <size>
                               <width>75</width>
@@ -4006,7 +4006,7 @@ QPushButton:hover:!pressed
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelLineSequences">
+                           <widget class="QLabel" name="label_lineSequence">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -4034,7 +4034,7 @@ border-width: 1px;</string>
                         </widget>
                        </item>
                        <item>
-                        <widget class="QFrame" name="frameContentSequences">
+                        <widget class="QFrame" name="frame_contentSequence">
                          <property name="frameShape">
                           <enum>QFrame::StyledPanel</enum>
                          </property>
@@ -4058,7 +4058,7 @@ border-width: 1px;</string>
                            <number>0</number>
                           </property>
                           <item>
-                           <widget class="QFrame" name="frameSequences">
+                           <widget class="QFrame" name="frame_sequence">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -4088,7 +4088,7 @@ border-width: 1px;</string>
                               <number>0</number>
                              </property>
                              <item>
-                              <widget class="QFrame" name="frameSequencesTitle">
+                              <widget class="QFrame" name="frame_titleSequence">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -4137,7 +4137,7 @@ border-width: 1px;</string>
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QLabel" name="labelSequence">
+                                 <widget class="QLabel" name="label_sequence">
                                   <property name="font">
                                    <font>
                                     <family>Source Sans Pro</family>
@@ -4158,7 +4158,7 @@ border-width: 1px;</string>
                                  </widget>
                                 </item>
                                 <item>
-                                 <spacer name="spacerAddDeleteSequence">
+                                 <spacer name="spacer_addDeleteSequence">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -4174,7 +4174,7 @@ border-width: 1px;</string>
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonCreateSequence">
+                                 <widget class="QPushButton" name="button_createSequence">
                                   <property name="minimumSize">
                                    <size>
                                     <width>0</width>
@@ -4211,13 +4211,13 @@ QPushButton:hover:!pressed
                                    <string>Create New </string>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/plus.svg</normaloff>:/icons/graphics/icons/plus.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <spacer name="horizontalSpacerHorizontal">
+                                 <spacer name="spacer_createSequence">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -4233,7 +4233,7 @@ QPushButton:hover:!pressed
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonReloadSequence">
+                                 <widget class="QPushButton" name="button_reloadSequence">
                                   <property name="minimumSize">
                                    <size>
                                     <width>50</width>
@@ -4268,7 +4268,7 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                   </property>
                                  </widget>
@@ -4277,7 +4277,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QListWidget" name="listSequences">
+                              <widget class="QListWidget" name="list_sequence">
                                <property name="font">
                                 <font>
                                  <family>Segoe UI</family>
@@ -4384,7 +4384,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                            </widget>
                           </item>
                           <item>
-                           <widget class="QFrame" name="frameShots">
+                           <widget class="QFrame" name="frame_shot">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -4414,7 +4414,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               <number>0</number>
                              </property>
                              <item>
-                              <widget class="QFrame" name="frameTitleShots">
+                              <widget class="QFrame" name="frame_titleShot">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -4444,7 +4444,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  <number>3</number>
                                 </property>
                                 <item>
-                                 <spacer name="spacerShots">
+                                 <spacer name="spacer_shot">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -4460,7 +4460,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QLabel" name="labelShots">
+                                 <widget class="QLabel" name="label_shot">
                                   <property name="font">
                                    <font>
                                     <family>Source Sans Pro</family>
@@ -4481,7 +4481,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  </widget>
                                 </item>
                                 <item>
-                                 <spacer name="spacerAddDeleteShots">
+                                 <spacer name="spacer_addDeleteShot">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -4497,7 +4497,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonCreateShots">
+                                 <widget class="QPushButton" name="button_createShot">
                                   <property name="minimumSize">
                                    <size>
                                     <width>0</width>
@@ -4534,13 +4534,13 @@ QPushButton:hover:!pressed
                                    <string>Create New </string>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/plus.svg</normaloff>:/icons/graphics/icons/plus.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <spacer name="spacerReloadShots">
+                                 <spacer name="spacer_reloadShot">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -4556,7 +4556,7 @@ QPushButton:hover:!pressed
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonReloadShots">
+                                 <widget class="QPushButton" name="buttonReloadShot">
                                   <property name="minimumSize">
                                    <size>
                                     <width>50</width>
@@ -4591,7 +4591,7 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                   </property>
                                  </widget>
@@ -4600,7 +4600,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QListWidget" name="listShots">
+                              <widget class="QListWidget" name="list_shot">
                                <property name="font">
                                 <font>
                                  <family>Segoe UI</family>
@@ -4707,7 +4707,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                            </widget>
                           </item>
                           <item>
-                           <widget class="QFrame" name="frameRightSideSequences">
+                           <widget class="QFrame" name="frameRightSideSequence">
                             <property name="maximumSize">
                              <size>
                               <width>259</width>
@@ -4737,7 +4737,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               <number>0</number>
                              </property>
                              <item>
-                              <spacer name="verticalSpacerSequences">
+                              <spacer name="spacerSequences">
                                <property name="orientation">
                                 <enum>Qt::Vertical</enum>
                                </property>
@@ -4753,7 +4753,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               </spacer>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelThumbnailSequences">
+                              <widget class="QLabel" name="label_thumbnailSequence">
                                <property name="minimumSize">
                                 <size>
                                  <width>256</width>
@@ -4795,7 +4795,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               </widget>
                              </item>
                              <item>
-                              <widget class="QFrame" name="frameFunctionsThumbnailSequences">
+                              <widget class="QFrame" name="frame_functionsThumbnailSequence">
                                <property name="frameShape">
                                 <enum>QFrame::StyledPanel</enum>
                                </property>
@@ -4816,7 +4816,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  <number>0</number>
                                 </property>
                                 <item>
-                                 <spacer name="horizontalSpacerThumbnailSequences">
+                                 <spacer name="spacer_thumbnailSequence">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -4829,7 +4829,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonDeleteThumbnailSequences">
+                                 <widget class="QPushButton" name="button_deleteThumbnailSequence">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -4858,13 +4858,13 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/trash02.svg</normaloff>:/icons/graphics/icons/trash02.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonRefreshThumbnailSequences">
+                                 <widget class="QPushButton" name="button_refreshThumbnailSequence">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -4893,13 +4893,13 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonChargeThumbnailSequences">
+                                 <widget class="QPushButton" name="button_chargeThumbnailSequence">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -4928,7 +4928,7 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/image.svg</normaloff>:/icons/graphics/icons/image.svg</iconset>
                                   </property>
                                  </widget>
@@ -4937,7 +4937,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelLineThumbnailSequences">
+                              <widget class="QLabel" name="label_lineThumbnailSequence">
                                <property name="maximumSize">
                                 <size>
                                  <width>16777215</width>
@@ -4956,7 +4956,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonHoudiniSequences">
+                              <widget class="QPushButton" name="button_houdiniSequence">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -4991,13 +4991,13 @@ QPushButton:hover:!pressed
                                 <string> Files</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/houdini.svg</normaloff>:/icons/graphics/icons/houdini.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonMayaSequences">
+                              <widget class="QPushButton" name="button_mayaSequence">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -5032,13 +5032,13 @@ QPushButton:hover:!pressed
                                 <string> Files</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/maya.svg</normaloff>:/icons/graphics/icons/maya.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonSubstanceSequences">
+                              <widget class="QPushButton" name="button_pubstanceSequence">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -5073,13 +5073,13 @@ QPushButton:hover:!pressed
                                 <string> Files</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/adobeSubstancePainter.svg</normaloff>:/icons/graphics/icons/adobeSubstancePainter.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonNukeSequences">
+                              <widget class="QPushButton" name="button_nukeSequences">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -5117,13 +5117,13 @@ QPushButton:hover:!pressed
                                 <string> Files</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/nuke.svg</normaloff>:/icons/graphics/icons/nuke.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonAfterEffectsSequences">
+                              <widget class="QPushButton" name="button_afterEffectsSequence">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -5158,13 +5158,13 @@ QPushButton:hover:!pressed
                                 <string> Files</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/afterEffects.svg</normaloff>:/icons/graphics/icons/afterEffects.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonPhotoshopSequences">
+                              <widget class="QPushButton" name="button_photoshopSequence">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -5199,13 +5199,13 @@ QPushButton:hover:!pressed
                                 <string> Files</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/photoshop.svg</normaloff>:/icons/graphics/icons/photoshop.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QFrame" name="frame">
+                              <widget class="QFrame" name="frame_lineFrameRange">
                                <property name="frameShape">
                                 <enum>QFrame::StyledPanel</enum>
                                </property>
@@ -5226,7 +5226,7 @@ QPushButton:hover:!pressed
                                  <number>0</number>
                                 </property>
                                 <item>
-                                 <widget class="QLabel" name="labelLineFrameRange">
+                                 <widget class="QLabel" name="label_lineFrameRange">
                                   <property name="maximumSize">
                                    <size>
                                     <width>16777215</width>
@@ -5269,7 +5269,7 @@ border-width: 1px;</string>
                                  <number>0</number>
                                 </property>
                                 <item>
-                                 <widget class="QLabel" name="labelFrameStart">
+                                 <widget class="QLabel" name="label_frameStart">
                                   <property name="font">
                                    <font>
                                     <family>Segoe UI</family>
@@ -5282,7 +5282,7 @@ border-width: 1px;</string>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QLineEdit" name="lineEditFrameStart">
+                                 <widget class="QLineEdit" name="lineEdit_frameStart">
                                   <property name="minimumSize">
                                    <size>
                                     <width>0</width>
@@ -5315,7 +5315,7 @@ border-width: 1px;</string>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QLabel" name="labelFrameEnd">
+                                 <widget class="QLabel" name="label_frameEnd">
                                   <property name="font">
                                    <font>
                                     <family>Segoe UI</family>
@@ -5328,7 +5328,7 @@ border-width: 1px;</string>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QLineEdit" name="lineEditFrameEnd">
+                                 <widget class="QLineEdit" name="lineEdit_frameEnd">
                                   <property name="minimumSize">
                                    <size>
                                     <width>0</width>
@@ -5361,7 +5361,7 @@ border-width: 1px;</string>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonValidateFrameRange">
+                                 <widget class="QPushButton" name="button_validateFrameRange">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -5390,7 +5390,7 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/checkSquare.svg</normaloff>:/icons/graphics/icons/checkSquare.svg</iconset>
                                   </property>
                                  </widget>
@@ -5399,7 +5399,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <spacer name="verticalSpacerDirectorySequences">
+                              <spacer name="spacer_directorySequence">
                                <property name="orientation">
                                 <enum>Qt::Vertical</enum>
                                </property>
@@ -5412,9 +5412,9 @@ QPushButton:hover:!pressed
                               </spacer>
                              </item>
                              <item>
-                              <layout class="QHBoxLayout" name="layoutDirectorySequences">
+                              <layout class="QHBoxLayout" name="layoutDirectorySequence">
                                <item>
-                                <spacer name="horizontalSpacerDirectorySequences">
+                                <spacer name="horizontalSpacerDirectorySequence">
                                  <property name="orientation">
                                   <enum>Qt::Horizontal</enum>
                                  </property>
@@ -5427,7 +5427,7 @@ QPushButton:hover:!pressed
                                 </spacer>
                                </item>
                                <item>
-                                <widget class="QPushButton" name="buttonDirectorySequences">
+                                <widget class="QPushButton" name="buttonDirectorySequence">
                                  <property name="minimumSize">
                                   <size>
                                    <width>131</width>
@@ -5462,7 +5462,7 @@ QPushButton:hover:!pressed
                                   <string>Directory</string>
                                  </property>
                                  <property name="icon">
-                                  <iconset resource="cioxoQtResources.qrc">
+                                  <iconset resource="cioxo_QtResources.qrc">
                                    <normaloff>:/icons/graphics/icons/folder.svg</normaloff>:/icons/graphics/icons/folder.svg</iconset>
                                  </property>
                                 </widget>
@@ -5477,9 +5477,9 @@ QPushButton:hover:!pressed
                        </item>
                       </layout>
                      </widget>
-                     <widget class="QWidget" name="tabFilesSequences">
+                     <widget class="QWidget" name="tab_fileShot">
                       <attribute name="icon">
-                       <iconset resource="cioxoQtResources.qrc">
+                       <iconset resource="cioxo_QtResources.qrc">
                         <normaloff>:/icons/graphics/icons/file.svg</normaloff>:/icons/graphics/icons/file.svg</iconset>
                       </attribute>
                       <attribute name="title">
@@ -5502,7 +5502,7 @@ QPushButton:hover:!pressed
                         <number>9</number>
                        </property>
                        <item>
-                        <widget class="QFrame" name="frameLineFilesSequences">
+                        <widget class="QFrame" name="frame_LineFileShot">
                          <property name="styleSheet">
                           <string notr="true"/>
                          </property>
@@ -5520,7 +5520,7 @@ QPushButton:hover:!pressed
                            <number>9</number>
                           </property>
                           <item>
-                           <widget class="QPushButton" name="pushButtonPreviousFilesSequences">
+                           <widget class="QPushButton" name="button_previousFileShot">
                             <property name="minimumSize">
                              <size>
                               <width>50</width>
@@ -5549,13 +5549,13 @@ QPushButton:hover:!pressed
                              <string/>
                             </property>
                             <property name="icon">
-                             <iconset resource="cioxoQtResources.qrc">
+                             <iconset resource="cioxo_QtResources.qrc">
                               <normaloff>:/icons/graphics/icons/arrowLeft.svg</normaloff>:/icons/graphics/icons/arrowLeft.svg</iconset>
                             </property>
                            </widget>
                           </item>
                           <item>
-                           <spacer name="horizontalSpacerNextPreviousFilesSequences">
+                           <spacer name="spacer_nextPreviousFileShot">
                             <property name="orientation">
                              <enum>Qt::Horizontal</enum>
                             </property>
@@ -5571,7 +5571,7 @@ QPushButton:hover:!pressed
                            </spacer>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelWelcomeFilesSequences">
+                           <widget class="QLabel" name="label_welcomeFileShots">
                             <property name="maximumSize">
                              <size>
                               <width>500</width>
@@ -5598,7 +5598,7 @@ QPushButton:hover:!pressed
                            </widget>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelLineFilesSequences">
+                           <widget class="QLabel" name="label_lineFileShot">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -5626,7 +5626,7 @@ border-width: 1px;</string>
                         </widget>
                        </item>
                        <item>
-                        <widget class="QFrame" name="frameListsFilesSequences">
+                        <widget class="QFrame" name="frame_listsFileShot">
                          <property name="maximumSize">
                           <size>
                            <width>16777215</width>
@@ -5653,7 +5653,7 @@ border-width: 1px;</string>
                            <number>0</number>
                           </property>
                           <item>
-                           <widget class="QFrame" name="frameFilesSequences">
+                           <widget class="QFrame" name="frame_filesShot">
                             <property name="maximumSize">
                              <size>
                               <width>16777215</width>
@@ -5683,7 +5683,7 @@ border-width: 1px;</string>
                               <number>0</number>
                              </property>
                              <item>
-                              <widget class="QFrame" name="frameTitleFilesSequences">
+                              <widget class="QFrame" name="frame_titleFileShot">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -5719,7 +5719,7 @@ border-width: 1px;</string>
                                  <number>3</number>
                                 </property>
                                 <item>
-                                 <spacer name="spacerFilesSequences">
+                                 <spacer name="spacer_fileShot">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -5735,7 +5735,7 @@ border-width: 1px;</string>
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QLabel" name="labelFilesSequences">
+                                 <widget class="QLabel" name="label_fileShot">
                                   <property name="font">
                                    <font>
                                     <family>Source Sans Pro</family>
@@ -5756,7 +5756,7 @@ border-width: 1px;</string>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonCreateFilesSequences">
+                                 <widget class="QPushButton" name="button_createFileShot">
                                   <property name="minimumSize">
                                    <size>
                                     <width>0</width>
@@ -5793,13 +5793,13 @@ QPushButton:hover:!pressed
                                    <string>Create New </string>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/plus.svg</normaloff>:/icons/graphics/icons/plus.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <spacer name="spacerReloadFilesSequences">
+                                 <spacer name="spacer_reloadFileShot">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -5815,7 +5815,7 @@ QPushButton:hover:!pressed
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonReloadFilesSequences">
+                                 <widget class="QPushButton" name="button_reloadFileShot">
                                   <property name="minimumSize">
                                    <size>
                                     <width>50</width>
@@ -5850,7 +5850,7 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                   </property>
                                  </widget>
@@ -5859,7 +5859,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QListWidget" name="listFilesSequences">
+                              <widget class="QListWidget" name="list_fileShot">
                                <property name="font">
                                 <font>
                                  <family>Segoe UI</family>
@@ -5966,7 +5966,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                            </widget>
                           </item>
                           <item>
-                           <widget class="QFrame" name="frameRightSideFilesSequences">
+                           <widget class="QFrame" name="frame_rightSideFileShot">
                             <property name="maximumSize">
                              <size>
                               <width>259</width>
@@ -5993,7 +5993,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               <number>0</number>
                              </property>
                              <item>
-                              <spacer name="verticalSpacerFilesSequences">
+                              <spacer name="spacer_directoryFileShot_3">
                                <property name="orientation">
                                 <enum>Qt::Vertical</enum>
                                </property>
@@ -6009,7 +6009,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               </spacer>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelThumbnailFilesSequences">
+                              <widget class="QLabel" name="label_thumbnailFileShot">
                                <property name="minimumSize">
                                 <size>
                                  <width>256</width>
@@ -6048,7 +6048,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                               </widget>
                              </item>
                              <item>
-                              <widget class="QFrame" name="frameFunctionsThumbnailFilesSequences">
+                              <widget class="QFrame" name="frame_functionsThumbnailFileShot">
                                <property name="frameShape">
                                 <enum>QFrame::StyledPanel</enum>
                                </property>
@@ -6069,7 +6069,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  <number>0</number>
                                 </property>
                                 <item>
-                                 <spacer name="horizontalSpacerFilesSequences">
+                                 <spacer name="spacer_thumbnailFileShot">
                                   <property name="orientation">
                                    <enum>Qt::Horizontal</enum>
                                   </property>
@@ -6082,7 +6082,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonDeleteThumbnailFilesSequences">
+                                 <widget class="QPushButton" name="button_deleteThumbnailFileShot">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -6111,13 +6111,13 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/trash02.svg</normaloff>:/icons/graphics/icons/trash02.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonRefreshThumbnailFilesSequences">
+                                 <widget class="QPushButton" name="button_refreshThumbnailFileShot">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -6146,13 +6146,13 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/refreshCw.svg</normaloff>:/icons/graphics/icons/refreshCw.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonChargeThumbnailFilesSequences">
+                                 <widget class="QPushButton" name="button_chargeThumbnailFileShot">
                                   <property name="minimumSize">
                                    <size>
                                     <width>25</width>
@@ -6181,7 +6181,7 @@ QPushButton:hover:!pressed
                                    <string/>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="cioxoQtResources.qrc">
+                                   <iconset resource="cioxo_QtResources.qrc">
                                     <normaloff>:/icons/graphics/icons/image.svg</normaloff>:/icons/graphics/icons/image.svg</iconset>
                                   </property>
                                  </widget>
@@ -6190,7 +6190,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelLineThumbnailFilesSequences">
+                              <widget class="QLabel" name="label_lineThumbnailFileShot">
                                <property name="maximumSize">
                                 <size>
                                  <width>16777215</width>
@@ -6209,7 +6209,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QLabel" name="labelCommentFilesSequences">
+                              <widget class="QLabel" name="label_commentFileShot">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -6246,7 +6246,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="buttonOpenFilesSequences">
+                              <widget class="QPushButton" name="button_openFileShot">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -6281,13 +6281,13 @@ QPushButton:hover:!pressed
                                 <string>Open</string>
                                </property>
                                <property name="icon">
-                                <iconset resource="cioxoQtResources.qrc">
+                                <iconset resource="cioxo_QtResources.qrc">
                                  <normaloff>:/icons/graphics/icons/arrowUpRight.svg</normaloff>:/icons/graphics/icons/arrowUpRight.svg</iconset>
                                </property>
                               </widget>
                              </item>
                              <item>
-                              <spacer name="verticalSpacerDirectoryFiles">
+                              <spacer name="spacer_directoryFileShot_2">
                                <property name="orientation">
                                 <enum>Qt::Vertical</enum>
                                </property>
@@ -6300,9 +6300,9 @@ QPushButton:hover:!pressed
                               </spacer>
                              </item>
                              <item>
-                              <layout class="QHBoxLayout" name="layoutDirectoryFilesSequences">
+                              <layout class="QHBoxLayout" name="layout_directoryFileShot">
                                <item>
-                                <spacer name="horizontalSpacerDirectoryFilesSequences">
+                                <spacer name="spacer_directoryFileShot">
                                  <property name="orientation">
                                   <enum>Qt::Horizontal</enum>
                                  </property>
@@ -6315,7 +6315,7 @@ QPushButton:hover:!pressed
                                 </spacer>
                                </item>
                                <item>
-                                <widget class="QPushButton" name="buttonDirectoryFilesSequences">
+                                <widget class="QPushButton" name="button_directoryFileShot">
                                  <property name="minimumSize">
                                   <size>
                                    <width>131</width>
@@ -6350,7 +6350,7 @@ QPushButton:hover:!pressed
                                   <string>Directory</string>
                                  </property>
                                  <property name="icon">
-                                  <iconset resource="cioxoQtResources.qrc">
+                                  <iconset resource="cioxo_QtResources.qrc">
                                    <normaloff>:/icons/graphics/icons/folder.svg</normaloff>:/icons/graphics/icons/folder.svg</iconset>
                                  </property>
                                 </widget>
@@ -6374,7 +6374,7 @@ QPushButton:hover:!pressed
               </widget>
              </item>
              <item>
-              <widget class="QFrame" name="frameInformations">
+              <widget class="QFrame" name="frame_informations">
                <property name="maximumSize">
                 <size>
                  <width>16777215</width>
@@ -6407,7 +6407,7 @@ QPushButton:hover:!pressed
                  <number>18</number>
                 </property>
                 <item>
-                 <widget class="QLabel" name="labelInformations">
+                 <widget class="QLabel" name="label_informations">
                   <property name="minimumSize">
                    <size>
                     <width>0</width>
@@ -6469,7 +6469,7 @@ QPushButton:hover:!pressed
         </widget>
        </item>
        <item>
-        <widget class="QFrame" name="frameCredit">
+        <widget class="QFrame" name="frame_credit">
          <property name="minimumSize">
           <size>
            <width>0</width>
@@ -6517,7 +6517,7 @@ QPushButton:hover:!pressed
            <number>0</number>
           </property>
           <item>
-           <widget class="QFrame" name="frameLabelCredit">
+           <widget class="QFrame" name="frame_labelCredit">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -6550,7 +6550,7 @@ QPushButton:hover:!pressed
               <number>0</number>
              </property>
              <item>
-              <widget class="QLabel" name="labelCredits">
+              <widget class="QLabel" name="label_credits">
                <property name="font">
                 <font>
                  <family>Roboto</family>
@@ -6565,7 +6565,7 @@ QPushButton:hover:!pressed
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="labelVersion">
+              <widget class="QLabel" name="label_version">
                <property name="font">
                 <font>
                  <family>Roboto</family>
@@ -6605,6 +6605,7 @@ QPushButton:hover:!pressed
   </action>
  </widget>
  <resources>
+  <include location="cioxo_QtResources.qrc"/>
   <include location="cioxoQtResources.qrc"/>
  </resources>
  <connections/>

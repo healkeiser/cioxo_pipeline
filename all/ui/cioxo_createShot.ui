@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CreateShot</class>
- <widget class="QDialog" name="CreateShot">
+ <class>cioxo_createShot</class>
+ <widget class="QDialog" name="cioxo_createShot">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -39,7 +39,7 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="QFrame" name="frameAll">
+    <widget class="QFrame" name="fram_all">
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
      </property>
@@ -66,7 +66,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QFrame" name="frameTitle">
+       <widget class="QFrame" name="frame_title">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -108,7 +108,7 @@
           <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="labelCreateProject">
+          <widget class="QLabel" name="label_createShot">
            <property name="font">
             <font>
              <family>Source Sans Pro</family>
@@ -129,7 +129,7 @@
           </widget>
          </item>
          <item>
-          <spacer name="horizontalSpacer">
+          <spacer name="spacer">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -145,7 +145,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frameInput">
+       <widget class="QFrame" name="frame_input">
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
         </property>
@@ -169,7 +169,7 @@
           <number>0</number>
          </property>
          <item>
-          <widget class="QLineEdit" name="lineEditInput">
+          <widget class="QLineEdit" name="lineEdit_input">
            <property name="minimumSize">
             <size>
              <width>0</width>
@@ -226,7 +226,7 @@
              <number>0</number>
             </property>
             <item>
-             <widget class="QLineEdit" name="lineEditFrameStart">
+             <widget class="QLineEdit" name="lineEdit_frameStart">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -256,7 +256,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="labelFrameRangeSeparator">
+             <widget class="QLabel" name="labe_frameRangeSeparator">
               <property name="font">
                <font>
                 <family>Segoe UI</family>
@@ -272,7 +272,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEditFrameEnd">
+             <widget class="QLineEdit" name="lineEdit_frameEnd">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -305,7 +305,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QFrame" name="frameSoftwares">
+          <widget class="QFrame" name="frame_softwares">
            <property name="frameShape">
             <enum>QFrame::NoFrame</enum>
            </property>
@@ -332,7 +332,7 @@
              <number>0</number>
             </property>
             <item>
-             <widget class="QRadioButton" name="radioButtonHoudini">
+             <widget class="QRadioButton" name="radioButton_houdini">
               <property name="maximumSize">
                <size>
                 <width>40</width>
@@ -352,7 +352,7 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="cioxoQtResources.qrc">
+               <iconset resource="cioxo_QtResources.qrc">
                 <normaloff>:/icons/graphics/icons/houdini.svg</normaloff>:/icons/graphics/icons/houdini.svg</iconset>
               </property>
               <property name="checked">
@@ -364,7 +364,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QRadioButton" name="radioButtonMaya">
+             <widget class="QRadioButton" name="radioButton_maya">
               <property name="maximumSize">
                <size>
                 <width>40</width>
@@ -384,7 +384,7 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="cioxoQtResources.qrc">
+               <iconset resource="cioxo_QtResources.qrc">
                 <normaloff>:/icons/graphics/icons/maya.svg</normaloff>:/icons/graphics/icons/maya.svg</iconset>
               </property>
               <property name="autoExclusive">
@@ -393,7 +393,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QRadioButton" name="radioButtonSubstance">
+             <widget class="QRadioButton" name="radioButton_substance">
               <property name="maximumSize">
                <size>
                 <width>40</width>
@@ -413,7 +413,7 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="cioxoQtResources.qrc">
+               <iconset resource="cioxo_QtResources.qrc">
                 <normaloff>:/icons/graphics/icons/adobeSubstancePainter.svg</normaloff>:/icons/graphics/icons/adobeSubstancePainter.svg</iconset>
               </property>
               <property name="autoExclusive">
@@ -422,7 +422,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QRadioButton" name="radioButtonNuke">
+             <widget class="QRadioButton" name="radioButton_nuke">
               <property name="maximumSize">
                <size>
                 <width>40</width>
@@ -442,7 +442,7 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="cioxoQtResources.qrc">
+               <iconset resource="cioxo_QtResources.qrc">
                 <normaloff>:/icons/graphics/icons/nuke.svg</normaloff>:/icons/graphics/icons/nuke.svg</iconset>
               </property>
               <property name="checked">
@@ -454,7 +454,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QRadioButton" name="radioButtonAfterEffects">
+             <widget class="QRadioButton" name="radioButton_afterEffects">
               <property name="maximumSize">
                <size>
                 <width>40</width>
@@ -474,7 +474,7 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="cioxoQtResources.qrc">
+               <iconset resource="cioxo_QtResources.qrc">
                 <normaloff>:/icons/graphics/icons/afterEffects.svg</normaloff>:/icons/graphics/icons/afterEffects.svg</iconset>
               </property>
               <property name="autoExclusive">
@@ -483,7 +483,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QRadioButton" name="radioButtonPhotoshop">
+             <widget class="QRadioButton" name="radioButton_photoshop">
               <property name="maximumSize">
                <size>
                 <width>40</width>
@@ -503,7 +503,7 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="cioxoQtResources.qrc">
+               <iconset resource="cioxo_QtResources.qrc">
                 <normaloff>:/icons/graphics/icons/photoshop.svg</normaloff>:/icons/graphics/icons/photoshop.svg</iconset>
               </property>
               <property name="autoExclusive">
@@ -518,7 +518,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frameInformations">
+       <widget class="QFrame" name="frame_informations">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -542,7 +542,7 @@
           <number>18</number>
          </property>
          <item>
-          <widget class="QLabel" name="labelInformations">
+          <widget class="QLabel" name="label_informations">
            <property name="minimumSize">
             <size>
              <width>0</width>
@@ -599,7 +599,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frameChoice">
+       <widget class="QFrame" name="frame_choice">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -641,7 +641,7 @@
           <number>0</number>
          </property>
          <item>
-          <spacer name="spacerProject">
+          <spacer name="spacer_project">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -657,7 +657,7 @@
           </spacer>
          </item>
          <item>
-          <widget class="QLabel" name="labelSeparator">
+          <widget class="QLabel" name="label_separator">
            <property name="font">
             <font>
              <family>Source Sans Pro</family>
@@ -678,7 +678,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="buttonOk">
+          <widget class="QPushButton" name="button_ok">
            <property name="maximumSize">
             <size>
              <width>70</width>
@@ -711,7 +711,7 @@ QPushButton:hover:!pressed
           </widget>
          </item>
          <item>
-          <spacer name="spacerButtons">
+          <spacer name="spacer_buttons">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -727,7 +727,7 @@ QPushButton:hover:!pressed
           </spacer>
          </item>
          <item>
-          <widget class="QPushButton" name="buttonCancel">
+          <widget class="QPushButton" name="button_cancel">
            <property name="minimumSize">
             <size>
              <width>0</width>
@@ -774,7 +774,7 @@ QPushButton:hover:!pressed
   </layout>
  </widget>
  <resources>
-  <include location="cioxoQtResources.qrc"/>
+  <include location="cioxo_QtResources.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CreateProject</class>
- <widget class="QDialog" name="CreateProject">
+ <class>cioxo_createProject</class>
+ <widget class="QDialog" name="cioxo_createProject">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -45,7 +45,7 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="QFrame" name="frameAll">
+    <widget class="QFrame" name="frame_all">
      <property name="frameShape">
       <enum>QFrame::StyledPanel</enum>
      </property>
@@ -69,7 +69,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QFrame" name="frameTitle">
+       <widget class="QFrame" name="frame_title">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -105,7 +105,7 @@
           <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="labelCreateProject">
+          <widget class="QLabel" name="label_createProject">
            <property name="maximumSize">
             <size>
              <width>120</width>
@@ -132,7 +132,7 @@
           </widget>
          </item>
          <item>
-          <spacer name="horizontalSpacer">
+          <spacer name="spacer">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -148,7 +148,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frameInput">
+       <widget class="QFrame" name="frame_input">
         <property name="frameShape">
          <enum>QFrame::StyledPanel</enum>
         </property>
@@ -163,7 +163,7 @@
           <number>0</number>
          </property>
          <item>
-          <widget class="QLineEdit" name="lineEditInput">
+          <widget class="QLineEdit" name="lineEdit_input">
            <property name="minimumSize">
             <size>
              <width>0</width>
@@ -193,7 +193,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QFrame" name="frameResolution">
+          <widget class="QFrame" name="frame_resolution">
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
            </property>
@@ -214,7 +214,7 @@
              <number>0</number>
             </property>
             <item>
-             <widget class="QLabel" name="labelResolutionX">
+             <widget class="QLabel" name="label_resolutionX">
               <property name="font">
                <font>
                 <family>Segoe UI</family>
@@ -230,7 +230,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEditResolutionX">
+             <widget class="QLineEdit" name="lineEdit_resolutionX">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -260,7 +260,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="labelResolutionY">
+             <widget class="QLabel" name="label_resolutionY">
               <property name="font">
                <font>
                 <family>Segoe UI</family>
@@ -276,7 +276,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEditResolutionY">
+             <widget class="QLineEdit" name="lineEdit_resolutionY">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -309,7 +309,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QFrame" name="frameFPS">
+          <widget class="QFrame" name="frame_FPS">
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
            </property>
@@ -330,7 +330,7 @@
              <number>0</number>
             </property>
             <item>
-             <widget class="QLabel" name="labelFPS">
+             <widget class="QLabel" name="label_FPS">
               <property name="font">
                <font>
                 <family>Segoe UI</family>
@@ -346,7 +346,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QLineEdit" name="lineEditFPS">
+             <widget class="QLineEdit" name="lineEdit_FPS">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -382,7 +382,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frameInformations">
+       <widget class="QFrame" name="frame_informations">
         <property name="maximumSize">
          <size>
           <width>16777215</width>
@@ -403,7 +403,7 @@
           <number>18</number>
          </property>
          <item>
-          <widget class="QLabel" name="labelInformations">
+          <widget class="QLabel" name="label_informations">
            <property name="minimumSize">
             <size>
              <width>0</width>
@@ -459,7 +459,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QFrame" name="frameChoice">
+       <widget class="QFrame" name="frame_choice">
         <property name="minimumSize">
          <size>
           <width>0</width>
@@ -501,7 +501,7 @@
           <number>9</number>
          </property>
          <item>
-          <spacer name="spacerProject">
+          <spacer name="spacer_project">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -517,7 +517,7 @@
           </spacer>
          </item>
          <item>
-          <widget class="QLabel" name="labelSeparator">
+          <widget class="QLabel" name="label_separator">
            <property name="font">
             <font>
              <family>Source Sans Pro</family>
@@ -538,7 +538,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="buttonOk">
+          <widget class="QPushButton" name="button_ok">
            <property name="maximumSize">
             <size>
              <width>70</width>
@@ -571,7 +571,7 @@ QPushButton:hover:!pressed
           </widget>
          </item>
          <item>
-          <spacer name="spacerButtons">
+          <spacer name="spacer_buttons">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -587,7 +587,7 @@ QPushButton:hover:!pressed
           </spacer>
          </item>
          <item>
-          <widget class="QPushButton" name="buttonCancel">
+          <widget class="QPushButton" name="button_cancel">
            <property name="minimumSize">
             <size>
              <width>0</width>
