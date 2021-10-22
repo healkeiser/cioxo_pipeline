@@ -45,16 +45,16 @@ class DefineRoot(QDialog):
         self.show()
 
         def browseRoot():
+            # ------ Cioxo variables
             USERNAME = os.getenv("USERNAME")
+            # ------ Paths
             rootDir = QFileDialog.getExistingDirectory(self, "Open directory", "C:/Users/" + USERNAME + "/Documents/")
-            # rootDir = rootDir[0]
             rootDir = "".join(rootDir)
             self.ui.label_file.setText(rootDir)
         self.ui.button_browse.clicked.connect(browseRoot)
 
         def defineRoot():
             root = self.ui.label_file.text()
-
             # ------ Create base .cioxo folder
             USERNAME = os.getenv("USERNAME")
             windowsBase = "C:/Users/" + USERNAME
