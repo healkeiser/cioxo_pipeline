@@ -22,4 +22,4 @@ class UIFunctionsSplashScreen(SplashScreen):
         self.shadow.setXOffset(0)
         self.shadow.setYOffset(0)
         self.shadow.setColor(QColor(0, 0, 0, 60))
-        self.ui.frameDropShadow.setGraphicsEffect(self.shadow)
+        self.ui.frame_dropShadow.setGraphicsEffect(self.shadow)

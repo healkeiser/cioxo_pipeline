@@ -174,7 +174,7 @@ class ProjectManager(QMainWindow):
         self.ui.button_nukeAsset.setEnabled(False)
         self.ui.button_houdiniSequence.setEnabled(False)
         self.ui.button_mayaSequence.setEnabled(False)
-        self.ui.buttonSubstanceSequences.setEnabled(False)
+        self.ui.button_substanceSequence.setEnabled(False)
         self.ui.button_nukeSequences.setEnabled(False)
         self.ui.button_afterEffectsSequence.setEnabled(False)
         self.ui.button_photoshopSequence.setEnabled(False)
@@ -371,7 +371,7 @@ class ProjectManager(QMainWindow):
 
         def changeTitle_projectAssets():
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
-            self.ui.labelWelcomeAssets.setText(CIOXO_PROJECT)
+            self.ui.label_welcomeAsset.setText(CIOXO_PROJECT)
 
         self.ui.list_project.itemSelectionChanged.connect(changeTitle_projectAssets)
 
@@ -392,13 +392,13 @@ class ProjectManager(QMainWindow):
                 self.ui.list_asset.addItems(os.listdir(assetsPath))
 
         self.ui.list_project.itemSelectionChanged.connect(fillList_assets)
-        self.ui.buttonReloadAssets.clicked.connect(fillList_assets)
+        self.ui.button_reloadAsset.clicked.connect(fillList_assets)
 
         def reloadList_assets():
             self.ui.label_informations.setStyleSheet(labelInformationsWhite)
             self.ui.label_informations.setText(">>> Reloaded")
 
-        self.ui.buttonReloadAssets.clicked.connect(reloadList_assets)
+        self.ui.button_reloadAsset.clicked.connect(reloadList_assets)
 
         def openWindow_createAssets():  # ------ Show Create Asset window
             if self.createAssetWindow is None:
@@ -409,7 +409,7 @@ class ProjectManager(QMainWindow):
                 self.createAssetWindow.close()  # ------ Close window
                 self.createAssetWindow = None  # ------ Discard reference
 
-        self.ui.buttonCreateAssets.clicked.connect(openWindow_createAssets)
+        self.ui.button_createAsset.clicked.connect(openWindow_createAssets)
 
         def defineCioxoVariable_ASSET():
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
@@ -536,7 +536,7 @@ class ProjectManager(QMainWindow):
                 self.ui.labelThumbnailAssets.setText("No Thumbnail found")
 
         self.ui.list_asset.itemSelectionChanged.connect(loadThumbnail_assets)
-        self.ui.buttonRefreshThumbnailAssets.clicked.connect(loadThumbnail_assets)
+        self.ui.button_refreshThumbnailAsset.clicked.connect(loadThumbnail_assets)
 
         def openWindow_createThumbnailAssets():
             if self.createThumbnailWindowAsset is None:
@@ -547,7 +547,7 @@ class ProjectManager(QMainWindow):
                 self.createThumbnailWindowAsset.close()  # ------ Close window
                 self.createThumbnailWindowAsset = None  # ------ Discard reference
 
-        self.ui.buttonChargeThumbnailAssets.clicked.connect(openWindow_createThumbnailAssets)
+        self.ui.button_chargeThumbnailAsset.clicked.connect(openWindow_createThumbnailAssets)
 
         def deleteThumbnail_assets():
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
@@ -562,7 +562,7 @@ class ProjectManager(QMainWindow):
                 self.ui.label_informations.setStyleSheet(label_informationsRed)
                 self.ui.label_informations.setText(">>> No thumbnail found!")
 
-        self.ui.buttonDeleteThumbnailAssets.clicked.connect(deleteThumbnail_assets)
+        self.ui.button_deleteThumbnailAsset.clicked.connect(deleteThumbnail_assets)
 
         def openDirectories_assets():
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
@@ -576,7 +576,7 @@ class ProjectManager(QMainWindow):
                 self.ui.label_informations.setStyleSheet(labelInformationsWhite)
                 self.ui.label_informations.setText(">>> Opening Directory")
 
-        self.ui.buttonDirectoryAssets.clicked.connect(openDirectories_assets)
+        self.ui.button_directoryAsset.clicked.connect(openDirectories_assets)
 
         def openWindow_createAssetFile():
             if self.createFileAssetWindow is None:
@@ -587,7 +587,7 @@ class ProjectManager(QMainWindow):
                 self.createFileAssetWindow.close()  # ------ Close window
                 self.createFileAssetWindow = None  # ------ Discard reference
 
-        self.ui.buttonCreateFilesAssets.clicked.connect(openWindow_createAssetFile)
+        self.ui.button_createFileAsset.clicked.connect(openWindow_createAssetFile)
 
         def openTab_filesAssets():
             self.ui.tab_widget.setCurrentIndex(tabFilesAssets)
@@ -601,7 +601,7 @@ class ProjectManager(QMainWindow):
         def previous_assets():
             self.ui.tab_widget.setCurrentIndex(tabProjects)
 
-        self.ui.pushButtonPreviousAssets.clicked.connect(previous_assets)
+        self.ui.button_previousAsset.clicked.connect(previous_assets)
 
         # -------------------------------#
         # ------ FILES ASSETS TAB ------ #
@@ -633,7 +633,7 @@ class ProjectManager(QMainWindow):
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
             CIOXO_ASSET = os.getenv("CIOXO_ASSET")
             CIOXO_SOFTWARE = os.getenv("CIOXO_SOFTWARE")
-            self.ui.labelWelcomeFilesAssets.setText(CIOXO_PROJECT + " - " + CIOXO_ASSET + " | " + CIOXO_SOFTWARE)
+            self.ui.label_welcomeFilesAsset.setText(CIOXO_PROJECT + " - " + CIOXO_ASSET + " | " + CIOXO_SOFTWARE)
 
         self.ui.list_asset.itemSelectionChanged.connect(changeTitle_sequenceShotSoftware)
         self.ui.button_houdiniAsset.clicked.connect(changeTitle_sequenceShotSoftware)
@@ -831,13 +831,13 @@ class ProjectManager(QMainWindow):
         # TODO: create GUI buttons for Nuke and After Effects
         # self.ui.button_nukeAsset.clicked.connect(fillList_filesAssets)
         # self.ui.button_nukeAsset.clicked.connect(fillList_filesAssets)
-        self.ui.buttonReloadFilesAssets.clicked.connect(fillList_filesAssets)
+        self.ui.button_reloadFileAsset.clicked.connect(fillList_filesAssets)
 
         def reloadList_filesAssets():
             self.ui.label_informations.setStyleSheet(labelInformationsWhite)
             self.ui.label_informations.setText(">>> Reloaded")
 
-        self.ui.buttonReloadFilesAssets.clicked.connect(reloadList_filesAssets)
+        self.ui.button_reloadFileAsset.clicked.connect(reloadList_filesAssets)
 
         def defineCioxoVariable_FILE():
             activeListItem = [item.text() for item in self.ui.list_fileAsset.selectedItems()]
@@ -861,12 +861,12 @@ class ProjectManager(QMainWindow):
             pathThumbnail = os.path.join(rootDir, CIOXO_PROJECT, "assets", CIOXO_ASSET, CIOXO_SOFTWARE, "workspaces",
                                          CIOXO_DISCIPLINE, "." + CIOXO_FILE.split(".")[0] + "_thumbnail.png")
             if os.path.isfile(pathThumbnail):
-                self.ui.labelThumbnailFilesAssets.setPixmap(QtGui.QPixmap(pathThumbnail))
+                self.ui.label_thumbnailFilesAsset.setPixmap(QtGui.QPixmap(pathThumbnail))
             else:
-                self.ui.labelThumbnailFilesAssets.setText("No Thumbnail found")
+                self.ui.label_thumbnailFilesAsset.setText("No Thumbnail found")
 
         self.ui.list_fileAsset.itemSelectionChanged.connect(loadThumbnail_filesAssets)
-        self.ui.buttonRefreshThumbnailFilesAssets.clicked.connect(loadThumbnail_filesAssets)
+        self.ui.button_refreshThumbnailAsset.clicked.connect(loadThumbnail_filesAssets)
 
         def openCreateThumbnail_filesAssets():
             if self.createThumbnailWindowFileAsset is None:
@@ -877,7 +877,7 @@ class ProjectManager(QMainWindow):
                 self.createThumbnailWindowFileAsset.close()  # ------ Close window
                 self.createThumbnailWindowFileAsset = None  # ------ Discard reference
 
-        self.ui.buttonChargeThumbnailFilesAssets.clicked.connect(openCreateThumbnail_filesAssets)
+        self.ui.button_chargeThumbnailFileAsset.clicked.connect(openCreateThumbnail_filesAssets)
 
         def deleteThumbnail_fileAssets():
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
@@ -895,7 +895,7 @@ class ProjectManager(QMainWindow):
                 self.ui.label_informations.setStyleSheet(label_informationsRed)
                 self.ui.label_informations.setText(">>> No thumbnail found!")
 
-        self.ui.buttonDeleteThumbnailFilesAssets.clicked.connect(deleteThumbnail_fileAssets)
+        self.ui.button_deleteThumbnailFileAsset.clicked.connect(deleteThumbnail_fileAssets)
 
         def showComment_filesAssets():
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
@@ -908,9 +908,9 @@ class ProjectManager(QMainWindow):
             if os.path.isfile(fileCommentPath):
                 with open(fileCommentPath) as f:
                     comment = f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline()
-                self.ui.labelCommentFilesAssets.setText(comment)
+                self.ui.label_commentFileAsset.setText(comment)
             else:
-                self.ui.labelCommentFilesAssets.setText("No comment found")
+                self.ui.label_commentFileAsset.setText("No comment found")
 
         self.ui.list_fileAsset.itemSelectionChanged.connect(showComment_filesAssets)
 
@@ -1044,7 +1044,7 @@ class ProjectManager(QMainWindow):
                 self.createThumbnailWindowShot.close()  # ------ Close window
                 self.createThumbnailWindowShot = None  # ------ Discard reference
 
-        self.ui.buttonChargeThumbnailSequences.clicked.connect(openCreateThumbnail_sequences)
+        self.ui.button_chargeThumbnailSequence.clicked.connect(openCreateThumbnail_sequences)
 
         def defineCioxoVariable_SEQUENCE():
             # --- SEQUENCE
@@ -1069,7 +1069,7 @@ class ProjectManager(QMainWindow):
                     self.ui.list_shot.addItems(shots.split())
 
         self.ui.list_sequence.itemSelectionChanged.connect(fillList_shots)
-        self.ui.buttonReloadShots.clicked.connect(fillList_shots)
+        self.ui.button_reloadShot.clicked.connect(fillList_shots)
 
         def defineCioxoVariable_SHOT():
             # ------ Get change in list shot
@@ -1106,7 +1106,7 @@ class ProjectManager(QMainWindow):
             # ------ Reset button colors and state
             self.ui.button_houdiniSequence.setStyleSheet(buttonGrey)
             self.ui.button_mayaSequence.setStyleSheet(buttonGrey)
-            self.ui.buttonSubstanceSequences.setStyleSheet(buttonGrey)
+            self.ui.button_substanceSequence.setStyleSheet(buttonGrey)
             self.ui.button_nukeSequences.setStyleSheet(buttonGrey)
             self.ui.button_afterEffectsSequence.setStyleSheet(buttonGrey)
             self.ui.button_photoshopSequence.setStyleSheet(buttonGrey)
@@ -1158,8 +1158,8 @@ class ProjectManager(QMainWindow):
             # ------ Substance
             filesPath = os.path.join(shotPath, "substance", "workspaces")
             if os.path.isdir(filesPath) is True:
-                self.ui.buttonSubstanceSequences.setEnabled(True)
-                self.ui.buttonSubstanceSequences.setStyleSheet(buttonRed)
+                self.ui.button_substanceSequence.setEnabled(True)
+                self.ui.button_substanceSequence.setStyleSheet(buttonRed)
                 foldersDisciplineList = []
                 for folderDisciplines in os.listdir(filesPath):
                     foldersDisciplineList.append(folderDisciplines)
@@ -1168,14 +1168,14 @@ class ProjectManager(QMainWindow):
                         for files in filesSubstance:
                             extension = os.path.splitext(files)[-1]
                             if extension == ".spp":
-                                self.ui.buttonSubstanceSequences.setEnabled(True)
-                                self.ui.buttonSubstanceSequences.setStyleSheet(buttonGreen)
+                                self.ui.button_substanceSequence.setEnabled(True)
+                                self.ui.button_substanceSequence.setStyleSheet(buttonGreen)
                             else:
-                                self.ui.buttonSubstanceSequences.setEnabled(True)
-                                self.ui.buttonSubstanceSequences.setStyleSheet(buttonRed)
+                                self.ui.button_substanceSequence.setEnabled(True)
+                                self.ui.button_substanceSequence.setStyleSheet(buttonRed)
             else:
-                self.ui.buttonSubstanceSequences.setEnabled(True)
-                self.ui.buttonSubstanceSequences.setStyleSheet(buttonRed)
+                self.ui.button_substanceSequence.setEnabled(True)
+                self.ui.button_substanceSequence.setStyleSheet(buttonRed)
 
             # ------ Nuke
             filesPath = os.path.join(shotPath, "nuke", "workspaces")
@@ -1349,7 +1349,7 @@ class ProjectManager(QMainWindow):
                 self.ui.label_informations.setStyleSheet(labelInformationsWhite)
                 self.ui.label_informations.setText(">>> Opening Directory")
 
-        self.ui.buttonDirectorySequences.clicked.connect(openDirectories_Sequence)
+        self.ui.button_directorySequence.clicked.connect(openDirectories_Sequence)
 
         def openTab_filesSequences():
             self.ui.tab_widget.setCurrentIndex(tabFilesSequences)
@@ -1357,7 +1357,7 @@ class ProjectManager(QMainWindow):
 
         self.ui.button_houdiniSequence.clicked.connect(openTab_filesSequences)
         self.ui.button_mayaSequence.clicked.connect(openTab_filesSequences)
-        self.ui.buttonSubstanceSequences.clicked.connect(openTab_filesSequences)
+        self.ui.button_substanceSequence.clicked.connect(openTab_filesSequences)
         self.ui.button_nukeSequences.clicked.connect(openTab_filesSequences)
         self.ui.button_afterEffectsSequence.clicked.connect(openTab_filesSequences)
         self.ui.button_photoshopSequence.clicked.connect(openTab_filesSequences)
@@ -1394,7 +1394,7 @@ class ProjectManager(QMainWindow):
         def defineCioxoVariable_SUBSTANCE():
             os.environ["CIOXO_SOFTWARE"] = "substance"
 
-        self.ui.buttonSubstanceSequences.clicked.connect(defineCioxoVariable_SUBSTANCE)
+        self.ui.button_substanceSequence.clicked.connect(defineCioxoVariable_SUBSTANCE)
 
         def defineCioxoVariable_NUKE():
             os.environ["CIOXO_SOFTWARE"] = "nuke"
@@ -1421,7 +1421,7 @@ class ProjectManager(QMainWindow):
         self.ui.list_shot.itemSelectionChanged.connect(changeTitle_SequenceShotSoftware)
         self.ui.button_houdiniSequence.clicked.connect(changeTitle_SequenceShotSoftware)
         self.ui.button_mayaSequence.clicked.connect(changeTitle_SequenceShotSoftware)
-        self.ui.buttonSubstanceSequences.clicked.connect(changeTitle_SequenceShotSoftware)
+        self.ui.button_substanceSequence.clicked.connect(changeTitle_SequenceShotSoftware)
         self.ui.button_nukeSequences.clicked.connect(changeTitle_SequenceShotSoftware)
         self.ui.button_afterEffectsSequence.clicked.connect(changeTitle_SequenceShotSoftware)
         self.ui.button_photoshopSequence.clicked.connect(changeTitle_SequenceShotSoftware)
@@ -1435,7 +1435,7 @@ class ProjectManager(QMainWindow):
 
         self.ui.button_houdiniSequence.clicked.connect(changeTabTitle_SequenceShotSoftware)
         self.ui.button_mayaSequence.clicked.connect(changeTabTitle_SequenceShotSoftware)
-        self.ui.buttonSubstanceSequences.clicked.connect(changeTabTitle_SequenceShotSoftware)
+        self.ui.button_substanceSequence.clicked.connect(changeTabTitle_SequenceShotSoftware)
         self.ui.button_nukeSequences.clicked.connect(changeTabTitle_SequenceShotSoftware)
         self.ui.button_afterEffectsSequence.clicked.connect(changeTabTitle_SequenceShotSoftware)
         self.ui.button_photoshopSequence.clicked.connect(changeTabTitle_SequenceShotSoftware)
@@ -1619,17 +1619,17 @@ class ProjectManager(QMainWindow):
 
         self.ui.button_houdiniSequence.clicked.connect(fillList_filesSequences)
         self.ui.button_mayaSequence.clicked.connect(fillList_filesSequences)
-        self.ui.buttonSubstanceSequences.clicked.connect(fillList_filesSequences)
+        self.ui.button_substanceSequence.clicked.connect(fillList_filesSequences)
         self.ui.button_nukeSequences.clicked.connect(fillList_filesSequences)
         self.ui.button_afterEffectsSequence.clicked.connect(fillList_filesSequences)
         self.ui.button_photoshopSequence.clicked.connect(fillList_filesSequences)
-        self.ui.buttonReloadFilesSequences.clicked.connect(fillList_filesSequences)
+        self.ui.button_reloadFileShot.clicked.connect(fillList_filesSequences)
 
         def reloadFiles_filesSequences():
             self.ui.label_informations.setStyleSheet(labelInformationsWhite)
             self.ui.label_informations.setText(">>> Reloaded")
 
-        self.ui.buttonReloadFilesSequences.clicked.connect(reloadFiles_filesSequences)
+        self.ui.button_reloadFileShot.clicked.connect(reloadFiles_filesSequences)
 
         def defineCioxoVariable_FILE():
             activeListItem = [item.text() for item in self.ui.list_fileShot.selectedItems()]
@@ -1655,12 +1655,12 @@ class ProjectManager(QMainWindow):
                                          "workspaces", CIOXO_DISCIPLINE,
                                          "." + CIOXO_FILE.split(".")[0] + "_thumbnail.png")
             if os.path.isfile(pathThumbnail):
-                self.ui.labelThumbnailFilesSequences.setPixmap(QtGui.QPixmap(pathThumbnail))
+                self.ui.label_thumbnailFileShot.setPixmap(QtGui.QPixmap(pathThumbnail))
             else:
-                self.ui.labelThumbnailFilesSequences.setText("No Thumbnail found")
+                self.ui.label_thumbnailFileShot.setText("No Thumbnail found")
 
         self.ui.list_fileShot.itemSelectionChanged.connect(loadThumbnail_filesSequences)
-        self.ui.buttonRefreshThumbnailFilesSequences.clicked.connect(loadThumbnail_filesSequences)
+        self.ui.button_refreshThumbnailFileShot.clicked.connect(loadThumbnail_filesSequences)
 
         def openWindow_createThumbnailFiles():
             if self.createThumbnailWindowFile is None:
@@ -1671,7 +1671,7 @@ class ProjectManager(QMainWindow):
                 self.createThumbnailWindowFile.close()  # ------ Close window
                 self.createThumbnailWindowFile = None  # ------ Discard reference
 
-        self.ui.buttonChargeThumbnailFilesSequences.clicked.connect(openWindow_createThumbnailFiles)
+        self.ui.button_chargeThumbnailFileShot.clicked.connect(openWindow_createThumbnailFiles)
 
         def deleteThumbnail_filesSequences():
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
@@ -1691,7 +1691,7 @@ class ProjectManager(QMainWindow):
                 self.ui.label_informations.setStyleSheet(label_informationsRed)
                 self.ui.label_informations.setText(">>> No thumbnail found!")
 
-        self.ui.buttonDeleteThumbnailFilesSequences.clicked.connect(deleteThumbnail_filesSequences)
+        self.ui.button_deleteThumbnailFileShot.clicked.connect(deleteThumbnail_filesSequences)
 
         def showComment_filesSequences():
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
@@ -1706,9 +1706,9 @@ class ProjectManager(QMainWindow):
             if os.path.isfile(fileCommentPath):
                 with open(fileCommentPath) as f:
                     comment = f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline() + f.readline()
-                self.ui.labelCommentFilesSequences.setText(comment)
+                self.ui.label_commentFileShot.setText(comment)
             else:
-                self.ui.labelCommentFilesSequences.setText("No comment found")
+                self.ui.label_commentFileShot.setText("No comment found")
 
         self.ui.list_fileShot.itemSelectionChanged.connect(showComment_filesSequences)
 
@@ -1739,7 +1739,7 @@ class ProjectManager(QMainWindow):
             # ------ Reset button colors
             self.ui.button_houdiniSequence.setStyleSheet(buttonGrey)
             self.ui.button_mayaSequence.setStyleSheet(buttonGrey)
-            self.ui.buttonSubstanceSequences.setStyleSheet(buttonGrey)
+            self.ui.button_substanceSequence.setStyleSheet(buttonGrey)
             self.ui.button_nukeSequences.setStyleSheet(buttonGrey)
             self.ui.button_afterEffectsSequence.setStyleSheet(buttonGrey)
             self.ui.button_photoshopSequence.setStyleSheet(buttonGrey)
@@ -1785,7 +1785,7 @@ class ProjectManager(QMainWindow):
             pathDocumentation = "https://www.google.fr"
             os.startfile(pathDocumentation)
 
-        self.ui.buttonHelp.clicked.connect(openDocumentation)
+        self.ui.button_help.clicked.connect(openDocumentation)
 
         def openPlanning():
             if os.getenv("CIOXO_PROJECT") == "project":
@@ -1802,11 +1802,11 @@ class ProjectManager(QMainWindow):
                     self.ui.label_informations.setStyleSheet(label_informationsRed)
                     self.ui.label_informations.setText(">>> No planning for this project!")
 
-        self.ui.buttonPlanningProjects.clicked.connect(openPlanning)
+        self.ui.button_planningProject.clicked.connect(openPlanning)
 
         # ------ Define username
         USERNAME = os.getenv("USERNAME")
-        self.ui.labelUsername.setText(USERNAME)
+        self.ui.label_username.setText(USERNAME)
 
         # ------ Define window title
         self.setWindowTitle("Cioxo - Project Manager")
@@ -1842,10 +1842,10 @@ class CreateProject(QDialog):
 
         def writeResolution_project():
             projectInput = self.ui.lineEdit_input.text()
-            self.ui.lineEditResolutionX.setInputMask("99900")
-            resolutionXInput = self.ui.lineEditResolutionX.text()
-            self.ui.lineEditResolutionY.setInputMask("99900")
-            resolutionYInput = self.ui.lineEditResolutionY.text()
+            self.ui.lineEdit_resolutionX.setInputMask("99900")
+            resolutionXInput = self.ui.lineEdit_resolutionX.text()
+            self.ui.lineEdit_resolutionY.setInputMask("99900")
+            resolutionYInput = self.ui.lineEdit_resolutionY.text()
             with open(os.path.join(rootDir, projectInput, "." + projectInput + "_resolution.txt"), 'w') as resolution:
                 resolution.write(resolutionXInput + "_" + resolutionYInput)
 
@@ -1962,7 +1962,7 @@ class CreateShot(QDialog):
                         filesPath = os.path.join(rootDir, CIOXO_PROJECT, CIOXO_SEQUENCE, shotInput)
 
                         # ------ Houdini
-                        if self.ui.radioButtonHoudini.isChecked():
+                        if self.ui.radioButton_houdini.isChecked():
                             filesPathHoudini = os.path.join(filesPath, "houdini", "workspaces", "none")
                             os.makedirs(filesPathHoudini, exist_ok=True)
                             fileHoudini = CIOXO_PROJECT + "_" + CIOXO_SEQUENCE + "_" + shotInput + "_none_v001" + ".hip"
@@ -1972,7 +1972,7 @@ class CreateShot(QDialog):
                             pass
 
                         # ------ Maya
-                        if self.ui.radioButtonMaya.isChecked():
+                        if self.ui.radioButton_maya.isChecked():
                             filesPathMaya = os.path.join(filesPath, "maya", "workspaces", "none")
                             os.makedirs(filesPathMaya, exist_ok=True)
                             fileMaya = CIOXO_PROJECT + "_" + CIOXO_SEQUENCE + "_" + shotInput + "_none_v001" + ".mb"
@@ -1982,7 +1982,7 @@ class CreateShot(QDialog):
                             pass
 
                         # ------ Substance
-                        if self.ui.radioButtonSubstance.isChecked():
+                        if self.ui.radioButton_substance.isChecked():
                             filesPathSubstance = os.path.join(filesPath, "substance", "workspaces", "none")
                             os.makedirs(filesPathSubstance, exist_ok=True)
                             fileSubstance = CIOXO_PROJECT + "_" + CIOXO_SEQUENCE + "_" + shotInput + "_none_v001" + ".spp"
@@ -1992,7 +1992,7 @@ class CreateShot(QDialog):
                             pass
 
                         # ------ Nuke
-                        if self.ui.radioButtonNuke.isChecked():
+                        if self.ui.radioButton_nuke.isChecked():
                             filesPathNuke = os.path.join(filesPath, "nuke", "workspaces", "none")
                             os.makedirs(filesPathNuke, exist_ok=True)
                             fileNuke = CIOXO_PROJECT + "_" + CIOXO_SEQUENCE + "_" + shotInput + "_none_v001" + ".nk"
@@ -2088,7 +2088,7 @@ class CreateAsset(QDialog):
                         filesPath = os.path.join(rootDir, CIOXO_PROJECT, "assets", CIOXO_PROJECT + "_" + assetInput)
 
                         # ------ Houdini
-                        if self.ui.radioButtonHoudini.isChecked():
+                        if self.ui.radioButton_houdini.isChecked():
                             filesPathHoudini = os.path.join(filesPath, "houdini", "workspaces", "none")
                             os.makedirs(filesPathHoudini, exist_ok=True)
                             fileHoudini = CIOXO_PROJECT + "_" + assetInput + "_none_v001" + ".hip"
@@ -2098,7 +2098,7 @@ class CreateAsset(QDialog):
                             pass
 
                         # ------ Maya
-                        if self.ui.radioButtonMaya.isChecked():
+                        if self.ui.radioButton_maya.isChecked():
                             filesPathMaya = os.path.join(filesPath, "maya", "workspaces", "none")
                             os.makedirs(filesPathMaya, exist_ok=True)
                             fileMaya = CIOXO_PROJECT + "_" + assetInput + "_none_v001" + ".mb"
@@ -2108,7 +2108,7 @@ class CreateAsset(QDialog):
                             pass
 
                         # ------ Substance
-                        if self.ui.radioButtonSubstance.isChecked():
+                        if self.ui.radioButton_substance.isChecked():
                             filesPathSubstance = os.path.join(filesPath, "substance", "workspaces", "none")
                             os.makedirs(filesPathSubstance, exist_ok=True)
                             fileSubstance = CIOXO_PROJECT + "_" + assetInput + "_none_v001" + ".spp"
@@ -2118,7 +2118,7 @@ class CreateAsset(QDialog):
                             pass
 
                         # ------ Nuke
-                        if self.ui.radioButtonNuke.isChecked():
+                        if self.ui.radioButton_nuke.isChecked():
                             filesPathNuke = os.path.join(filesPath, "nuke", "workspaces", "none")
                             os.makedirs(filesPathNuke, exist_ok=True)
                             fileNuke = CIOXO_PROJECT + "_" + assetInput + "_none_v001" + ".nk"
@@ -2144,12 +2144,12 @@ class CreateFileShot(QDialog):
 
         # ------ Window variables
         self.setWindowTitle("Cioxo - Create File")
-        self.ui.labelActualProject.setText("  " + os.getenv("CIOXO_PROJECT"))
-        self.ui.labelActualSequence.setText("  " + os.getenv("CIOXO_SEQUENCE"))
-        self.ui.labelActualShot.setText("  " + os.getenv("CIOXO_SHOT"))
-        self.ui.plainTextEditComment.setPlaceholderText("Comment...")
-        self.ui.lineEditVersion.setInputMask("v999")
-        self.ui.lineEditVersion.setText("v001")
+        self.ui.label_actualProject.setText("  " + os.getenv("CIOXO_PROJECT"))
+        self.ui.label_actualSequence.setText("  " + os.getenv("CIOXO_SEQUENCE"))
+        self.ui.label_actualShot.setText("  " + os.getenv("CIOXO_SHOT"))
+        self.ui.plainTextEdit_comment.setPlaceholderText("Comment...")
+        self.ui.lineEdit_version.setInputMask("v999")
+        self.ui.lineEdit_version.setText("v001")
 
         def createDirectory_fileShot():
             # ------ Cioxo variables
@@ -2157,19 +2157,19 @@ class CreateFileShot(QDialog):
             CIOXO_SEQUENCE = os.getenv("CIOXO_SEQUENCE")
             CIOXO_SHOT = os.getenv("CIOXO_SHOT")
             CIOXO_SOFTWARE = os.getenv("CIOXO_SOFTWARE")
-            disciplineInput = self.ui.comboBoxDiscipline.currentText()
+            disciplineInput = self.ui.comboBox_discipline.currentText()
             os.environ["CIOXO_DISCIPLINE"] = disciplineInput
             CIOXO_DISCIPLINE = os.getenv("CIOXO_DISCIPLINE")
             # ------ Window variable
-            self.ui.labelCreateFile.setText("Create File | " + CIOXO_SOFTWARE)
-            versionInput = self.ui.lineEditVersion.text()
+            self.ui.label_createFile.setText("Create File | " + CIOXO_SOFTWARE)
+            versionInput = self.ui.lineEdit_version.text()
             # ------ Paths
             filePath = os.path.join(rootDir, CIOXO_PROJECT, CIOXO_SEQUENCE, CIOXO_SHOT, CIOXO_SOFTWARE, "workspaces",
                                     CIOXO_DISCIPLINE)
             fileName = CIOXO_PROJECT + "_" + CIOXO_SEQUENCE + "_" + CIOXO_SHOT + "_" + CIOXO_DISCIPLINE + versionInput
             fileCommentPath = os.path.join(filePath,
                                            "." + CIOXO_PROJECT + "_" + CIOXO_SEQUENCE + "_" + CIOXO_SHOT + "_" + CIOXO_DISCIPLINE + versionInput + "_comment.txt")
-            comment = self.ui.plainTextEditComment.toPlainText()
+            comment = self.ui.plainTextEdit_comment.toPlainText()
             # ------ Create file
             # ------ Houdini
             if CIOXO_SOFTWARE == "houdini":
@@ -2366,31 +2366,31 @@ class CreateFileAsset(QDialog):
         self.ui.setupUi(self)
 
         # ------ Window variables
-        self.ui.labelActualProject.setText("  " + os.getenv("CIOXO_PROJECT"))
-        self.ui.labelActualSequence.setText("  assets")
-        self.ui.labelActualSequence.setMaximumSize(2000, 21)
-        self.ui.labelActualShot.close()
-        self.ui.plainTextEditComment.setPlaceholderText("Comment...")
+        self.ui.label_actualProject.setText("  " + os.getenv("CIOXO_PROJECT"))
+        self.ui.label_actualSequence.setText("  assets")
+        self.ui.label_actualSequence.setMaximumSize(2000, 21)
+        self.ui.label_actualShot.close()
+        self.ui.plainTextEdit_comment.setPlaceholderText("Comment...")
 
         def createDirectory_fileShot():
             # ------ Cioxo variables
             CIOXO_PROJECT = os.getenv("CIOXO_PROJECT")
             CIOXO_ASSET = os.getenv("CIOXO_ASSET")
             CIOXO_SOFTWARE = os.getenv("CIOXO_SOFTWARE")
-            disciplineInput = self.ui.comboBoxDiscipline.currentText()
+            disciplineInput = self.ui.comboBox_discipline.currentText()
             os.environ["CIOXO_DISCIPLINE"] = disciplineInput
             CIOXO_DISCIPLINE = os.getenv("CIOXO_DISCIPLINE")
             # ------ Window variables
-            self.ui.labelCreateFile.setText("Create File | " + CIOXO_SOFTWARE)
-            self.ui.lineEditVersion.setInputMask("999")
-            versionInput = self.ui.lineEditVersion.text()
+            self.ui.label_createFile.setText("Create File | " + CIOXO_SOFTWARE)
+            self.ui.lineEdit_version.setInputMask("999")
+            versionInput = self.ui.lineEdit_version.text()
             # ------ Paths
             filePath = os.path.join(rootDir, CIOXO_PROJECT, "assets", CIOXO_ASSET, CIOXO_SOFTWARE, "workspaces",
                                     CIOXO_DISCIPLINE)
             fileName = CIOXO_ASSET + "_" + CIOXO_DISCIPLINE + "_v" + versionInput
             fileCommentPath = os.path.join(filePath,
                                            "." + CIOXO_ASSET + "_" + CIOXO_DISCIPLINE + "_v" + versionInput + "_comment.txt")
-            comment = self.ui.plainTextEditComment.toPlainText()
+            comment = self.ui.plainTextEdit_comment.toPlainText()
             # ------ Create file
             # ------ Houdini
             if CIOXO_SOFTWARE == "houdini":
@@ -2841,13 +2841,13 @@ class SplashScreen(QMainWindow):
         self.timer.start(10)
 
         # ------ Change Loading Texts
-        QtCore.QTimer.singleShot(0, lambda: self.ui.labelLoading.setText("Loading Preferences"))
-        QtCore.QTimer.singleShot(1000, lambda: self.ui.labelLoading.setText("Communicating with CG gods"))
-        QtCore.QTimer.singleShot(1800, lambda: self.ui.labelLoading.setText("Ray Tracing your mum's face"))
-        QtCore.QTimer.singleShot(2250, lambda: self.ui.labelLoading.setText("Loading Database"))
+        QtCore.QTimer.singleShot(0, lambda: self.ui.label_loading.setText("Loading Preferences"))
+        QtCore.QTimer.singleShot(1000, lambda: self.ui.label_loading.setText("Communicating with CG gods"))
+        QtCore.QTimer.singleShot(1800, lambda: self.ui.label_loading.setText("Ray Tracing your mum's face"))
+        QtCore.QTimer.singleShot(2250, lambda: self.ui.label_loading.setText("Loading Database"))
 
         # ------ Change Version
-        self.ui.labelVersion.setText(version)
+        self.ui.label_version.setText(version)
 
         # ------ Show Screen Splash
         self.show()
@@ -2857,7 +2857,7 @@ class SplashScreen(QMainWindow):
         global counter
 
         # ------ Set value to Progress Bar
-        self.ui.progressBarLoading.setValue(counter)
+        self.ui.progressBar_loading.setValue(counter)
 
         # Close Screen Splash and open Project Manager
         if counter > 100:

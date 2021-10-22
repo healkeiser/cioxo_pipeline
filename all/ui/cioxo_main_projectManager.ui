@@ -16,7 +16,7 @@
   <property name="styleSheet">
    <string notr="true"/>
   </property>
-  <widget class="QWidget" name="centralWidget">
+  <widget class="QWidget" name="central_widget">
    <property name="styleSheet">
     <string notr="true"/>
    </property>
@@ -303,7 +303,7 @@ border-bottom-left-radius: 0px;</string>
               <number>0</number>
              </property>
              <item>
-              <widget class="QFrame" name="frameLabelTitle">
+              <widget class="QFrame" name="frame_labelTitle">
                <property name="styleSheet">
                 <string notr="true">QFrame
 {
@@ -919,7 +919,7 @@ QTabBar::tab::disabled {
                       <enum>QTabWidget::Rounded</enum>
                      </property>
                      <property name="currentIndex">
-                      <number>4</number>
+                      <number>3</number>
                      </property>
                      <property name="elideMode">
                       <enum>Qt::ElideLeft</enum>
@@ -4556,7 +4556,7 @@ QPushButton:hover:!pressed
                                  </spacer>
                                 </item>
                                 <item>
-                                 <widget class="QPushButton" name="buttonReloadShot">
+                                 <widget class="QPushButton" name="button_reloadShot">
                                   <property name="minimumSize">
                                    <size>
                                     <width>50</width>
@@ -4707,7 +4707,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                            </widget>
                           </item>
                           <item>
-                           <widget class="QFrame" name="frameRightSideSequence">
+                           <widget class="QFrame" name="frame_rightSideSequence">
                             <property name="maximumSize">
                              <size>
                               <width>259</width>
@@ -5038,7 +5038,7 @@ QPushButton:hover:!pressed
                               </widget>
                              </item>
                              <item>
-                              <widget class="QPushButton" name="button_pubstanceSequence">
+                              <widget class="QPushButton" name="button_substanceSequence">
                                <property name="minimumSize">
                                 <size>
                                  <width>0</width>
@@ -5248,7 +5248,7 @@ border-width: 1px;</string>
                               </widget>
                              </item>
                              <item>
-                              <widget class="QFrame" name="frameFrameRange">
+                              <widget class="QFrame" name="fram_frameRange">
                                <property name="frameShape">
                                 <enum>QFrame::StyledPanel</enum>
                                </property>
@@ -5412,9 +5412,9 @@ QPushButton:hover:!pressed
                               </spacer>
                              </item>
                              <item>
-                              <layout class="QHBoxLayout" name="layoutDirectorySequence">
+                              <layout class="QHBoxLayout" name="layout_directorySequence">
                                <item>
-                                <spacer name="horizontalSpacerDirectorySequence">
+                                <spacer name="spacer_directorySequence_2">
                                  <property name="orientation">
                                   <enum>Qt::Horizontal</enum>
                                  </property>
@@ -5427,7 +5427,7 @@ QPushButton:hover:!pressed
                                 </spacer>
                                </item>
                                <item>
-                                <widget class="QPushButton" name="buttonDirectorySequence">
+                                <widget class="QPushButton" name="button_directorySequence">
                                  <property name="minimumSize">
                                   <size>
                                    <width>131</width>
@@ -6606,7 +6606,7 @@ QPushButton:hover:!pressed
  </widget>
  <resources>
   <include location="cioxo_QtResources.qrc"/>
-  <include location="cioxoQtResources.qrc"/>
+  <include location="cioxo_QtResources.qrc"/>
  </resources>
  <connections/>
 </ui>

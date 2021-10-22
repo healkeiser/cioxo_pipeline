@@ -87,7 +87,7 @@ class DefineRoot(QDialog):
             assetFolders = ["houdini", "maya", "nuke", "output", "substance", ""]
             houdiniFolders = ["abc", "audio", "comp", "desk", "flip", "geo", "hda", "render", "scripts", "sim", "tex", "video", "workspaces", ""]
             mayaFolders = ["assets", "autosave", "cache", "clips", "data", "images", "movies", "renderData", "sceneAssembly", "workspaces", "scripts", "sound", "sourceimages", "Time Editor", ""]
-            nukeFolders = ["output", "workspaces",""]
+            nukeFolders = ["output", "workspaces", ""]
             substanceFolders = ["output", "workspaces", ""]
             for assetFolders in assetFolders:
                 os.makedirs(os.path.join(templateBase, assetFolder, assetFolders), exist_ok=True)
