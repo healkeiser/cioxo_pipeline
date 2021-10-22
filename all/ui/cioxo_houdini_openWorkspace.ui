@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Houdini_projectManager</class>
- <widget class="QMainWindow" name="Houdini_projectManager">
+ <class>cioxo_houdini_openWorkspace</class>
+ <widget class="QMainWindow" name="cioxo_houdini_openWorkspace">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -16,7 +16,7 @@
   <property name="styleSheet">
    <string notr="true"/>
   </property>
-  <widget class="QWidget" name="centralWidget">
+  <widget class="QWidget" name="central_widget">
    <property name="styleSheet">
     <string notr="true"/>
    </property>
@@ -37,7 +37,7 @@
      <number>0</number>
     </property>
     <item>
-     <widget class="QFrame" name="frameDropShadow">
+     <widget class="QFrame" name="frame_dropShadow">
       <property name="styleSheet">
        <string notr="true">QFrame{
 	color: rgb(180, 180, 180);
@@ -68,7 +68,7 @@
         <number>0</number>
        </property>
        <item>
-        <widget class="QFrame" name="frameBanner">
+        <widget class="QFrame" name="frame_banner">
          <property name="styleSheet">
           <string notr="true"/>
          </property>
@@ -98,7 +98,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QFrame" name="frameContent">
+        <widget class="QFrame" name="frame_content">
          <property name="styleSheet">
           <string notr="true">background-color:rgb(27, 27, 27);</string>
          </property>
@@ -125,7 +125,7 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QFrame" name="frameContentSub">
+           <widget class="QFrame" name="frame_contentSub">
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
@@ -149,7 +149,7 @@
               <number>0</number>
              </property>
              <item>
-              <widget class="QFrame" name="frameTabs">
+              <widget class="QFrame" name="frame_tabs">
                <property name="maximumSize">
                 <size>
                  <width>16777215</width>
@@ -179,7 +179,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QFrame" name="frameTabsSub">
+                 <widget class="QFrame" name="frame_tabsSub">
                   <property name="maximumSize">
                    <size>
                     <width>16777215</width>
@@ -209,7 +209,7 @@
                     <number>0</number>
                    </property>
                    <item>
-                    <widget class="QFrame" name="frameTitle">
+                    <widget class="QFrame" name="frame_title">
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -242,7 +242,7 @@
                        <number>0</number>
                       </property>
                       <item>
-                       <widget class="QLabel" name="labelWelcomeFiles">
+                       <widget class="QLabel" name="label_welcomeFiles">
                         <property name="maximumSize">
                          <size>
                           <width>500</width>
@@ -269,7 +269,7 @@
                        </widget>
                       </item>
                       <item>
-                       <spacer name="horizontalSpacer">
+                       <spacer name="spacer">
                         <property name="orientation">
                          <enum>Qt::Horizontal</enum>
                         </property>
@@ -285,7 +285,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="QFrame" name="frameContentFiles">
+                    <widget class="QFrame" name="frame_contentFiles">
                      <property name="frameShape">
                       <enum>QFrame::StyledPanel</enum>
                      </property>
@@ -309,7 +309,7 @@
                        <number>9</number>
                       </property>
                       <item>
-                       <widget class="QFrame" name="frameListFiles">
+                       <widget class="QFrame" name="frame_listFiles">
                         <property name="frameShape">
                          <enum>QFrame::StyledPanel</enum>
                         </property>
@@ -333,7 +333,7 @@
                           <number>0</number>
                          </property>
                          <item>
-                          <widget class="QFrame" name="frameTitleFiles">
+                          <widget class="QFrame" name="frame_titleFiles">
                            <property name="minimumSize">
                             <size>
                              <width>0</width>
@@ -363,7 +363,42 @@
                              <number>3</number>
                             </property>
                             <item>
-                             <spacer name="spacerTitleFiles">
+                             <widget class="QPushButton" name="button_previous">
+                              <property name="minimumSize">
+                               <size>
+                                <width>50</width>
+                                <height>20</height>
+                               </size>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>50</width>
+                                <height>20</height>
+                               </size>
+                              </property>
+                              <property name="styleSheet">
+                               <string notr="true">QPushButton
+{
+	background-color: rgb(83, 83, 83);
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+}
+QPushButton:hover:!pressed
+{
+	background-color: rgb(100, 100, 100);
+}</string>
+                              </property>
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="cioxo_QtResources.qrc">
+                                <normaloff>:/icons/graphics/icons/arrowLeft.svg</normaloff>:/icons/graphics/icons/arrowLeft.svg</iconset>
+                              </property>
+                             </widget>
+                            </item>
+                            <item>
+                             <spacer name="spacer_titleFiles_2">
                               <property name="orientation">
                                <enum>Qt::Horizontal</enum>
                               </property>
@@ -379,7 +414,7 @@
                              </spacer>
                             </item>
                             <item>
-                             <widget class="QLabel" name="labelFiles">
+                             <widget class="QLabel" name="label_files">
                               <property name="font">
                                <font>
                                 <family>Source Sans Pro</family>
@@ -400,7 +435,7 @@
                              </widget>
                             </item>
                             <item>
-                             <spacer name="spacerAddDeleteFiles">
+                             <spacer name="spacer_addDeleteFiles">
                               <property name="orientation">
                                <enum>Qt::Horizontal</enum>
                               </property>
@@ -416,7 +451,7 @@
                              </spacer>
                             </item>
                             <item>
-                             <spacer name="horizontalSpacerTitleFiles">
+                             <spacer name="spacer_titleFiles">
                               <property name="orientation">
                                <enum>Qt::Horizontal</enum>
                               </property>
@@ -435,7 +470,7 @@
                           </widget>
                          </item>
                          <item>
-                          <widget class="QListWidget" name="listFiles">
+                          <widget class="QListWidget" name="list_files">
                            <property name="font">
                             <font>
                              <family>Segoe UI</family>
@@ -542,7 +577,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                        </widget>
                       </item>
                       <item>
-                       <widget class="QFrame" name="frameRightSideFiles">
+                       <widget class="QFrame" name="frame_rightSideFiles">
                         <property name="maximumSize">
                          <size>
                           <width>259</width>
@@ -569,7 +604,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                           <number>0</number>
                          </property>
                          <item>
-                          <spacer name="verticalSpacerThumbnailFiles">
+                          <spacer name="spacer_thumbnailFiles">
                            <property name="orientation">
                             <enum>Qt::Vertical</enum>
                            </property>
@@ -585,7 +620,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                           </spacer>
                          </item>
                          <item>
-                          <widget class="QLabel" name="labelThumbnailFiles">
+                          <widget class="QLabel" name="label_thumbnailFiles">
                            <property name="minimumSize">
                             <size>
                              <width>256</width>
@@ -624,7 +659,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                           </widget>
                          </item>
                          <item>
-                          <widget class="QLabel" name="labelLineFiles">
+                          <widget class="QLabel" name="label_lineFiles">
                            <property name="maximumSize">
                             <size>
                              <width>16777215</width>
@@ -643,7 +678,7 @@ border-width: 1px;</string>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QLabel" name="labelCommentFiles">
+                          <widget class="QLabel" name="label_commentFiles">
                            <property name="minimumSize">
                             <size>
                              <width>0</width>
@@ -680,7 +715,7 @@ border-width: 1px;</string>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QPushButton" name="buttonOpenFiles">
+                          <widget class="QPushButton" name="button_openFiles">
                            <property name="minimumSize">
                             <size>
                              <width>0</width>
@@ -721,7 +756,7 @@ QPushButton:hover:!pressed
                           </widget>
                          </item>
                          <item>
-                          <spacer name="verticalSpacerDirectoryFiles">
+                          <spacer name="spacer_directoryFiles_2">
                            <property name="orientation">
                             <enum>Qt::Vertical</enum>
                            </property>
@@ -734,9 +769,9 @@ QPushButton:hover:!pressed
                           </spacer>
                          </item>
                          <item>
-                          <layout class="QHBoxLayout" name="layoutDirectoryFiles">
+                          <layout class="QHBoxLayout" name="layout_directoryFiles">
                            <item>
-                            <spacer name="horizontalSpacerDirectoryFiles">
+                            <spacer name="spacer_directoryFiles">
                              <property name="orientation">
                               <enum>Qt::Horizontal</enum>
                              </property>
@@ -749,7 +784,7 @@ QPushButton:hover:!pressed
                             </spacer>
                            </item>
                            <item>
-                            <widget class="QPushButton" name="buttonDirectoryFiles">
+                            <widget class="QPushButton" name="button_directoryFiles">
                              <property name="minimumSize">
                               <size>
                                <width>131</width>
@@ -798,7 +833,7 @@ QPushButton:hover:!pressed
                     </widget>
                    </item>
                    <item>
-                    <widget class="QFrame" name="frameInformations">
+                    <widget class="QFrame" name="frame_informations">
                      <property name="styleSheet">
                       <string notr="true"/>
                      </property>
@@ -828,7 +863,7 @@ QPushButton:hover:!pressed
                        <number>18</number>
                       </property>
                       <item>
-                       <widget class="QLabel" name="labelInformations">
+                       <widget class="QLabel" name="label_informations">
                         <property name="minimumSize">
                          <size>
                           <width>0</width>
@@ -900,7 +935,7 @@ QComboBox QAbstractItemView {
         </widget>
        </item>
        <item>
-        <widget class="QFrame" name="frameCredit">
+        <widget class="QFrame" name="frame_credit">
          <property name="minimumSize">
           <size>
            <width>0</width>
@@ -948,7 +983,7 @@ QComboBox QAbstractItemView {
            <number>0</number>
           </property>
           <item>
-           <widget class="QFrame" name="frameLabelCredit">
+           <widget class="QFrame" name="frame_labelCredit">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -981,7 +1016,7 @@ QComboBox QAbstractItemView {
               <number>0</number>
              </property>
              <item>
-              <widget class="QLabel" name="labelCredits">
+              <widget class="QLabel" name="label_credits">
                <property name="font">
                 <font>
                  <family>Roboto</family>
@@ -996,7 +1031,7 @@ QComboBox QAbstractItemView {
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="labelVersion">
+              <widget class="QLabel" name="label_version">
                <property name="font">
                 <font>
                  <family>Roboto</family>
@@ -1037,7 +1072,7 @@ QComboBox QAbstractItemView {
  </widget>
  <resources>
   <include location="cioxo_QtResources.qrc"/>
-  <include location="cioxoQtResources.qrc"/>
+  <include location="cioxo_QtResources.qrc"/>
  </resources>
  <connections/>
 </ui>
