@@ -81,6 +81,12 @@ Here are all the Python libraries you'll need:
   ```sh
   pip install PySide2
   ```
+ 
+* Pillow
+
+  ```sh
+  pip install Pillow
+  ```
 
 ### Installation
 
