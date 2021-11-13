@@ -1,3 +1,10 @@
+#### WARNING!
+---
+Cioxo is higlhy unstable as being my first Python project, **Things aren't working as they should**
+
+
+
+
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 <br />
