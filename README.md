@@ -1,6 +1,6 @@
 #### WARNING!
 ---
-Cioxo is higlhy unstable as being my first Python project, **Things aren't working as they should**
+Cioxo is highly unstable as being my first Python project, **it's a mess**
 
 
 
