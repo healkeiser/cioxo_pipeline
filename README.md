@@ -1,4 +1,4 @@
-#### WARNING!
+#### ⚠️ WARNING!
 ---
 Cioxo is highly unstable as being my first Python project, **it's a mess**
 
