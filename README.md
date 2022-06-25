@@ -5,9 +5,6 @@
   <img src="https://img.shields.io/badge/-PyQt-227332?style=for-the-badge&logo=qt" alt="PyQt"/></a> 
 </p>
 
-| :warning: **DEPRECATED PROJECT** |
-|----------------------------------|
-
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 <br />
