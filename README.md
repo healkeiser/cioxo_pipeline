@@ -1,6 +1,12 @@
-#### ⚠️ WARNING!
-Cioxo is highly unstable as being my first Python project, **it's a mess**
-___
+<p align="left">
+  <a href="https://www.python.org">
+  <img src="https://img.shields.io/badge/-Python-FFD43B?style=for-the-badge&logo=python" alt="Python"/></a> 
+  <a href="https://www.qt.io/qt-for-python">
+  <img src="https://img.shields.io/badge/-PyQt-227332?style=for-the-badge&logo=qt" alt="PyQt"/></a> 
+</p>
+
+| :warning: **DEPRECATED PROJECT** |
+|----------------------------------|
 
 <div id="top"></div>
 <!-- PROJECT LOGO -->
