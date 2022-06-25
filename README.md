@@ -161,6 +161,14 @@ _For more examples, please refer to the [Documentation](https://example.com) - U
 
 _To see the full roadmap, please visit [Trello](https://trello.com/b/ljWoCtfM)_
 
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+List of resources that helped me through it or I found useful:
+
+* [Awesome CG / VFX Pipeline](https://github.com/cgwire/awesome-cg-vfx-pipeline)
+* [Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact)
+
 <!-- CONTACT -->
 ## Contact
 
@@ -176,12 +184,3 @@ Project Link: [Cioxo](https://github.com/healkeiser/Cioxo)
   <a href="https://www.instagram.com/val.beaumontart">
   <img src="https://img.shields.io/badge/-Instagram-85255b?style=for-the-badge&logo=instagram" alt="Instagram"/></a>  
 </p>
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-List of resources that helped me through it or I found useful:
-
-* [Awesome CG / VFX Pipeline](https://github.com/cgwire/awesome-cg-vfx-pipeline)
-* [Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact)
