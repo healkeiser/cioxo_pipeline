@@ -2,7 +2,8 @@
   <a href="https://www.python.org">
   <img src="https://img.shields.io/badge/-Python-FFD43B?style=for-the-badge&logo=python" alt="Python"/></a> 
   <a href="https://www.qt.io/qt-for-python">
-  <img src="https://img.shields.io/badge/-PyQt-227332?style=for-the-badge&logo=qt" alt="PyQt"/></a> 
+  <img src="https://img.shields.io/badge/-PyQt-227332?style=for-the-badge&logo=qt" alt="PyQt"/></a>
+  <img src="https://img.shields.io/badge/-Windows-00A4EF?style=for-the-badge&logo=windows" alt="Compatible with Windows"/></a>
 </p>
 
 <div id="top"></div>
@@ -97,7 +98,8 @@ Here are all the Python libraries you'll need:
 
 ### Installation
 
-A compiled version of Cioxo has been released but it is incomplete (It only contains the **Define Root** and **Project Manager**) and has not been fully tested yet: [Cioxo 0.0.1-alpha release](https://github.com/healkeiser/Cioxo/releases). If you want to use it without the compiled version you'll need to move a few files around.
+A compiled version of Cioxo has been released but it is incomplete (It only contains the **Define Root** and **Project Manager**) and has not been fully tested yet: [Cioxo 0.0.1-alpha release](https://github.com/healkeiser/Cioxo/releases). 
+Otherwise, if you want to use it without the compiled version you'll need to move a few files around:
 
 * Main
 
@@ -162,10 +164,18 @@ _To see the full roadmap, please visit [Trello](https://trello.com/b/ljWoCtfM)_
 <!-- CONTACT -->
 ## Contact
 
-Valentin Beaumont - [LinkedIn](https://uk.linkedin.com/in/valentin-beaumont) - [Behance](https://www.behance.net/el1ven) - valentin.onze@gmail.com
-
 Project Link: [Cioxo](https://github.com/healkeiser/Cioxo)
 
+<p align='left'>
+  <a href="https://www.linkedin.com/in/valentin-beaumont">
+  <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a> 
+  <a href="https://www.behance.net/el1ven">
+  <img src="https://img.shields.io/badge/-Behance-313131?style=for-the-badge&logo=behance" alt="Behance"/></a> 
+  <a href="https://twitter.com/valentinbeaumon">
+  <img src="https://img.shields.io/badge/-Twitter-E1E8ED?style=for-the-badge&logo=twitter" alt="Twitter"/></a> 
+  <a href="https://www.instagram.com/val.beaumontart">
+  <img src="https://img.shields.io/badge/-Instagram-85255b?style=for-the-badge&logo=instagram" alt="Instagram"/></a>  
+</p>
 
 
 <!-- ACKNOWLEDGMENTS -->
