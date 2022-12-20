@@ -6,6 +6,9 @@
   <img src="https://img.shields.io/badge/-Windows-00A4EF?style=for-the-badge&logo=windows" alt="Compatible with Windows"/></a>
 </p>
 
+> **Warning**<br>
+> This project has been deprecated, it's an absolute mess down there
+
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 <br />
